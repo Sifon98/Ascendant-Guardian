@@ -1,0 +1,428 @@
+$border-color: #97989b;
+$main-color: #0A0A12;
+$button-color: #111111;
+
+.resource-page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+    .resource-page-container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 95%;
+
+        .background-slide {
+            animation: slide-in 1s forwards;
+        }
+
+        .content-fade {
+            animation: fade-in 2s forwards;
+        }
+
+        @keyframes slide-in {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: -100% 0%;
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            55% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .navigation-window {
+            padding: 10px 35px 30px 30px;
+            width: 280px;
+
+            .navigation {
+                padding: 10px 30px 30px 30px;
+                margin-left: -30px;
+                margin-top: -10px;
+                position: fixed;
+                width: 280px;
+                background-size: 200% 100%;
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, $main-color 50%);
+                border-left: solid 5px $border-color;
+                
+                .wrapper {
+                    opacity: 1;
+
+                    .nav-large {
+                        display: inline-block;
+                        text-decoration: none;
+                        font-weight: 600;
+                        color: #fefefe;
+                        font-size: 24px;
+                        letter-spacing: 0.2rem;
+                        margin: 20px 0px 0px 10px;
+                        transition: ease-in-out 0.2s;
+                    }
+        
+                    .nav-large:hover {
+                        padding-left: 10px;
+                        transition: ease-in-out 0.2s;
+                    }
+        
+                    .nav-small {
+                        display: inline-block;
+                        text-decoration: none;
+                        font-weight: 600;
+                        color: #B4B9BD;
+                        font-size: 18px;              
+                        letter-spacing: 0.2rem;
+                        margin: 0px 0px 0px 10px;
+                        transition: ease-in-out 0.2s;
+                    }
+        
+                    .nav-small:hover {
+                        padding-left: 10px;
+                        transition: ease-in-out 0.2s;
+                    }
+        
+                    h3 {
+                        margin: 20px 0px 0px 10px;
+                    }
+        
+                    h4 {
+                        color: #97989b;
+                        margin: 0px 0px 0px 10px;
+                    }
+                }
+            }
+        }
+
+        .information {
+            display: flex;
+            flex-direction: column;
+
+            section {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 1100px;
+                padding: 20px 50px 20px 50px;
+                background-size: 200% 100%;
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, $main-color 50%);
+                border-left: solid 5px $border-color;
+                margin-top: 50px;
+
+                .wrapper  {
+                    opacity: 1;
+
+                    span {
+                        position: relative;
+                        letter-spacing: 0.4rem;
+                        filter: none;
+                    }
+
+                    h3 {
+                        margin: 20px 0px 20px 20px;
+                    }
+
+                    p {
+                        margin-bottom: 0px;
+                    }
+    
+                    .info {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin: 20px 20px 0px 20px;
+    
+                        h3 {
+                            margin: 40px 0px 10px 0px;
+                        }
+    
+                        p {
+                            margin: 20px 0px 0px 0px;
+                        }
+                    }
+
+                    .img-link {
+                        display: flex;
+                        align-items: center;
+                        position: absolute;
+                        text-align: center;
+                        left: 0;
+                        top: 0;
+                        background-color: #0a0a1200; 
+                        overflow: hidden;
+                        font-weight: bold;
+                        font-family: arial;
+                        color: transparent;
+                        text-decoration: none;
+                        font-size: 80px;
+                        letter-spacing: 0.4rem;
+                        height: 100%;
+                        border-radius: 20px;
+                        transition: ease-in-out 0.2s;
+
+                        span {
+                            opacity: 0;
+                        }
+    
+                        .dim {
+                            background: url(../img/resources/dim.jpg);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .armor {
+                            background: url(../img/resources/d2armorpicker.png);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .light {
+                            background: url(../img/resources/light.jpg);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .stacking {
+                            background: url(../img/resources/stacking.png);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .aegis {
+                            background: url(../img/resources/aegis.png);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .braytech {
+                            background: url(../img/resources/braytech.jpg);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .recipes {
+                            background: url(../img/resources/recipes.png);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .sets {
+                            background: url(../img/resources/sets.png);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .today {
+                            background: url(../img/resources/today.jpg);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .raid {
+                            background: url(../img/resources/raid.png);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .tracker {
+                            background: url(../img/resources/tracker.jpg);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .trials {
+                            background: url(../img/resources/trials.png);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .wasted {
+                            background: url(../img/resources/wasted.png);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .ishtar {
+                            background: url(../img/resources/ishtar.jpg);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .byf {
+                            background: url(../img/resources/byf.jpg);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+    
+                        .myelin {
+                            background: url(../img/resources/myelin.jpg);
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
+                            margin-top: -4px;
+                        }
+                    }
+    
+                    .img-link:hover {
+                        background-color: #0a0a12e0;
+                        transition: ease-in-out 0.2s;
+
+                        span {
+                            transition: ease-in-out 0.2s;
+                            opacity: 1;
+                            -webkit-text-fill-color: rgba(255, 255, 255, 0.15);
+                        }
+                    }
+    
+                    .style-header {
+                        display: flex;
+                        margin: 0px 20px;
+                        padding-top: 100px;
+    
+                        .text {
+                            width: 50%;
+                            margin-right: 50px;
+    
+                            h3 {
+                                margin: 0px 0px 10px 0px;
+                            }
+                        }
+    
+                        .img {
+                            position: relative;
+                            width: 50%;
+                            
+                            img {
+                                width: 100%;
+                                border-radius: 20px;
+                                box-shadow: 0px 0px 15px black;
+                            }
+    
+                            p {
+                                font-size: 16px;
+                                margin-top: 5px;
+                                margin-bottom: 0px;
+                                text-align: center;
+                            }
+                        }
+                    }
+    
+                    .style-header-inverted {
+                        display: flex;
+                        margin: 0px 20px;
+                        padding-top: 100px;
+    
+                        .text {
+                            width: 50%;
+                            margin-left: 50px;
+    
+                            h3 {
+                                margin: 0px 0px 10px 0px;
+                            }
+                        }
+    
+                        .img {
+                            position: relative;
+                            width: 50%;
+    
+                            img {
+                                width: 100%;
+                                border-radius: 20px;
+                                box-shadow: 0px 0px 15px black;
+                            }
+    
+                            p {
+                                font-size: 16px;
+                                margin-top: 5px;
+                                margin-bottom: 0px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+
+                .fake-block {
+                    width: 100px;
+                    height: 20px;
+                }
+            }
+
+            section:first-child {
+                margin-top: 0px;
+            }
+        }
+    }
+}
+    

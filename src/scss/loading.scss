@@ -1,0 +1,494 @@
+$size: 50rem;
+$time: 1;
+$color: #666;
+
+.unload {
+    animation: unload 0.5s forwards;
+}
+
+@keyframes unload {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.fake-load {
+  display: none;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 5;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #111118;
+}
+
+.button-container {
+  position: absolute;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  &__clear {
+    margin-top: 2rem;
+  }
+}
+
+.the-cade-6-unit-dank-af-anmation {
+  width: $size;
+  height: $size;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  border: 1px solid $color;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  transition-property: width, height, opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: $time + s;
+}
+
+.circle--1 {
+  width: calc(#{$size} - 50%);
+  height: calc(#{$size} - 50%);
+  opacity: 0.4;
+}
+
+.circle--2 {
+  width: calc(#{$size} - 56%);
+  height: calc(#{$size} - 56%);
+  opacity: 0.6;
+}
+
+.circle--3 {
+  width: calc(#{$size} - 44%);
+  height: calc(#{$size} - 44%);
+  opacity: 0.6;
+}
+
+.circle--4 {
+  width: calc(#{$size} - 50%);
+  height: calc(#{$size} - 50%);
+  opacity: 0.4;
+}
+
+.line {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(transparent 0%, $color 40%, $color 60%, transparent 100%);
+  transition-property: left, opacity;
+  transition-timing-function: ease;
+  transition-duration: $time + s;
+}
+
+.line-group {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc($size / 2.25);
+  height: $size;
+  transform-origin: 50% 50%;
+  transition-property: width, transform-origin, transform;
+  transition-timing-function: ease-in-out;
+  transition-duration: $time + s;
+
+  .line--1 {
+    left: 0%;
+  }
+  
+  .line--2 {
+    left: 33%;
+  }
+  
+  .line--3 {
+    left: 67%;
+  }
+  
+  .line--4 {
+    left: 100%;
+  }
+}
+
+.line-group--1 {
+  transform: rotate(55deg);
+}
+
+.line-group--2 {
+  transform: rotate(-55deg);
+}
+
+.line-group--3 {
+  width: calc($size / 2.8);
+  transform: rotate(0);
+}
+
+.shape-group {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(#{$size} - 50%);
+  height: $size;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 50% 50%;
+  transition-property: width, transform-origin, transform;
+  transition-timing-function: ease-in-out;
+  transition-duration: $time + s;
+}
+
+.shape {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc($size / 4.51);
+  height: calc($size / 4.51);
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, 90deg);
+  transition-property: width, height, transform, top, bottom, left, right, opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: $time + s;
+  
+  &::after,
+  &::before {
+    content: '';
+    width: 0;
+	  height: 0;
+    position: absolute;
+    border-style: solid;
+    border-color: transparent;
+    transform: rotate3d(0, 0, 1, 180deg);
+    transition-property: border-width, border-color, top, bottom, left, right, transform, opacity, width;
+    transition-timing-function: ease-in-out;
+    transition-duration: $time + s;
+  }
+  
+  &::before {
+    border-top: 0 transparent;
+    border-bottom: calc($size / 9) solid $color;
+    border-left: calc($size / 12.8) solid transparent;
+    border-right: calc($size / 12.8) solid transparent;
+    bottom: 0;
+  }
+  
+  &::after {
+    border-bottom: 0 transparent;
+    border-top: calc($size / 9) solid $color;
+    border-left: calc($size / 12.8) solid transparent;
+    border-right: calc($size / 12.8) solid transparent;
+    top: 0;
+  }
+}
+
+
+// Warlock
+.warlock {
+  .circle--1 {
+    width: calc(#{$size} - 30%);
+    height: calc(#{$size} - 30%);
+    opacity: 0.4;
+  }
+
+  .circle--2 {
+    width: calc(#{$size} - 36%);
+    height: calc(#{$size} - 36%);
+    opacity: 0.6
+  }
+
+  .circle--3 {
+    width: calc(#{$size} - 70%);
+    height: calc(#{$size} - 70%);
+    opacity: 0.8
+  }
+
+  .circle--4 {
+    width: calc(#{$size} - 78%);
+    height: calc(#{$size} - 78%);
+  }
+
+  .line-group--1,
+  .line-group--2 {
+    width: calc($size / 8);
+    
+    .line--1 {
+      left: 0%;
+    }
+
+    .line--2 {
+      left: calc(50% - 0.2rem);
+    }
+
+    .line--3 {
+      left: calc(50% + 0.2rem);
+    }
+
+    .line--4 {
+      left: 100%;
+    }
+  }
+
+  .line-group--3 {
+    width: calc($size / 3.3);
+    transform: rotate(90deg);
+
+    .line--1 {
+      left: 0%;
+    }
+    
+    .line--2,
+    .line--3 {
+      opacity: 0;
+    }
+
+    .line--4 {
+      left: 100%;
+    }
+  }
+
+  .line-group--1 {
+    transform: rotate(30deg);
+    transform-origin: 50% 40%;
+  }
+
+  .line-group--2 {
+    transform: rotate(-30deg);
+    transform-origin: 50% 40%;
+  }
+
+  .shape-group {
+    width: calc(#{$size} - 50%);
+    height: calc(#{$size} - 50%);
+  
+    .shape {
+      &::before {
+        transform: rotate3d(0, 0, 1, -90deg);
+        border-bottom-width: calc($size / 4);
+        border-left-width: calc($size / 7);
+        border-right-width: calc($size / 7);
+      }
+      
+      &::after {
+        opacity: 0;
+        border-top-width: calc($size / 4);
+        border-left-width: calc($size / 7);
+        border-right-width: calc($size / 7);
+        transform: translate3d(0%, -11%, 0) rotate3d(0, 0, 1, 90deg);
+      }
+    }
+
+    .shape--1 {
+      transform: translate3d(-55.5%, -37%, 0) rotate3d(0, 0, 1, 90deg);
+    }
+
+    .shape--2 {
+      transform: translate3d(-88%, -37%, 0) rotate3d(0, 0, 1, 90deg);
+    }
+
+    .shape--3 {
+      transform: translate3d(-55.5%, -37%, 0) rotate3d(0, 0, 1, 90deg);
+    }
+
+    .shape--4 {
+      transform: translate3d(-22%, -37%, 0) rotate3d(0, 0, 1, 90deg);
+    }
+  }
+}
+
+
+// Titan
+.titan {
+  .circle--1 {
+    width: calc(#{$size} - 46%);
+    height: calc(#{$size} - 46%);
+    opacity: 0.6;
+  }
+
+  .circle--2 {
+    width: calc(#{$size} - 50%);
+    height: calc(#{$size} - 50%);
+    opacity: 0.8;
+  }
+  
+  .circle--3 {
+    width: calc(#{$size} - 36%);
+    height: calc(#{$size} - 36%);
+    opacity: 0.6;
+  }
+
+  .circle--4 {
+    width: calc(#{$size} - 42%);
+    height: calc(#{$size} - 42%);
+  }
+
+  .line-group--1,
+  .line-group--2 {
+    width: calc($size / 2.6);
+    
+    .line--1 {
+      left: calc(0% + 3rem);
+    }
+
+    .line--2 {
+      left: calc(50% - 0.2rem);
+    }
+
+    .line--3 {
+      left: calc(50% + 0.2rem);
+    }
+
+    .line--4 {
+      left: calc(100% - 3rem);
+    }
+  }
+    
+  .line-group--1 {
+    transform: rotate(-55deg);
+    transform-origin: 50% 50%;
+  }
+
+  .line-group--2 {
+    transform: rotate(55deg);
+    transform-origin: 50% 50%;
+  }
+
+  .line-group--3 {
+    width: calc($size / 4.2);
+    transform: rotate(0deg);
+    
+    .line--2,
+    .line--3 {
+      opacity: 0;
+    }
+  }
+
+  .shape-group {
+    width: calc(#{$size} - 50%);
+    height: calc(#{$size} - 50%);
+
+    .shape--1 {
+      transform: translate3d(-50%, -87%, 0) rotate3d(0, 0, 1, 90deg); 
+    }
+
+    .shape--2 {
+      transform: translate3d(-103%, -50%, 0) rotate3d(0, 0, 1, 90deg);
+      
+      &::before { opacity: 0; }
+    }
+
+    .shape--3 {
+      transform: translate3d(-50%, -12%, 0) rotate3d(0, 0, 1, 90deg); 
+    }
+
+    .shape--4 {
+      transform: translate3d(4%, -50%, 0) rotate3d(0, 0, 1, 90deg);
+      
+      &::after { opacity: 0; }
+    }
+  }
+}
+
+.hunter {
+  .circle--1 {
+    width: calc(#{$size} - 50%);
+    height: calc(#{$size} - 50%);
+    opacity: 0.8;
+  }
+
+  .circle--2 {
+    width: calc(#{$size} - 56%);
+    height: calc(#{$size} - 56%);
+    opacity: 0.8;
+  }
+
+  .circle--3 {
+    width: calc(#{$size} - 72%);
+    height: calc(#{$size} - 72%);
+    opacity: 0.6;
+  }
+
+  .circle--4 {
+    width: calc(#{$size} - 80%);
+    height: calc(#{$size} - 80%);
+    opacity: 0.6;
+  }
+
+  .line-group--1,
+  .line-group--2 {
+    width: calc($size / 6);
+  }
+
+  .line-group--1 {
+    transform: rotate(34deg);
+    transform-origin: 50% 40%;
+  }
+
+  .line-group--2 {
+    transform: rotate(-34deg);
+    transform-origin: 50% 40%;
+  }
+  
+  .line-group--3 {
+    width: calc($size / 3.2);
+    transform: rotate(90deg);
+  }
+
+  .shape-group {
+    width: calc(#{$size} - 50%);
+    height: calc(#{$size} - 50%);
+  
+    .shape {
+      &::before {
+        border-bottom-width: calc($size / 9.5);
+        border-left-width: calc($size / 14);
+        border-right-width: calc($size / 14);
+        height: 0;
+        width: calc($size / 7.5);
+        transform: rotate3d(0, 0, 1, 90deg);
+      }
+      
+      &::after {
+        border-top: calc($size / 10) solid #999999;
+        border-left: calc($size / 14) solid transparent;
+        border-right: calc($size / 14) solid transparent;
+        transform: translate3d(-2%, 120%, 0) rotate3d(0, 0, 1, 270deg);
+      }
+    }
+
+    .shape--1 {
+      transform: translate3d(-76%, -97%, 0) rotate3d(0, 0, 1, 270deg);
+    }
+
+    .shape--2 {
+      opacity: 0;
+      transform: translate3d(-76%, -5%, 0) rotate3d(0, 0, 1, 270deg);
+    }
+
+    .shape--3 {
+      transform: translate3d(-76%, -4%, 0) rotate3d(0, 0, 1, 270deg);
+    }
+
+    .shape--4 {
+      transform: translate3d(-76%, -50%, 0) rotate3d(0, 0, 1, 270deg);
+    }
+  }
+}

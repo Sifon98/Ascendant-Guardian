@@ -1,0 +1,875 @@
+$border-color: #97989b;
+$main-color: #0A0A12;
+$button-color: #111111;
+
+// Intro section of the page
+.back-color {
+    background-color: $main-color;
+
+    .intro {
+        display: flex;
+        align-items: flex-end;
+        background-image: url(../img/build-banner.png);
+        background-size: cover;
+        background-repeat: none;
+        background-position: 0px;
+        height: 500px;
+        animation: fadeIntro 2s;
+    
+        h2 {
+            margin: 0px;
+            margin-top: 90px;
+            padding: 20px 60px 20px 20px;
+            background-color: rgba(10, 10, 18, 0.7); 
+            width: auto;
+            max-width: 58%;
+            font-weight: 100;
+        }
+    }
+
+    .border {
+        border-bottom: 5px solid $border-color;
+        animation: slideIntro 1.5s;
+    }
+}
+
+@keyframes slideIntro {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes fadeIntro {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+// Small additions for a hidden element that closes menus
+.hider {
+    z-index: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.active {
+    display: flex !important;
+    animation: fadein forwards 0.3s;
+}
+
+.inactive {
+    animation: fadeout forwards 0.3s;
+}
+
+@keyframes fadein {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+@keyframes fadeout {
+    0% { opacity: 1; display: flex;}
+    100% { opacity: 0; display: none;}
+}
+
+.box-shadow {
+    box-shadow:
+        0 0 0 4px $main-color,
+        0 0 0 7px hsl(0, 0%, 90%);
+}
+
+// CSS for the sorting functions
+.sorting-container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    background-color: $main-color;
+
+    h2 {
+        margin: 0px 20px 0px 70px;
+        animation: fadeSorting 2s;
+    }
+
+    .menu-container {
+        z-index: 2;
+
+        .menu-selector {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 220px;
+            height: 60px;
+            font-size: 18px;
+            background-color: $button-color;
+            border: 3px solid $border-color;
+            color: white;
+            text-align: center;
+            outline: none;
+            cursor: pointer;
+            transition: 0.3s;
+            margin: 0px 20px;
+            letter-spacing: 0.2rem;
+        }
+
+        .menu-selector:hover {
+            box-shadow:
+                0 0 0 4px $main-color,
+                0 0 0 7px hsl(0, 0%, 90%);
+            transition: 0.3s;
+        }
+
+        .dropdown-menu {
+            display: none;
+            margin-top: 13px !important;
+            border: 3px solid $border-color;
+            position: absolute;
+            cursor: pointer;
+            z-index: 2;
+            background-color: $button-color;
+            margin: 0px 20px;
+
+            ul {
+                padding: 0px;
+                margin: 0px;
+                z-index: 100;
+
+                li {
+                    display: flex;        
+                    align-items: center;
+                    justify-content: center;
+                    list-style-type: none;
+                    text-decoration: none;
+                    width: 220px;
+                    height: 60px;
+                    font-size: 18px;
+                    border-bottom: 2px solid $border-color;
+                    color: white;
+                    text-align: center;
+                    outline: none;
+                }
+
+                li:last-child {
+                    border-bottom: none !important;
+                }
+
+                li:hover {
+                    background-color: rgb(65, 65, 65);
+                }
+            }
+        }
+    }
+
+    .menu-container:nth-child(2) {
+        animation: fadeSorting 2.3s;
+    }
+
+    .menu-container:nth-child(3) {
+        animation: fadeSorting 2.6s;
+    }
+
+    .menu-container:nth-child(4) {
+        animation: fadeSorting 2.9s;
+    }
+}
+
+@keyframes fadeSorting {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+        margin-top: 20px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .quick-info {
+        width: 1000px;
+        
+        h3 {
+            text-align: center;
+            margin: 0px;
+            margin-top: 40px;
+            font-size: 30px;
+            color: #1f1f29;
+        }
+    }
+}
+
+// CSS for the builds section with the cards
+.build-width {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 100px;
+
+    .largeLine {
+        margin: 10px 0px 0px 0px;
+        border: 1px solid $border-color;
+    }
+    
+    .smallLine {
+        margin: 0px;
+        width: 40px;
+        border: 3px solid $border-color;
+    }
+  
+    .build-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1650px;
+        padding: 20px 0px 15px 0px;
+        animation: fadeCards 3.3s;
+
+        .build-wrapper {
+            margin: 20px 42.5px 20px 42.5px;
+            height: 290px;
+            overflow: hidden;
+            display: flex;
+            background-color: $main-color;
+            border-radius: 30px;
+            transition: ease-in-out 0.2s;
+            text-decoration: none;
+
+            .text {
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+                margin: 25px 40px 15px 40px;
+                width: 260px;
+        
+                h3 {
+                    color: #fefefe;
+                    text-align: center;
+                    margin: 0px;
+                }
+        
+                .normal-info {
+                    text-align: center;
+        
+                    p {
+                        margin-bottom: 0px;
+                        margin-left: 8px;
+                        margin-right: 8px;
+                    }
+                }
+        
+                .author {
+                    margin-top: 20px;
+        
+                    p {
+                        color: #fefefe;
+                        text-align: center;
+                        margin: 0px;
+                    }
+                }
+            }
+
+            .image {
+                display: flex;
+                align-items: flex-end;
+                flex-direction: column;
+                justify-content: space-between;
+                background-position: center;
+                background-size: cover;
+                width: 400px;
+                height: 290px;
+                z-index: 1;
+                border-radius: 30px;
+                transition: ease-in-out 0.2s;
+                letter-spacing: 0.2rem;
+
+                .pvp-img {
+                    text-align: right;
+                    margin: 10px;
+
+                    img {
+                        width: 50px;
+                    }
+                }
+
+                .image-info {
+                    opacity: 0;
+                    transition: ease-in-out 0.2s;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    text-align: center;
+                    font-size: 30px;
+                    width: 100%;
+                    padding: 10px 0px 10px 0px;
+                    background-color: rgba(0, 0, 0, 0.8);
+                    border-radius: 0px 0px 30px 29px;
+                }
+
+                p {
+                    margin: 0px 0px 10px 0px;
+                }
+
+                .img-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 90%;
+
+                    .large-img {
+                        width: 70px !important;
+                        margin: 0px 5px;
+                    }
+
+                    hr {
+                        border-right: 2px solid $border-color;
+                        border-left: 2px solid $border-color;
+                        height: 30px;
+                        margin: 0px 15px 0px 15px;
+                    }
+
+                    .images {
+                        display: flex;
+
+                        img {
+                            margin: 0px 5px;
+                            width: 50px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .build-wrapper:hover {
+            transition: ease-in-out 0.2s;
+            transform: scale(1.04);
+            cursor: pointer;
+        }
+        
+        .build-wrapper:hover .image-info  {
+            opacity: 1 !important;
+            transition: ease-in-out 0.2s;
+        }
+    }
+}
+
+@keyframes fadeCards {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+        margin-top: 50px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+// CSS for the build guides page
+// General CSS for the page
+.build-guide-container {
+    display: flex;
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+    span {
+        position: relative;
+        letter-spacing: 0.4rem;
+        filter: none;
+    }
+
+    .largeLine {
+        margin: 10px 0px 0px 0px;
+        border: 1px solid $border-color;
+    }
+
+    .smallLine {
+        margin: 0px;
+        width: 40px;
+        border: 3px solid $border-color;
+    }
+
+    .build-general {
+        display: flex;
+        width: 100%;
+        max-height: 1090px;
+        animation: slideIn 1s;
+        background-color: $main-color; 
+        border-left: 5px solid $border-color;
+
+        section {
+            min-height: 900px;
+            width: 50%;
+            animation: visibility 1.5s;
+
+            .shared-container {
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+
+                h3 {
+                    padding-top: 40px;
+                    padding-left: 10px;
+                    margin: 0px;
+                }
+
+                .info-container {
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+                    align-self: center;
+
+                    .row {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        padding-top: 50px;
+
+                        p {
+                            margin: 10px 0px 0px 0px;
+                        }
+
+                        .item {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+
+                            h3 {
+                                padding: 0px;
+                                margin-bottom: 10px;
+                            }
+                        
+                            img {
+                                margin-top: 10px;
+                                height: 70px;
+                            }
+
+                            .hover-container {
+                                width: auto;
+
+                                .hover-box {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: flex-start;
+                                    visibility: hidden;
+                                    width: 350px;
+                                    background-color: rgba(20, 20, 20, 0.8);
+                                    backdrop-filter: blur(10px);
+                                    color: #fff;
+                                    text-align: center;
+                                    
+                                    /* Position the tooltip */
+                                    position: absolute;
+                                    z-index: 1;
+
+                                    .hover-box-header {
+                                        background-color: #202020;
+                                        width: 100%;
+                                        text-align: left;
+                                        border-bottom: 5px solid #fff;
+
+                                        h3 {
+                                            margin: 10px;
+                                        }
+                                    }
+
+                                    p {
+                                        margin: 10px;
+                                        text-align: left;
+                                    }
+
+                                    .element-img {
+                                        float: left;
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 0px;
+                                        margin-right: 10px;
+                                    }
+                                }
+                            }
+
+                            .hover-container:hover .hover-box {
+                                visibility: visible !important;
+                            }
+
+                            .super-img {
+                                height: 100px;
+                            }
+
+                            .item-row {
+                                display: flex;
+                                
+                                img {
+                                    margin-right: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        .background-img {
+            background-position: -750px center;
+            background-size: fill;
+
+            .above-layer {
+                display: flex;
+                justify-content: center;
+                background-image: radial-gradient(circle at -10% 50%, rgba(10, 10, 18, 0.7), $main-color, $main-color); 
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        // Special CSS for the second half of the first section
+        .equipment-container {
+            display: flex;
+            justify-content: center;
+            border-left: 5px solid;
+            padding-bottom: 40px;
+            border-image: linear-gradient(to top, $main-color 5%, $border-color 5%, $border-color 95%, $main-color 95%) 5;
+
+            .text-item {
+                max-width: 320px;
+            }
+                
+            h4 {
+                margin-bottom: 0px;
+
+                i {
+                    color: #B4B9BD;
+                    font-size: 16px;
+                }
+            }
+
+            .item-row {
+                flex-direction: column;
+
+                .arrow {
+                    margin: 10px 10px 0px 0px;
+                    transform: rotate(45deg);
+                    
+                    &::before {
+                        content: '';
+                        width: 12px;
+                        height: 12px;
+                        border-width: .3vmin .3vmin 0 0;
+                        border-style: solid;
+                        border-color: #fafafa;
+                        display: block;
+                    }
+                }
+
+                svg {
+                    margin-top: 10px;
+                    fill: white;
+                }
+
+                .multiple-items {
+                    display: flex;
+                    align-items: center;
+
+                    hr {
+                        border: none;
+                        border-left: 3px solid $border-color;
+                        margin-right: 15px;
+                        height: 25px;
+                    }
+
+                    .hover-box {
+                        /* Position the tooltip */
+                        margin-left: -280px;
+                    }
+                }
+            }
+
+            .mod-row {
+                padding-top: 0px !important;
+            }
+        }
+    }
+
+    //CSS for the second section of the page
+    .build-guide {
+        animation: slideIn 1s;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 40px;
+        border-left: 5px solid $border-color;
+        min-height: 900px;
+        background-color: $main-color;
+        width: auto;
+
+        .logo-bg {
+            width: 200px;
+            position: static;
+            top: 50%;
+
+        }
+
+        section {
+            animation: visibility 1.5s;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            width: 90%;
+            background-image: url('../img/logo-icon/logo-bg.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 600px;
+
+            h3 {
+                padding-top: 40px;
+                margin: 0px;
+            }
+
+            .guide-container {
+                display: flex;
+                width: 90%;
+                align-self: center;
+
+                .row {
+                    display: flex;
+                    justify-self: center;
+                    flex-direction: column;
+                    padding-top: 50px;
+                    width: 50%;
+
+                    .item {
+                        padding-top: 40px;
+                        display: flex;
+                        flex-direction: column;
+                        margin-right: 40px;
+
+                        p {
+                            margin: 10px 0px 0px 0px;
+                        }
+
+                        h3 {
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            margin: 0px;
+                        }
+
+                        img {
+                            border-radius: 20px;
+                            box-shadow: 0px 0px 15px black;
+                        }
+                    }
+
+                    .last-text {
+                        margin-bottom: 40px;
+                    }
+
+                    .start-item {
+                        padding-top: 0px;
+                    }
+
+                    ul  {
+
+                        li, p {
+                            font-size: 20px;
+                            color: #B4B9BD;
+                            margin: 10px 40px 0px 0px;
+                        }
+                    }
+                }
+                
+                .row:nth-child(2) {
+                
+                    .item {
+                        margin-left: 80px;
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    @keyframes slideIn {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+
+    @keyframes visibility {
+        0% {
+            opacity: 0;
+        }
+        80% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
+.red {
+    color: red;
+    position: relative;
+    filter: none;
+}
+
+.green {
+    color: green;
+    position: relative;
+    filter: none;
+}
+
+// Images for cards and background on the Build Guide page
+#solarH {
+    background-image: url(../img/class-portrait/mini/SolarHunter1-min.png);
+}
+
+#solarW {
+    background-image: url(../img/class-portrait/mini/SolarWarlock1-min.png);
+}
+
+#solarT {
+    background-image: url(../img/class-portrait/mini/SolarTitan1-min.png);
+}
+
+#solarHPVP {
+    background-image: url(../img/class-portrait/mini/SolarHunter2-min.png);
+}
+
+#solarSpecialH {
+    background-image: url(../img/class-portrait/mini/SolarHunter3-min.png);
+}
+
+#strandH {
+    background-image: url(../img/class-portrait/mini/StrandHunter1-min.png);
+}
+
+#strandT {
+    background-image: url(../img/class-portrait/mini/StrandTitan1-min.png);
+}
+
+#strandHPVP {
+    background-image: url(../img/class-portrait/mini/StrandHunter2-min.png);
+}
+
+#voidH {
+    background-image: url(../img/class-portrait/mini/VoidHunter1-min.png);
+}
+
+#voidW {
+    background-image: url(../img/class-portrait/mini/VoidWarlock1-min.png);
+}
+
+#voidT {
+    background-image: url(../img/class-portrait/mini/VoidTitan1-min.png);
+}
+
+#arcH {
+    background-image: url(../img/class-portrait/mini/ArcHunter1-min.png);
+}
+
+#arcT {
+    background-image: url(../img/class-portrait/mini/ArcTitan1-min.png);
+}
+
+#stasisH {
+    background-image: url(../img/class-portrait/mini/StasisHunter1-min.png);
+}
+
+#stasisT {
+    background-image: url(../img/class-portrait/mini/StasisTitan1-min.png);
+}
+
+// Images for cards and background on the Build Guide page
+#solarH-large {
+    background-image: url(../img/class-portrait/SolarHunter1.png);
+}
+
+#solarW-large {
+    background-image: url(../img/class-portrait/SolarWarlock1.png);
+}
+
+#solarT-large {
+    background-image: url(../img/class-portrait/SolarTitan1.png);
+}
+
+#solarHPVP-large {
+    background-image: url(../img/class-portrait/SolarHunter2.png);
+}
+
+#solarSpecialH-large {
+    background-image: url(../img/class-portrait/SolarHunter3.png);
+}
+
+#strandH-large {
+    background-image: url(../img/class-portrait/StrandHunter1.png);
+}
+
+#strandT-large {
+    background-image: url(../img/class-portrait/StrandTitan1.png);
+}
+
+#strandHPVP-large {
+    background-image: url(../img/class-portrait/StrandHunter2.png);
+}
+
+#voidH-large {
+    background-image: url(../img/class-portrait/VoidHunter1.png);
+}
+
+#voidW-large {
+    background-image: url(../img/class-portrait/VoidWarlock1.png);
+}
+
+#voidT-large {
+    background-image: url(../img/class-portrait/VoidTitan1.png);
+}
+
+#arcH-large {
+    background-image: url(../img/class-portrait/ArcHunter1.png);
+}
+
+#arcT-large {
+    background-image: url(../img/class-portrait/ArcTitan1.png);
+}
+
+#stasisH-large {
+    background-image: url(../img/class-portrait/StasisHunter1.png);
+}
+
+#stasisT-large {
+    background-image: url(../img/class-portrait/StasisTitan1.png);
+}
+
+// Gif
+#arcHunterGif {
+    background-image: url(../img/gif/Cataclysm-Psion-Tormentor.gif);
+}

@@ -1,0 +1,24 @@
+.footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    .row {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        padding: 0px 50px;
+
+        .coffee-text {
+            margin-right: 20px;
+            max-width: 250px;
+        }
+    }
+
+    .row:last-child {
+        justify-content: flex-end;
+    }
+}

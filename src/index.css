@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+:root {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  color: #fefefe;
+  background-color: rgb(17, 17, 24);
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Jost', sans-serif;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 72px;
+  letter-spacing: 0.4rem;
+}
+
+.medium-header {
+  font-size: 32px;
+  letter-spacing: 0.2rem;
+}
+
+h3 {
+  font-size: 24px;
+  letter-spacing: 0.2rem;
+}
+
+h4 {
+  font-size: 18px;                
+  letter-spacing: 0.2rem;
+}
+
+p {
+  font-size: 20px;
+  color: #B4B9BD;
+}
+
+strong {
+  color: #fefefe;
+}
+
+html {
+  scroll-behavior: smooth;
+}

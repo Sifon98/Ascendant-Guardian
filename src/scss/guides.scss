@@ -1,0 +1,584 @@
+$border-color: #97989b;
+$main-color: #0A0A12;
+$button-color: #111111;
+
+.intro-guides {
+    background-image: url(../img/guide-banner.png) !important;
+}
+
+.hider {
+    z-index: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.active {
+    display: flex !important;
+    animation: fadein forwards 0.3s;
+}
+
+.inactive {
+    animation: fadeout forwards 0.3s;
+}
+
+@keyframes fadein {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+@keyframes fadeout {
+    0% { opacity: 1; display: flex;}
+    100% { opacity: 0; display: none;}
+}
+
+.box-shadow {
+    box-shadow:
+        0 0 0 4px $main-color,
+        0 0 0 7px hsl(0, 0%, 90%);
+}
+
+// CSS for the sorting functions
+.sorting-container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    background-color: $main-color;
+
+    h2 {
+        margin: 0px 20px 0px 70px;
+    }
+
+    .menu-container {
+        z-index: 2;
+
+        .menu-selector {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 220px;
+            height: 60px;
+            font-size: 18px;
+            background-color: $button-color;
+            border: 3px solid $border-color;
+            color: white;
+            text-align: center;
+            outline: none;
+            cursor: pointer;
+            transition: 0.3s;
+            margin: 0px 20px;
+            letter-spacing: 0.2rem;
+        }
+
+        .menu-selector:hover {
+            box-shadow:
+                0 0 0 4px $main-color,
+                0 0 0 7px hsl(0, 0%, 90%);
+            transition: 0.3s;
+        }
+
+        .dropdown-menu {
+            display: none;
+            margin-top: 13px !important;
+            border: 3px solid $border-color;
+            position: absolute;
+            cursor: pointer;
+            z-index: 2;
+            background-color: $button-color;
+            margin: 0px 20px;
+
+            ul {
+                padding: 0px;
+                margin: 0px;
+                z-index: 100;
+
+                li {
+                    display: flex;        
+                    align-items: center;
+                    justify-content: center;
+                    list-style-type: none;
+                    text-decoration: none;
+                    width: 220px;
+                    height: 60px;
+                    font-size: 18px;
+                    border-bottom: 2px solid $border-color;
+                    color: white;
+                    text-align: center;
+                    outline: none;
+                }
+
+                li:last-child {
+                    border-bottom: none !important;
+                }
+
+                li:hover {
+                    background-color: rgb(65, 65, 65);
+                }
+            }
+        }
+    }
+}
+
+.largeLine {
+    margin: 10px 0px 0px 0px;
+    border: 1px solid $border-color;
+}
+
+.smallLine {
+    margin: 0px;
+    width: 40px;
+    border: 3px solid $border-color;
+}
+
+.guide-width {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 100px;
+  
+    .guide-container {
+        width: 1600px;
+        padding: 0px 0px 40px 0px;
+        animation: fadeCards 2.6s;
+
+        .guide-card-img {
+            width: 100%;
+            background-position: 730px bottom;
+            background-size: contain;
+            border-radius: 50px;
+            margin-top: 40px;
+
+            .layer {
+                background-image: radial-gradient(circle at 100% 50%, rgba(10, 10, 18, 0.7), $main-color, $main-color);
+                border-radius: 50px;
+
+                .guide-card {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 420px;
+                    width: 55%;
+                    padding: 40px;
+
+                    .flex-container {
+                        display: flex;
+                        flex-direction: column;
+
+                        h3 {
+                            margin: 0px 0px 10px 20px;
+                        }
+    
+                        .under-header {
+                            margin-top: 40px;
+                        }
+    
+                        p {
+                            margin: 40px 0px 10px 20px;
+                        }
+                    }
+
+                    .button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 220px;
+                        height: 60px;
+                        font-size: 18px;
+                        background-color: $button-color;
+                        border: 3px solid $border-color;
+                        color: white;
+                        text-align: center;
+                        outline: none;
+                        cursor: pointer;
+                        transition: 0.3s;
+                        margin: 40px 0px 10px 20px;
+                        text-decoration: none;
+                        letter-spacing: 0.2rem;
+                    }
+    
+                    .button:hover {
+                        box-shadow:
+                            0 0 0 4px $main-color,
+                            0 0 0 7px hsl(0, 0%, 90%);
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes fadeGuide {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+        margin-top: 50px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.guide-page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+    .modal {
+        cursor: pointer;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 5;
+
+        img {
+            margin-top: 70px;
+            height: 840px;
+            border-radius: 50px;
+            box-shadow: 0px 0px 30px black;
+        }
+    }
+
+    .active {
+        display: flex !important;
+        animation: fadein forwards 0.1s;
+    }
+    
+    .inactive {
+        animation: fadeout forwards 0.1s;
+    }
+    
+    @keyframes fadein {
+        0% { opacity: 0;}
+        100% { opacity: 1;}
+    }
+    
+    @keyframes fadeout {
+        0% { opacity: 1; display: flex;}
+        100% { opacity: 0; display: none;}
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+
+    .guide-page-container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 95%;
+
+        .background-slide {
+            background-position: -100% 0%;
+            transition: ease-in-out 1s;
+        }
+
+        .content-fade {
+            animation: fade-in 2s forwards;
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            55% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .navigation-window {
+            padding: 10px 35px 30px 30px;
+            width: 280px;
+
+            .navigation {
+                padding: 10px 30px 30px 30px;
+                margin-left: -30px;
+                margin-top: -10px;
+                position: fixed;
+                width: 280px;
+                background-size: 200% 100%;
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, $main-color 50%);
+                border-left: solid 5px $border-color;
+
+                .wrapper {
+                    opacity: 0;
+
+                    .nav-large {
+                        display: inline-block;
+                        text-decoration: none;
+                        font-weight: 600;
+                        color: #fefefe;
+                        font-size: 24px;
+                        letter-spacing: 0.2rem;
+                        margin: 20px 0px 0px 10px;
+                        transition: ease-in-out 0.2s;
+                    }
+        
+                    .nav-large:hover {
+                        padding-left: 10px;
+                        transition: ease-in-out 0.2s;
+                    }
+        
+                    .nav-small {
+                        display: inline-block;
+                        text-decoration: none;
+                        font-weight: 600;
+                        color: #B4B9BD;
+                        font-size: 18px;              
+                        letter-spacing: 0.2rem;
+                        margin: 0px 0px 0px 10px;
+                        transition: ease-in-out 0.2s;
+                    }
+        
+                    .nav-small:hover {
+                        padding-left: 10px;
+                        transition: ease-in-out 0.2s;
+                    }
+        
+                    h3 {
+                        margin: 20px 0px 0px 10px;
+                    }
+        
+                    h4 {
+                        color: #97989b;
+                        margin: 0px 0px 0px 10px;
+                    }
+                }
+            }
+        }
+
+        .information {
+            display: flex;
+            flex-direction: column;
+
+            section {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 1100px;
+                padding: 20px 50px 20px 50px;
+                background-size: 200% 100%;
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, $main-color 50%);
+                border-left: solid 5px $border-color;
+                margin-top: 50px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                }
+
+                .wrapper {
+                    opacity: 0;
+
+                    span {
+                        position: relative;
+                        letter-spacing: 0.4rem;
+                        filter: none;
+                    }
+
+                    h3 {
+                        margin: 20px 0px 20px 20px;
+                    }
+
+                    p {
+                        margin-bottom: 0px;
+                    }
+    
+                    .info {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin: 20px 20px 0px 20px;
+    
+                        h3 {
+                            margin: 40px 0px 10px 0px;
+                        }
+    
+                        p {
+                            margin: 20px 0px 0px 0px;
+                        }
+                    }
+
+                    .style-noheader {
+                        display: flex;
+                        margin: 20px 20px 0px 20px;
+
+                        .text {
+                            width: 50%;
+                            margin-right: 50px;
+
+                            p {
+                                margin-top: 0px;
+                            }
+                        }
+
+                        .img {
+                            width: 50%;
+
+                            img {
+                                width: 100%;
+                                border-radius: 20px;
+                                box-shadow: 0px 0px 15px black;
+                            }
+
+                            p {
+                                font-size: 16px;
+                                margin-top: 5px;
+                                margin-bottom: 0px;
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                    .style-noheader-inverted {
+                        display: flex;
+                        margin: 20px 20px 0px 20px;
+
+                        .text {
+                            width: 50%;
+                            margin-left: 50px;
+
+                            p {
+                                margin-top: 0px;
+                            }
+                        }
+
+                        .img {
+                            width: 50%;
+
+                            img {
+                                width: 100%;
+                                border-radius: 20px;
+                                box-shadow: 0px 0px 15px black;
+                            }
+
+                            p {
+                                font-size: 16px;
+                                margin-top: 5px;
+                                margin-bottom: 0px;
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                    .style-header {
+                        display: flex;
+                        margin: 0px 20px;
+                        padding-top: 100px;
+
+                        .text {
+                            width: 50%;
+                            margin-right: 50px;
+
+                            h3 {
+                                margin: 0px 0px 10px 0px;
+                            }
+                        }
+
+                        .img {
+                            width: 50%;
+
+                            img {
+                                width: 100%;
+                                border-radius: 20px;
+                                box-shadow: 0px 0px 15px black;
+                            }
+
+                            p {
+                                font-size: 16px;
+                                margin-top: 5px;
+                                margin-bottom: 0px;
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                    .style-header-inverted {
+                        display: flex;
+                        margin: 0px 20px;
+                        padding-top: 100px;
+
+                        .text {
+                            width: 50%;
+                            margin-left: 50px;
+
+                            h3 {
+                                margin: 0px 0px 10px 0px;
+                            }
+                        }
+
+                        .img {
+                            width: 50%;
+
+                            img {
+                                width: 100%;
+                                border-radius: 20px;
+                                box-shadow: 0px 0px 15px black;
+                            }
+
+                            p {
+                                font-size: 16px;
+                                margin-top: 5px;
+                                margin-bottom: 0px;
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                    .style-text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin: 0px 20px;
+                        padding-top: 100px;
+    
+                        h3 {
+                            margin: 0px 0px 10px 0px;
+                        }
+                    }
+                }
+
+                .fake-block {
+                    width: 100px;
+                    height: 20px;
+                }
+            }
+
+            section:nth-child(1) {
+                margin: 0px;
+            }
+        }
+    }
+}
+
+#rootofnightmares {
+    background-image: url(../img/guide/root-bg.png);
+}
+
+#kingsfall {
+    background-image: url(../img/guide/king-bg.png);
+}
