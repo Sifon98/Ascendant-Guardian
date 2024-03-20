@@ -26,7 +26,7 @@ export function GuidePage() {
     }
 
     useEffect(() => {
-        setTimeout(() => setImgCount(prevImgCount => prevImgCount - 5), 3000)
+        setTimeout(() => setImgCount(prevImgCount => prevImgCount - 10), 3000)
     }, [])
 
     useEffect(() => {
