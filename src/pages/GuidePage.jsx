@@ -31,6 +31,8 @@ export function GuidePage() {
 
     useEffect(() => {
         imgCount == imgLoadCount ? (setUnload(() => true), setTimeout(() => setLoading(false), 500)) : null
+        console.log(imgCount)
+        console.log(imgLoadCount);
     }, [imgCount, imgLoadCount])
 
     // preGuideArray.map((data) => (
