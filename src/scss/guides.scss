@@ -284,6 +284,7 @@ $button-color: #111111;
         display: flex;
         justify-content: space-evenly;
         width: 95%;
+        max-width: 1920px;
 
         .background-slide {
             background-position: -100% 0%;

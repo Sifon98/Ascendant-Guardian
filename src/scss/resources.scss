@@ -13,6 +13,7 @@ $button-color: #111111;
         display: flex;
         justify-content: space-evenly;
         width: 95%;
+        max-width: 1920px;
 
         .background-slide {
             animation: slide-in 1s forwards;
