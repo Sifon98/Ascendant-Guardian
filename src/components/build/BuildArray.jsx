@@ -419,7 +419,7 @@ export const preBuildArray = [
     // Build 3 =========================================================================================================
     {buildId:"aoeStrandHunter", classImg: "strandH", tags: ['HUNTER', 'STRAND', 'PVE'],
         buildTitle: "SUSPENDER",
-        buildText: "One of, if not the best build for Hunters. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+        buildText: "One of, if not the best build for Hunters. Meele focused with insane survivability.",
         superImg: "https://www.bungie.net/common/destiny2_content/icons/3da7e8684b09600e90ea5c16f1edebe0.png",
         aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/838134e7e3d13bb5b74ae995653715fc.jpg",
         aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/fb8ad358e003be53e70e1f25aa9f607a.jpg", 
@@ -494,13 +494,13 @@ export const preBuildArray = [
                     weaponImg: "https://www.bungie.net/common/destiny2_content/icons/06ec3d22c69944f6755bf75f07cd83bd.jpg",
                     weaponTitle: "QUICKSILVER STORM",
                     energy: "strand",
-                    weaponText: "Kinetic/Strand Energy<br/><br/>Source: Cryptarch."
+                    weaponText: "Energy (Catalyst makes it strand)<br/><br/>Source: Cryptarch."
                 },
                 {
                     weaponImg: "https://www.bungie.net/common/destiny2_content/icons/4b2875c89f540ce52d48dba19dac477e.jpg",
                     weaponTitle: "RUFUS'S FURY",
                     energy: "strand",
-                    weaponText: "Strand Energy<br/><br/>Source: Root of Nightmares."
+                    weaponText: "Energy<br/><br/>Source: Root of Nightmares."
                 }]
             ],
             weaponInfo: "For this build great <strong>Strand</strong> weapons are recommended.<br/><br/>Personally I use <strong>Quicksilver Storm</strong> but <strong>Rufus's Fury</strong> is a great alternative.",
@@ -1238,7 +1238,7 @@ export const preBuildArray = [
         }
     },
     // Build 6 =========================================================================================================
-    {buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVE'],
+    {buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
         buildTitle: "ARC PUNCH",
         buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
         superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",

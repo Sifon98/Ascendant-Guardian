@@ -13,6 +13,7 @@ import solarHunter from '../img/Gif/solar-hunter.gif'
 import stasisHunter from '../img/Gif/stasis-hunter.gif'
 import solarWarlock from '../img/Gif/solar-warlock.gif'
 import arcWarlock from '../img/Gif/arc-warlock.gif'
+import dim from '../img/logo-icon/dim-logo.png'
 
 export function BuildGuide() {
   // Get the array with all the build info
@@ -74,6 +75,11 @@ export function BuildGuide() {
                                         <h3>BUILD SUMMARY</h3>
                                         <hr className="smallLine" />
                                         <p>{parse(data.buildGuide.buildSummary)}</p>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="item">
+                                        <a target="_blank" href="https://app.destinyitemmanager.com/4611686018471237512/d2/inventory" className="button"><img src={dim}/>DIM LINK</a>
                                     </div>
                                 </div>
                             </div>

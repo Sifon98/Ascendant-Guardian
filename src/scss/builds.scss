@@ -281,6 +281,11 @@ $button-color: #111111;
                         margin-bottom: 0px;
                         margin-left: 8px;
                         margin-right: 8px;
+
+                        img {
+                            margin-bottom: -2px;
+                            width: 20px;
+                        }
                     }
                 }
         
@@ -470,6 +475,37 @@ $button-color: #111111;
 
                         p {
                             margin: 10px 0px 0px 0px;
+                        }
+
+                        .button {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 220px;
+                            height: 60px;
+                            font-size: 18px;
+                            background-color: #111111;
+                            border: 3px solid #97989b;
+                            color: white;
+                            text-align: center;
+                            outline: none;
+                            cursor: pointer;
+                            transition: 0.3s;
+                            text-decoration: none;
+                            letter-spacing: 0.2rem;
+
+                            img {
+                                width: 30px !important;
+                                height: 30px !important;
+                                margin: 0px 10px 0px 0px !important;
+                            }
+                        }
+
+                        .button:hover {
+                            box-shadow:
+                                0 0 0 4px $main-color,
+                                0 0 0 7px hsl(0, 0%, 90%);
+                            transition: 0.3s;
                         }
 
                         .item {
