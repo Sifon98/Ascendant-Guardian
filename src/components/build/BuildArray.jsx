@@ -1432,4 +1432,2930 @@ export const preBuildArray = [
             }
         }
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+        buildTitle: "ARC PUNCH",
+        buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+        aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+        exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+        buildGuide: {
+            title: "ARC PUNCH <span>/</span>/ WARLOCK",
+            superGuide: {
+                superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+                superTitle: "WELL OF RADIANCE",
+                superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+            },
+            abilitiesGuide: [
+                {
+                    abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+                    abilityTitle: "PHOENIX DIVE",
+                    abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+                },
+                {
+                    abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+                    abilityTitle: "BURST GLIDE",
+                    abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+                },
+                {
+                    abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+                    abilityTitle: "INCINERATOR SNAP",
+                    abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+                },
+                {
+                    abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+                    abilityTitle: "SOLAR GRENADE",
+                    abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+                }
+            ],
+            aspectsGuide: [
+                {
+                    aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+                    aspectTitle: "TOUCH OF FLAME",
+                    aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+                },
+                {
+                    aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+                    aspectTitle: "HEAT RISES",
+                    aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+                }
+            ],
+            fragmentsGuide: [
+                {
+                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+                    fragmentTitle: "EMBER OF SOLACE",
+                    fragmentText: "Radiant and restoration effects applied to you have increased duration."
+                },
+                {
+                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+                    fragmentTitle: "EMBER OF EMPYREAN",
+                    fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+                },
+                {
+                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+                    fragmentTitle: "EMBER OF TORCHES",
+                    fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+                },
+                {
+                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+                    fragmentTitle: "EMBER OF RESOLVE",
+                    fragmentText: "Solar grenade final blows cure you."
+                }
+            ],
+            buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+            weapons: [
+                [{
+                    weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+                    weaponTitle: "SUNSHOT",
+                    energy: "solar",
+                    weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+                }]
+            ],
+            weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+            exotic: {
+                exoticRow: [
+                {
+                    exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+                    exoticTitle: "SUNBRACERS",
+                    exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+                }],
+                info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+            },
+            armor: {
+                head: [
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modTitle: "HARMONIC SIPHON",
+                        modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+                    },
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modTitle: "HARMONIC SIPHON",
+                        modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+                    },
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                        modTitle: "ASHES TO ASSETS",
+                        modText: "Gain bonus Super energy on grenade kills."
+                    }
+                ],
+                arms: [
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                        modTitle: "FIREPOWER",
+                        modText: "Your grenade final blows create Orbs of Power."
+                    },
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                        modTitle: "MOMENTUM TRANSFER",
+                        modText: "Causing damage with a grenade reduces your melee cooldown."
+                    },
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                        modTitle: "EMPTY MOD SOCKET",
+                        modText: "If you can afford to add more mods feel free to add what you want."
+                    }
+                ],
+                chest: [
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                        modTitle: "CHARGED UP",
+                        modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+                    },
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                        modTitle: "ARC RESISTANCE",
+                        modText: "Reduces incoming Arc damage from combatants."
+                    },
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                        modTitle: "SOLAR RESISTANCE",
+                        modText: "Reduces incoming Solar damage from combatants."
+                    }
+                ],
+                legs: [
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                        modTitle: "STACKS ON STACKS",
+                        modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+                    },
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                        modTitle: "INVIGORATION",
+                        modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+                    },
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                        modTitle: "RECUPERATION",
+                        modText: "Replenishes health each time you pick up an Orb of Power."
+                    }
+                ],
+                class: [
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                        modTitle: "POWERFUL ATTRACTION",
+                        modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+                    },
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                        modTitle: "OUTREACH",
+                        modText: "Reduces melee cooldown when using your class ability."
+                    },
+                    {
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                        modTitle: "OUTREACH",
+                        modText: "Reduces melee cooldown when using your class ability."
+                    }
+                ]
+            },
+            armorStats: [
+                "res",
+                "rec",
+                "int"
+            ],
+            gameplay: {
+                general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+                exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+                endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+                gif: "solarWarlockGif",
+                loop: [
+                    "<strong>Grenade Ability</strong> to create aura and a crystal",
+                    "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+                ],
+                loopEnd: "<strong>Continue spamming grenades</strong>"
+            }
+        }
+    },{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+    buildTitle: "ARC PUNCH",
+    buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+    superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+    aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+    aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+    exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+    buildGuide: {
+        title: "ARC PUNCH <span>/</span>/ WARLOCK",
+        superGuide: {
+            superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+            superTitle: "WELL OF RADIANCE",
+            superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+        },
+        abilitiesGuide: [
+            {
+                abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+                abilityTitle: "PHOENIX DIVE",
+                abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+            },
+            {
+                abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+                abilityTitle: "BURST GLIDE",
+                abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+            },
+            {
+                abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+                abilityTitle: "INCINERATOR SNAP",
+                abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+            },
+            {
+                abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+                abilityTitle: "SOLAR GRENADE",
+                abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+            }
+        ],
+        aspectsGuide: [
+            {
+                aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+                aspectTitle: "TOUCH OF FLAME",
+                aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+            },
+            {
+                aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+                aspectTitle: "HEAT RISES",
+                aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+            }
+        ],
+        fragmentsGuide: [
+            {
+                fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+                fragmentTitle: "EMBER OF SOLACE",
+                fragmentText: "Radiant and restoration effects applied to you have increased duration."
+            },
+            {
+                fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+                fragmentTitle: "EMBER OF EMPYREAN",
+                fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+            },
+            {
+                fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+                fragmentTitle: "EMBER OF TORCHES",
+                fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+            },
+            {
+                fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+                fragmentTitle: "EMBER OF RESOLVE",
+                fragmentText: "Solar grenade final blows cure you."
+            }
+        ],
+        buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+        weapons: [
+            [{
+                weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+                weaponTitle: "SUNSHOT",
+                energy: "solar",
+                weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+            }]
+        ],
+        weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+        exotic: {
+            exoticRow: [
+            {
+                exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+                exoticTitle: "SUNBRACERS",
+                exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+            }],
+            info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+        },
+        armor: {
+            head: [
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                    modTitle: "HARMONIC SIPHON",
+                    modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+                },
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                    modTitle: "HARMONIC SIPHON",
+                    modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+                },
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                    modTitle: "ASHES TO ASSETS",
+                    modText: "Gain bonus Super energy on grenade kills."
+                }
+            ],
+            arms: [
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                    modTitle: "FIREPOWER",
+                    modText: "Your grenade final blows create Orbs of Power."
+                },
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                    modTitle: "MOMENTUM TRANSFER",
+                    modText: "Causing damage with a grenade reduces your melee cooldown."
+                },
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                    modTitle: "EMPTY MOD SOCKET",
+                    modText: "If you can afford to add more mods feel free to add what you want."
+                }
+            ],
+            chest: [
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                    modTitle: "CHARGED UP",
+                    modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+                },
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                    modTitle: "ARC RESISTANCE",
+                    modText: "Reduces incoming Arc damage from combatants."
+                },
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                    modTitle: "SOLAR RESISTANCE",
+                    modText: "Reduces incoming Solar damage from combatants."
+                }
+            ],
+            legs: [
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                    modTitle: "STACKS ON STACKS",
+                    modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+                },
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                    modTitle: "INVIGORATION",
+                    modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+                },
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                    modTitle: "RECUPERATION",
+                    modText: "Replenishes health each time you pick up an Orb of Power."
+                }
+            ],
+            class: [
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                    modTitle: "POWERFUL ATTRACTION",
+                    modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+                },
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                    modTitle: "OUTREACH",
+                    modText: "Reduces melee cooldown when using your class ability."
+                },
+                {
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                    modTitle: "OUTREACH",
+                    modText: "Reduces melee cooldown when using your class ability."
+                }
+            ]
+        },
+        armorStats: [
+            "res",
+            "rec",
+            "int"
+        ],
+        gameplay: {
+            general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+            exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+            endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+            gif: "solarWarlockGif",
+            loop: [
+                "<strong>Grenade Ability</strong> to create aura and a crystal",
+                "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+            ],
+            loopEnd: "<strong>Continue spamming grenades</strong>"
+        }
+    }
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+buildTitle: "ARC PUNCH",
+buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
+superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+buildGuide: {
+    title: "ARC PUNCH <span>/</span>/ WARLOCK",
+    superGuide: {
+        superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
+        superTitle: "WELL OF RADIANCE",
+        superText: "Thrust your sword into the ground, damaging and scorching nearby combatants. The sword projects a continuous aura, granting radiant effects and restoration to nearby allies, protecting them from the effects of Stasis."
+    },
+    abilitiesGuide: [
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/344563b4a5bee94734c4499ef83a6ac2.jpg",
+            abilityTitle: "PHOENIX DIVE",
+            abilityText: "Dive to the ground and create a burst of Solar Light that cures nearby allies.<br/><br/>While Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/f7b19afecf6554f32225e80cc57d4fac.jpg",
+            abilityTitle: "BURST GLIDE",
+            abilityText: "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/e9dee44a01ea409afe80a939b6341843.jpg",
+            abilityTitle: "INCINERATOR SNAP",
+            abilityText: "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+        },
+        {
+            abilityImg: "https://www.bungie.net/common/destiny2_content/icons/720bf9cc73dce537c5ee5577e0edcf9b.jpg",
+            abilityTitle: "SOLAR GRENADE",
+            abilityText: "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+        }
+    ],
+    aspectsGuide: [
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d6b44fe69ff876449e732b52b7d9d334.jpg",
+            aspectTitle: "TOUCH OF FLAME",
+            aspectText: "Your Healing, Solar, Firebolt, and Fusion Grenades have enhanced functionality.<br/><br/>Healing Grenade: Improves the strength of cure and restoration effects applied. Consuming a Healing Grenade with Heat Rises also applies restoration to nearby allies.<br/><br/>Solar Grenade: Increases linger duration. Periodically emits blobs of lava around its perimeter.<br/><br/>Firebolt Grenade: Increases target search radius and maximum target count.<br/><br/>Fusion Grenade: Explodes twice."
+        },
+        {
+            aspectImg: "https://www.bungie.net/common/destiny2_content/icons/d647fd2019707f044ce97b52f802e465.jpg",
+            aspectTitle: "HEAT RISES",
+            aspectText: "You can fire weapons, melee, and throw grenades while gliding.<br/><br/>[Grenade] : Hold to consume your grenade, gaining Heat Rises and releasing a burst of healing energy that cures nearby allies. The strength of the burst is increased when a Healing Grenade is consumed.<br/><br/>Final blows while airborne increase the duration of Heat Rises and grant melee energy."
+        }
+    ],
+    fragmentsGuide: [
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/fb46711e0dff2bc2f55c21271e838fe2.jpg",
+            fragmentTitle: "EMBER OF SOLACE",
+            fragmentText: "Radiant and restoration effects applied to you have increased duration."
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/be99d52c12f9359fc948b4563f74e712.jpg",
+            fragmentTitle: "EMBER OF EMPYREAN",
+            fragmentText: "Solar weapon or ability final blows extend the duration of restoration and radiant effects applied to you.<br/><br/>-10 Resilience <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/1ef2e34dad0d52c762ed96e8c932dc38.jpg",
+            fragmentTitle: "EMBER OF TORCHES",
+            fragmentText: "Powered melee attacks against combatants make you and nearby allies radiant.<br/><br/>-10 Discipline <span className='red'>▼</span>"
+        },
+        {
+            fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/24b60501785856e2898417115e3b2afd.jpg",
+            fragmentTitle: "EMBER OF RESOLVE",
+            fragmentText: "Solar grenade final blows cure you."
+        }
+    ],
+    buildSummary: "If you want to see the entire battlefield covered in <strong>Solar</strong> grenades you have come to the right place. This <strong>Warlock Sunbracers</strong> build will make you feel like a <strong>Solar</strong> god so make sure to have the appropriate <strong>transmog</strong> to match your power.",
+    weapons: [
+        [{
+            weaponImg: "https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            weaponTitle: "SUNSHOT",
+            energy: "solar",
+            weaponText: "Energy<br/><br/>Source: Exotic Engrams."
+        }]
+    ],
+    weaponInfo: "I recommend using <strong>Sunshot</strong> but any strong <strong>Solar</strong> weapon will work.",
+    exotic: {
+        exoticRow: [
+        {
+            exoticImg: "https://www.bungie.net/common/destiny2_content/icons/220fda89a88058f84725ff1df39a9f5e.jpg",
+            exoticTitle: "SUNBRACERS",
+            exoticText: "Your Duskfield grenades have a much larger effect radius. Allies inside the Duskfield take reduced damage and targets inside the area deal reduced damage."
+        }],
+        info: "To make the most out of your grenades you will need <strong>Renewal Grasps</strong>."
+    },
+    armor: {
+        head: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modTitle: "HARMONIC SIPHON",
+                modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/e30b0976cfaba9e604288e4874a0a690.png",
+                modTitle: "ASHES TO ASSETS",
+                modText: "Gain bonus Super energy on grenade kills."
+            }
+        ],
+        arms: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modTitle: "FIREPOWER",
+                modText: "Your grenade final blows create Orbs of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modTitle: "MOMENTUM TRANSFER",
+                modText: "Causing damage with a grenade reduces your melee cooldown."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/baf3919b265395ba482761e6fadb4b3d.png",
+                modTitle: "EMPTY MOD SOCKET",
+                modText: "If you can afford to add more mods feel free to add what you want."
+            }
+        ],
+        chest: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a5b42dcfe8b77d35258f418dbe412e0.png",
+                modTitle: "CHARGED UP",
+                modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modTitle: "ARC RESISTANCE",
+                modText: "Reduces incoming Arc damage from combatants."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modTitle: "SOLAR RESISTANCE",
+                modText: "Reduces incoming Solar damage from combatants."
+            }
+        ],
+        legs: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/780fe3859af46613015a5d2670907612.png",
+                modTitle: "STACKS ON STACKS",
+                modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modTitle: "INVIGORATION",
+                modText: "Reduces melee cooldown each time you pick up an Orb of Power."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modTitle: "RECUPERATION",
+                modText: "Replenishes health each time you pick up an Orb of Power."
+            }
+        ],
+        class: [
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modTitle: "POWERFUL ATTRACTION",
+                modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            },
+            {
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modTitle: "OUTREACH",
+                modText: "Reduces melee cooldown when using your class ability."
+            }
+        ]
+    },
+    armorStats: [
+        "res",
+        "rec",
+        "int"
+    ],
+    gameplay: {
+        general: "This build is all about your <strong>Duskfield Grenades</strong>. You will be able to throw them very often due to the mods that are used and the <strong>Stasis Crystals</strong> you will create. These are very important to the build since the fragment <strong>Whisper of Shards</strong> grants you a temporary boost to your grenade recharge rate when you destroy the crystals. Another great thing about destroying the crystals is that it creates a <strong>Stasis Shard</strong> that will grant you an <strong>Overshield</strong> when picked up for extra <strong>Survivability</strong>.<br/><br/>Depending on your weapon of choice you will create a huge amount of <strong>Stasis Crystals</strong> that will serve to damage your foes and rechearge your <strong>Abilites</strong>.",
+        exotic: "The exotic <strong>Renewal Grasps</strong> makes your <strong>Duskfield Grenades</strong> larger in area and also makes the <strong>Stasis Crystal</strong> created by the aspect <strong>Touch of Winter</strong> larger. It also makes it so enemies that are inside of the aura from your grenade deal <strong>50%</strong> less damage and at the same time you recieve <strong>25%</strong> less damage if you are inside the aura.",
+        endgame: "While this build is viable in <strong>Endgame</strong> content, especially <strong>GM's</strong>, you might find it tough to survive. When all of your defensive buffs are up you will be able to take quite a bit of damage but it is not reliable. Your <strong>Overshield</strong> will be quite easy to get but the debuff to enemies and the buff to you that is recieved from being inside a <strong>Duskfield Grenade</strong> can be very unreliable. Enemies can simply move out of the aura and some might be impossible to get into an aura such as snipers. I would recommend playing a bit more defensive and use your grenades as defensive tools very rarely.",
+        gif: "solarWarlockGif",
+        loop: [
+            "<strong>Grenade Ability</strong> to create aura and a crystal",
+            "<strong>Destroy Crystal</strong> to boost grenade recharge time"
+        ],
+        loopEnd: "<strong>Continue spamming grenades</strong>"
+    }
+}
+},
 ]

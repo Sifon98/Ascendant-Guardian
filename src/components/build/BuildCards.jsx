@@ -11,7 +11,11 @@ export default function BuildCards({buildId, tags, classImg, buildTitle, buildTe
           <h3>{buildTitle}</h3>
           <hr className="largeLine"/>
           <hr className="smallLine"/>
-          <p>{tags[0] == "HUNTER" ? "Hunter" : tags[0] == "WARLOCK" ? "Warlock" : tags[0] == "TITAN" ? "Titan" : null} • {tags[1] == "SOLAR" ? "Solar" : tags[1] == "VOID" ? "Void" : tags[1] == "ARC" ? "Arc" : tags[1] == "STASIS" ? "Stasis" : tags[1] == "STRAND" ? "Strand" : null} • {tags[2]}</p>
+          <p>{tags[0] == "HUNTER" ? "Hunter" : tags[0] == "WARLOCK" ? "Warlock" 
+                                             : tags[0] == "TITAN" ? "Titan" : null} • {tags[1] == "SOLAR" ? "Solar" : tags[1] == "VOID" ? "Void" 
+                                                                                                                    : tags[1] == "ARC" ? "Arc" 
+                                                                                                                    : tags[1] == "STASIS" ? "Stasis" 
+                                                                                                                    : tags[1] == "STRAND" ? "Strand" : null} • {tags[2]}</p>
           <p>{buildText}</p>
         </div>
         <div className="author">

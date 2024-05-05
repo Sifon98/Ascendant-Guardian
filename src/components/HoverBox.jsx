@@ -7,12 +7,12 @@ import elementStasis from '../img/logo-icon/element-stasis.png'
 import elementStrand from '../img/logo-icon/element-strand.png'
 import elementKinetic from '../img/logo-icon/element-kinetic.png'
 
-export default function HoverBox({image, i, title, energy, text, superImg}) {
+export default function HoverBox({image, i, title, energy, text, superImg, strand}) {
   return (
     <>
     {i > 0 ? <hr /> : null}
     <div className="hover-container">
-        <img className={superImg ? `super-img` : ''} src={image}/>
+        <img className={superImg ? `super-img` : strand && title == "GAMBLER'S DODGE" || strand && title == "TRIPLE JUMP" ? `strand-color` : ''} src={image}/>
         <div className="hover-box">
             <div className="hover-box-header">
                 <h3>{title}</h3>

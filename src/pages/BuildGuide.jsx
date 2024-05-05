@@ -45,7 +45,9 @@ export function BuildGuide() {
                                         <hr className="smallLine" />
                                         <div className="item-row">
                                         {data.buildGuide.abilitiesGuide.map((boxInfo, i) => (
-                                            <HoverBox key={i} image={boxInfo.abilityImg} title={boxInfo.abilityTitle} text={boxInfo.abilityText} />
+                                            data.tags[1] == "STRAND" ?
+                                            <HoverBox key={i} image={boxInfo.abilityImg} title={boxInfo.abilityTitle} text={boxInfo.abilityText} strand={true}/>
+                                            : <HoverBox key={i} image={boxInfo.abilityImg} title={boxInfo.abilityTitle} text={boxInfo.abilityText}/>
                                         ))}
                                         </div>
                                     </div>
