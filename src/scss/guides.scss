@@ -172,6 +172,14 @@ $button-color: #111111;
     }
 }
 
+@media screen and (min-width: 2500px) {
+    .sorting-container-guides {
+        -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+                justify-content: center !important;
+    }
+}
+
 .largeLine {
     margin: 10px 0px 0px 0px;
     border: 1px solid $border-color;

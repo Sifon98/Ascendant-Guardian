@@ -229,14 +229,12 @@ $button-color: #111111;
             border: 3px solid $border-color;
             position: absolute;
             cursor: pointer;
-            z-index: -1 !important;
             background-color: $button-color;
             margin: 0px 20px;
 
             ul {
                 padding: 0px;
                 margin: 0px;
-                z-index: -1 !important;
 
                 li {
                     display: -webkit-box;
@@ -257,7 +255,6 @@ $button-color: #111111;
                     color: white;
                     text-align: center;
                     outline: none;
-                    z-index: -1 !important;
                 }
 
                 li:last-child {
@@ -474,7 +471,6 @@ $button-color: #111111;
     }
   
     .build-container {
-        z-index: -1;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -548,7 +544,6 @@ $button-color: #111111;
                     background-size: cover;
                     width: 400px;
                     height: 290px;
-                    z-index: 1;
                     border-radius: 30px;
                     -webkit-transition: ease-in-out 0.2s;
                     -o-transition: ease-in-out 0.2s;
@@ -1056,7 +1051,7 @@ $button-color: #111111;
                 position: absolute;
                 right: 45.8%;
                 top: 10.5%;
-                z-index: 1;
+                z-index: 2;
                 width: 50px;
                 height: 50px;
                 border-radius: 100%;
@@ -1279,6 +1274,7 @@ $button-color: #111111;
 
             @media screen and (max-width: 1400px) {
                 .author {
+                    z-index: 1;
                     left: 39%;
                     top: 35px;
                 }
