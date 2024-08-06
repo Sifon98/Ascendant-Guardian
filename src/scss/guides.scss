@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 $border-color: #97989b;
 $main-color: #0A0A12;
 $button-color: #111111;
@@ -18,12 +25,21 @@ $button-color: #111111;
 }
 
 .active {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
-    animation: fadein forwards 0.3s;
+    -webkit-animation: fadein forwards 0.3s;
+            animation: fadein forwards 0.3s;
 }
 
 .inactive {
-    animation: fadeout forwards 0.3s;
+    -webkit-animation: fadeout forwards 0.3s;
+            animation: fadeout forwards 0.3s;
+}
+
+@-webkit-keyframes fadein {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
 }
 
 @keyframes fadein {
@@ -31,13 +47,21 @@ $button-color: #111111;
     100% { opacity: 1;}
 }
 
+@-webkit-keyframes fadeout {
+    0% { opacity: 1; display: -webkit-box; display: flex;}
+    100% { opacity: 0; display: none;}
+}
+
 @keyframes fadeout {
-    0% { opacity: 1; display: flex;}
+    0% { opacity: 1; display: -webkit-box; display: -ms-flexbox; display: flex;}
     100% { opacity: 0; display: none;}
 }
 
 .box-shadow {
-    box-shadow:
+    -webkit-box-shadow:
+        0 0 0 4px $main-color,
+        0 0 0 7px hsl(0, 0%, 90%);
+            box-shadow:
         0 0 0 4px $main-color,
         0 0 0 7px hsl(0, 0%, 90%);
 }
@@ -45,8 +69,12 @@ $button-color: #111111;
 // CSS for the sorting functions
 .sorting-container-guides {
     height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     margin: auto;
     background-color: $main-color;
@@ -59,9 +87,15 @@ $button-color: #111111;
         z-index: 2;
 
         .menu-selector {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             width: 220px;
             height: 60px;
             font-size: 18px;
@@ -71,15 +105,22 @@ $button-color: #111111;
             text-align: center;
             outline: none;
             cursor: pointer;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
             transition: 0.3s;
             margin: 0px 20px;
             letter-spacing: 0.2rem;
         }
 
         .menu-selector:hover {
-            box-shadow:
+            -webkit-box-shadow:
                 0 0 0 4px $main-color,
                 0 0 0 7px hsl(0, 0%, 90%);
+                    box-shadow:
+                0 0 0 4px $main-color,
+                0 0 0 7px hsl(0, 0%, 90%);
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
             transition: 0.3s;
         }
 
@@ -99,9 +140,15 @@ $button-color: #111111;
                 z-index: 100;
 
                 li {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;        
-                    align-items: center;
-                    justify-content: center;
+                    -webkit-box-align: center;        
+                        -ms-flex-align: center;        
+                            align-items: center;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
                     list-style-type: none;
                     text-decoration: none;
                     width: 220px;
@@ -137,16 +184,24 @@ $button-color: #111111;
 }
 
 .guide-width {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     padding-bottom: 100px;
   
     .guide-container {
         width: 1600px;
         padding: 0px 0px 40px 0px;
-        animation: fadeCards 2.6s;
+        -webkit-animation: fadeCards 2.6s;
+                animation: fadeCards 2.6s;
 
         .guide-card-img {
             width: 100%;
@@ -156,20 +211,33 @@ $button-color: #111111;
             margin-top: 40px;
 
             .layer {
+                background-image: -o-radial-gradient(100% 50%, circle, rgba(10, 10, 18, 0.7), $main-color, $main-color);
                 background-image: radial-gradient(circle at 100% 50%, rgba(10, 10, 18, 0.7), $main-color, $main-color);
                 border-radius: 50px;
 
                 .guide-card {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
+                    -webkit-box-pack: justify;
+                        -ms-flex-pack: justify;
+                            justify-content: space-between;
                     height: 420px;
                     width: 55%;
                     padding: 40px;
 
                     .flex-container {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        flex-direction: column;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
 
                         h3 {
                             margin: 0px 0px 10px 20px;
@@ -185,9 +253,15 @@ $button-color: #111111;
                     }
 
                     .button {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        align-items: center;
-                        justify-content: center;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
+                        -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                                justify-content: center;
                         width: 220px;
                         height: 60px;
                         font-size: 18px;
@@ -197,6 +271,8 @@ $button-color: #111111;
                         text-align: center;
                         outline: none;
                         cursor: pointer;
+                        -webkit-transition: 0.3s;
+                        -o-transition: 0.3s;
                         transition: 0.3s;
                         margin: 40px 0px 10px 20px;
                         text-decoration: none;
@@ -204,14 +280,33 @@ $button-color: #111111;
                     }
     
                     .button:hover {
-                        box-shadow:
+                        -webkit-box-shadow:
                             0 0 0 4px $main-color,
                             0 0 0 7px hsl(0, 0%, 90%);
+                                box-shadow:
+                            0 0 0 4px $main-color,
+                            0 0 0 7px hsl(0, 0%, 90%);
+                        -webkit-transition: 0.3s;
+                        -o-transition: 0.3s;
                         transition: 0.3s;
                     }
                 }
             }
         }
+    }
+}
+
+@-webkit-keyframes fadeGuide {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+        margin-top: 50px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0px;
     }
 }
 
@@ -230,8 +325,12 @@ $button-color: #111111;
 }
 
 .guide-page {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
     padding-top: 120px;
     padding-bottom: 100px;
@@ -239,8 +338,12 @@ $button-color: #111111;
     .modal {
         cursor: pointer;
         display: none;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         position: fixed;
         top: 0;
         left: 0;
@@ -253,17 +356,27 @@ $button-color: #111111;
             margin-top: 70px;
             height: 840px;
             border-radius: 50px;
-            box-shadow: 0px 0px 30px black;
+            -webkit-box-shadow: 0px 0px 30px black;
+                    box-shadow: 0px 0px 30px black;
         }
     }
 
     .active {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
-        animation: fadein forwards 0.1s;
+        -webkit-animation: fadein forwards 0.1s;
+                animation: fadein forwards 0.1s;
     }
     
     .inactive {
-        animation: fadeout forwards 0.1s;
+        -webkit-animation: fadeout forwards 0.1s;
+                animation: fadeout forwards 0.1s;
+    }
+    
+    @-webkit-keyframes fadein {
+        0% { opacity: 0;}
+        100% { opacity: 1;}
     }
     
     @keyframes fadein {
@@ -271,8 +384,13 @@ $button-color: #111111;
         100% { opacity: 1;}
     }
     
+    @-webkit-keyframes fadeout {
+        0% { opacity: 1; display: -webkit-box; display: flex;}
+        100% { opacity: 0; display: none;}
+    }
+    
     @keyframes fadeout {
-        0% { opacity: 1; display: flex;}
+        0% { opacity: 1; display: -webkit-box; display: -ms-flexbox; display: flex;}
         100% { opacity: 0; display: none;}
     }
 
@@ -281,18 +399,37 @@ $button-color: #111111;
     }
 
     .guide-page-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-evenly;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
         width: 95%;
         max-width: 1920px;
 
         .background-slide {
             background-position: -100% 0%;
+            -webkit-transition: ease-in-out 1s;
+            -o-transition: ease-in-out 1s;
             transition: ease-in-out 1s;
         }
 
         .content-fade {
-            animation: fade-in 2s forwards;
+            -webkit-animation: fade-in 2s forwards;
+                    animation: fade-in 2s forwards;
+        }
+
+        @-webkit-keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            55% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
         }
 
         @keyframes fade-in {
@@ -318,6 +455,8 @@ $button-color: #111111;
                 position: fixed;
                 width: 280px;
                 background-size: 200% 100%;
+                background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, $main-color));
+                background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 50%, $main-color 50%);
                 background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, $main-color 50%);
                 border-left: solid 5px $border-color;
 
@@ -332,11 +471,15 @@ $button-color: #111111;
                         font-size: 24px;
                         letter-spacing: 0.2rem;
                         margin: 20px 0px 0px 10px;
+                        -webkit-transition: ease-in-out 0.2s;
+                        -o-transition: ease-in-out 0.2s;
                         transition: ease-in-out 0.2s;
                     }
         
                     .nav-large:hover {
                         padding-left: 10px;
+                        -webkit-transition: ease-in-out 0.2s;
+                        -o-transition: ease-in-out 0.2s;
                         transition: ease-in-out 0.2s;
                     }
         
@@ -348,11 +491,15 @@ $button-color: #111111;
                         font-size: 18px;              
                         letter-spacing: 0.2rem;
                         margin: 0px 0px 0px 10px;
+                        -webkit-transition: ease-in-out 0.2s;
+                        -o-transition: ease-in-out 0.2s;
                         transition: ease-in-out 0.2s;
                     }
         
                     .nav-small:hover {
                         padding-left: 10px;
+                        -webkit-transition: ease-in-out 0.2s;
+                        -o-transition: ease-in-out 0.2s;
                         transition: ease-in-out 0.2s;
                     }
         
@@ -369,16 +516,30 @@ $button-color: #111111;
         }
 
         .information {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
 
             section {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                        justify-content: space-between;
                 width: 1100px;
                 padding: 20px 50px 20px 50px;
                 background-size: 200% 100%;
+                background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, $main-color));
+                background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 50%, $main-color 50%);
                 background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, $main-color 50%);
                 border-left: solid 5px $border-color;
                 margin-top: 50px;
@@ -398,7 +559,8 @@ $button-color: #111111;
                     span {
                         position: relative;
                         letter-spacing: 0.4rem;
-                        filter: none;
+                        -webkit-filter: none;
+                                filter: none;
                     }
 
                     h3 {
@@ -410,9 +572,16 @@ $button-color: #111111;
                     }
     
                     .info {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        flex-direction: column;
-                        justify-content: center;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
+                        -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                                justify-content: center;
                         margin: 20px 20px 0px 20px;
     
                         h3 {
@@ -425,6 +594,8 @@ $button-color: #111111;
                     }
 
                     .style-noheader {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
                         margin: 20px 20px 0px 20px;
 
@@ -443,7 +614,8 @@ $button-color: #111111;
                             img {
                                 width: 100%;
                                 border-radius: 20px;
-                                box-shadow: 0px 0px 15px black;
+                                -webkit-box-shadow: 0px 0px 15px black;
+                                        box-shadow: 0px 0px 15px black;
                             }
 
                             p {
@@ -456,6 +628,8 @@ $button-color: #111111;
                     }
 
                     .style-noheader-inverted {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
                         margin: 20px 20px 0px 20px;
 
@@ -474,7 +648,8 @@ $button-color: #111111;
                             img {
                                 width: 100%;
                                 border-radius: 20px;
-                                box-shadow: 0px 0px 15px black;
+                                -webkit-box-shadow: 0px 0px 15px black;
+                                        box-shadow: 0px 0px 15px black;
                             }
 
                             p {
@@ -487,6 +662,8 @@ $button-color: #111111;
                     }
 
                     .style-header {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
                         margin: 0px 20px;
                         padding-top: 100px;
@@ -506,7 +683,8 @@ $button-color: #111111;
                             img {
                                 width: 100%;
                                 border-radius: 20px;
-                                box-shadow: 0px 0px 15px black;
+                                -webkit-box-shadow: 0px 0px 15px black;
+                                        box-shadow: 0px 0px 15px black;
                             }
 
                             p {
@@ -519,6 +697,8 @@ $button-color: #111111;
                     }
 
                     .style-header-inverted {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
                         margin: 0px 20px;
                         padding-top: 100px;
@@ -538,7 +718,8 @@ $button-color: #111111;
                             img {
                                 width: 100%;
                                 border-radius: 20px;
-                                box-shadow: 0px 0px 15px black;
+                                -webkit-box-shadow: 0px 0px 15px black;
+                                        box-shadow: 0px 0px 15px black;
                             }
 
                             p {
@@ -551,9 +732,16 @@ $button-color: #111111;
                     }
 
                     .style-text {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        flex-direction: column;
-                        justify-content: center;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
+                        -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                                justify-content: center;
                         margin: 0px 20px;
                         padding-top: 100px;
     

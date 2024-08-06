@@ -1,26 +1,52 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 $border-color: #97989b;
 $main-color: #0A0A12;
 $button-color: #111111;
 
 .resource-page {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
     padding-top: 120px;
     padding-bottom: 100px;
 
     .resource-page-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-evenly;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
         width: 95%;
         max-width: 1920px;
 
         .background-slide {
-            animation: slide-in 1s forwards;
+            -webkit-animation: slide-in 1s forwards;
+                    animation: slide-in 1s forwards;
         }
 
         .content-fade {
-            animation: fade-in 2s forwards;
+            -webkit-animation: fade-in 2s forwards;
+                    animation: fade-in 2s forwards;
+        }
+
+        @-webkit-keyframes slide-in {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: -100% 0%;
+            }
         }
 
         @keyframes slide-in {
@@ -29,6 +55,18 @@ $button-color: #111111;
             }
             100% {
                 background-position: -100% 0%;
+            }
+        }
+
+        @-webkit-keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            55% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
             }
         }
 
@@ -55,6 +93,8 @@ $button-color: #111111;
                 position: fixed;
                 width: 280px;
                 background-size: 200% 100%;
+                background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, $main-color));
+                background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 50%, $main-color 50%);
                 background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, $main-color 50%);
                 border-left: solid 5px $border-color;
                 
@@ -69,11 +109,15 @@ $button-color: #111111;
                         font-size: 24px;
                         letter-spacing: 0.2rem;
                         margin: 20px 0px 0px 10px;
+                        -webkit-transition: ease-in-out 0.2s;
+                        -o-transition: ease-in-out 0.2s;
                         transition: ease-in-out 0.2s;
                     }
         
                     .nav-large:hover {
                         padding-left: 10px;
+                        -webkit-transition: ease-in-out 0.2s;
+                        -o-transition: ease-in-out 0.2s;
                         transition: ease-in-out 0.2s;
                     }
         
@@ -85,11 +129,15 @@ $button-color: #111111;
                         font-size: 18px;              
                         letter-spacing: 0.2rem;
                         margin: 0px 0px 0px 10px;
+                        -webkit-transition: ease-in-out 0.2s;
+                        -o-transition: ease-in-out 0.2s;
                         transition: ease-in-out 0.2s;
                     }
         
                     .nav-small:hover {
                         padding-left: 10px;
+                        -webkit-transition: ease-in-out 0.2s;
+                        -o-transition: ease-in-out 0.2s;
                         transition: ease-in-out 0.2s;
                     }
         
@@ -106,16 +154,30 @@ $button-color: #111111;
         }
 
         .information {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
 
             section {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                        justify-content: space-between;
                 width: 1100px;
                 padding: 20px 50px 20px 50px;
                 background-size: 200% 100%;
+                background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, $main-color));
+                background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 50%, $main-color 50%);
                 background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, $main-color 50%);
                 border-left: solid 5px $border-color;
                 margin-top: 50px;
@@ -126,7 +188,8 @@ $button-color: #111111;
                     span {
                         position: relative;
                         letter-spacing: 0.4rem;
-                        filter: none;
+                        -webkit-filter: none;
+                                filter: none;
                     }
 
                     h3 {
@@ -138,9 +201,16 @@ $button-color: #111111;
                     }
     
                     .info {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        flex-direction: column;
-                        justify-content: center;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
+                        -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                                justify-content: center;
                         margin: 20px 20px 0px 20px;
     
                         h3 {
@@ -153,8 +223,12 @@ $button-color: #111111;
                     }
 
                     .img-link {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        align-items: center;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
                         position: absolute;
                         text-align: center;
                         left: 0;
@@ -167,6 +241,8 @@ $button-color: #111111;
                         letter-spacing: 0.4rem;
                         height: 100%;
                         border-radius: 20px;
+                        -webkit-transition: ease-in-out 0.2s;
+                        -o-transition: ease-in-out 0.2s;
                         transition: ease-in-out 0.2s;
 
                         span {
@@ -336,9 +412,13 @@ $button-color: #111111;
     
                     .img-link:hover {
                         background-color: #0a0a12e0;
+                        -webkit-transition: ease-in-out 0.2s;
+                        -o-transition: ease-in-out 0.2s;
                         transition: ease-in-out 0.2s;
 
                         span {
+                            -webkit-transition: ease-in-out 0.2s;
+                            -o-transition: ease-in-out 0.2s;
                             transition: ease-in-out 0.2s;
                             opacity: 1;
                             -webkit-text-fill-color: rgba(255, 255, 255, 0.15);
@@ -346,6 +426,8 @@ $button-color: #111111;
                     }
     
                     .style-header {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
                         margin: 0px 20px;
                         padding-top: 100px;
@@ -366,7 +448,8 @@ $button-color: #111111;
                             img {
                                 width: 100%;
                                 border-radius: 20px;
-                                box-shadow: 0px 0px 15px black;
+                                -webkit-box-shadow: 0px 0px 15px black;
+                                        box-shadow: 0px 0px 15px black;
                             }
     
                             p {
@@ -379,6 +462,8 @@ $button-color: #111111;
                     }
     
                     .style-header-inverted {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
                         margin: 0px 20px;
                         padding-top: 100px;
@@ -399,7 +484,8 @@ $button-color: #111111;
                             img {
                                 width: 100%;
                                 border-radius: 20px;
-                                box-shadow: 0px 0px 15px black;
+                                -webkit-box-shadow: 0px 0px 15px black;
+                                        box-shadow: 0px 0px 15px black;
                             }
     
                             p {
@@ -424,4 +510,3 @@ $button-color: #111111;
         }
     }
 }
-    

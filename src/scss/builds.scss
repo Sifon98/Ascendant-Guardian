@@ -1,9 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 $border-color: #97989b;
 $main-color: #0A0A12;
 $button-color: #111111;
 
 .strand-color {
-    filter: hue-rotate(265deg) brightness(1.3);
+    -webkit-filter: hue-rotate(265deg) brightness(1.3);
+            filter: hue-rotate(265deg) brightness(1.3);
 }
 
 // Intro section of the page
@@ -11,14 +19,19 @@ $button-color: #111111;
     background-color: $main-color;
 
     .intro {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: flex-end;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
         background-image: url(../img/build-banner.png);
         background-size: cover;
         background-repeat: none;
         background-position: 0px;
         height: 500px;
-        animation: fadeIntro 2s;
+        -webkit-animation: fadeIntro 2s;
+                animation: fadeIntro 2s;
     
         h2 {
             margin: 0px;
@@ -33,7 +46,17 @@ $button-color: #111111;
 
     .border {
         border-bottom: 5px solid $border-color;
-        animation: slideIntro 1.5s;
+        -webkit-animation: slideIntro 1.5s;
+                animation: slideIntro 1.5s;
+    }
+}
+
+@-webkit-keyframes slideIntro {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 100%;
     }
 }
 
@@ -43,6 +66,18 @@ $button-color: #111111;
     }
     100% {
         width: 100%;
+    }
+}
+
+@-webkit-keyframes fadeIntro {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
 
@@ -71,12 +106,21 @@ $button-color: #111111;
 }
 
 .active {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
-    animation: fadein forwards 0.3s;
+    -webkit-animation: fadein forwards 0.3s;
+            animation: fadein forwards 0.3s;
 }
 
 .inactive {
-    animation: fadeout forwards 0.3s;
+    -webkit-animation: fadeout forwards 0.3s;
+            animation: fadeout forwards 0.3s;
+}
+
+@-webkit-keyframes fadein {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
 }
 
 @keyframes fadein {
@@ -84,13 +128,21 @@ $button-color: #111111;
     100% { opacity: 1;}
 }
 
+@-webkit-keyframes fadeout {
+    0% { opacity: 1; display: -webkit-box; display: flex;}
+    100% { opacity: 0; display: none;}
+}
+
 @keyframes fadeout {
-    0% { opacity: 1; display: flex;}
+    0% { opacity: 1; display: -webkit-box; display: -ms-flexbox; display: flex;}
     100% { opacity: 0; display: none;}
 }
 
 .box-shadow {
-    box-shadow:
+    -webkit-box-shadow:
+        0 0 0 4px $main-color,
+        0 0 0 7px hsl(0, 0%, 90%);
+            box-shadow:
         0 0 0 4px $main-color,
         0 0 0 7px hsl(0, 0%, 90%);
 }
@@ -98,9 +150,15 @@ $button-color: #111111;
 // CSS for the sorting functions
 .sorting-container {
     height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     width: 100%;
     margin: auto;
     background-color: $main-color;
@@ -108,16 +166,23 @@ $button-color: #111111;
     h2 {
         display: block;
         margin: 0px 20px 0px 70px;
-        animation: fadeSorting 2s;
+        -webkit-animation: fadeSorting 2s;
+                animation: fadeSorting 2s;
     }
 
     .menu-container {
         z-index: 2;
 
         .menu-selector {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             width: 220px;
             height: 60px;
             font-size: 18px;
@@ -127,15 +192,22 @@ $button-color: #111111;
             text-align: center;
             outline: none;
             cursor: pointer;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
             transition: 0.3s;
             margin: 0px 20px;
             letter-spacing: 0.2rem;
         }
 
         .menu-selector:hover {
-            box-shadow:
+            -webkit-box-shadow:
                 0 0 0 4px $main-color,
                 0 0 0 7px hsl(0, 0%, 90%);
+                    box-shadow:
+                0 0 0 4px $main-color,
+                0 0 0 7px hsl(0, 0%, 90%);
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
             transition: 0.3s;
         }
 
@@ -155,9 +227,15 @@ $button-color: #111111;
                 z-index: 100;
 
                 li {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;        
-                    align-items: center;
-                    justify-content: center;
+                    -webkit-box-align: center;        
+                        -ms-flex-align: center;        
+                            align-items: center;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
                     list-style-type: none;
                     text-decoration: none;
                     width: 220px;
@@ -181,15 +259,18 @@ $button-color: #111111;
     }
 
     .menu-container:nth-child(2) {
-        animation: fadeSorting 2.3s;
+        -webkit-animation: fadeSorting 2.3s;
+                animation: fadeSorting 2.3s;
     }
 
     .menu-container:nth-child(3) {
-        animation: fadeSorting 2.6s;
+        -webkit-animation: fadeSorting 2.6s;
+                animation: fadeSorting 2.6s;
     }
 
     .menu-container:nth-child(4) {
-        animation: fadeSorting 2.9s;
+        -webkit-animation: fadeSorting 2.9s;
+                animation: fadeSorting 2.9s;
     }
 }
 
@@ -262,7 +343,9 @@ $button-color: #111111;
 @media screen and (max-width: 720px) {
     .sorting-container {
         height: 80px;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
 
         .medium-header {
             display: none;
@@ -296,7 +379,23 @@ $button-color: #111111;
 
 @media screen and (min-width: 2500px) {
     .sorting-container {
-        justify-content: center !important;
+        -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+                justify-content: center !important;
+    }
+}
+
+@-webkit-keyframes fadeSorting {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+        margin-top: 20px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0px;
     }
 }
 
@@ -315,8 +414,12 @@ $button-color: #111111;
 }
 
 .info-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
     .quick-info {
         width: 1000px;
@@ -333,9 +436,16 @@ $button-color: #111111;
 
 // CSS for the builds section with the cards
 .build-width {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     padding-bottom: 100px;
 
@@ -351,12 +461,18 @@ $button-color: #111111;
     }
   
     .build-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         width: 1650px;
         padding: 20px 0px 15px 0px;
-        animation: fadeCards 3.3s;
+        -webkit-animation: fadeCards 3.3s;
+                animation: fadeCards 3.3s;
 
         .hover-wrapper {
             position: relative;
@@ -366,16 +482,27 @@ $button-color: #111111;
                 margin: 20px 42.5px 20px 42.5px;
                 height: 290px;
                 overflow: hidden;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 background-color: $main-color;
                 border-radius: 30px;
+                -webkit-transition: ease-in-out 0.2s;
+                -o-transition: ease-in-out 0.2s;
                 transition: ease-in-out 0.2s;
                 text-decoration: none;
 
                 .text {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    justify-content: flex-start;
-                    flex-direction: column;
+                    -webkit-box-pack: start;
+                        -ms-flex-pack: start;
+                            justify-content: flex-start;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
                     margin: 25px 40px 15px 40px;
                     width: 260px;
             
@@ -409,15 +536,26 @@ $button-color: #111111;
                     height: 290px;
                     z-index: 1;
                     border-radius: 30px;
+                    -webkit-transition: ease-in-out 0.2s;
+                    -o-transition: ease-in-out 0.2s;
                     transition: ease-in-out 0.2s;
                     letter-spacing: 0.2rem;
 
                     .color-wrapper {
                         height: 100%;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        align-items: flex-end;
-                        flex-direction: column;
-                        justify-content: space-between;
+                        -webkit-box-align: end;
+                            -ms-flex-align: end;
+                                align-items: flex-end;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
+                        -webkit-box-pack: justify;
+                            -ms-flex-pack: justify;
+                                justify-content: space-between;
 
                         .pvp-img {
                             text-align: right;
@@ -430,10 +568,17 @@ $button-color: #111111;
 
                         .image-info {
                             opacity: 0;
+                            -webkit-transition: ease-in-out 0.2s;
+                            -o-transition: ease-in-out 0.2s;
                             transition: ease-in-out 0.2s;
+                            display: -webkit-box;
+                            display: -ms-flexbox;
                             display: flex;
-                            flex-wrap: wrap;
-                            justify-content: center;
+                            -ms-flex-wrap: wrap;
+                                flex-wrap: wrap;
+                            -webkit-box-pack: center;
+                                -ms-flex-pack: center;
+                                    justify-content: center;
                             text-align: center;
                             font-size: 30px;
                             width: 100%;
@@ -446,9 +591,15 @@ $button-color: #111111;
                         }
 
                         .img-container {
+                            display: -webkit-box;
+                            display: -ms-flexbox;
                             display: flex;
-                            justify-content: center;
-                            align-items: center;
+                            -webkit-box-pack: center;
+                                -ms-flex-pack: center;
+                                    justify-content: center;
+                            -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                    align-items: center;
                             width: 90%;
 
                             .large-img {
@@ -464,6 +615,8 @@ $button-color: #111111;
                             }
 
                             .images {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
 
                                 img {
@@ -477,13 +630,19 @@ $button-color: #111111;
             }
         
             .build-wrapper:hover {
+                -webkit-transition: ease-in-out 0.2s;
+                -o-transition: ease-in-out 0.2s;
                 transition: ease-in-out 0.2s;
-                transform: scale(1.04);
+                -webkit-transform: scale(1.04);
+                    -ms-transform: scale(1.04);
+                        transform: scale(1.04);
                 cursor: pointer;
             }
             
             .build-wrapper:hover .image-info {
                 opacity: 1 !important;
+                -webkit-transition: ease-in-out 0.2s;
+                -o-transition: ease-in-out 0.2s;
                 transition: ease-in-out 0.2s;
             }
 
@@ -495,9 +654,16 @@ $button-color: #111111;
                         height: 290px;
     
                         .color-wrapper {
-                            justify-content: space-between;
-                            align-items: flex-start;
-                            flex-direction: row-reverse;
+                            -webkit-box-pack: justify;
+                                -ms-flex-pack: justify;
+                                    justify-content: space-between;
+                            -webkit-box-align: start;
+                                -ms-flex-align: start;
+                                    align-items: flex-start;
+                            -webkit-box-orient: horizontal;
+                            -webkit-box-direction: reverse;
+                                -ms-flex-direction: row-reverse;
+                                    flex-direction: row-reverse;
     
                             .image-info {
                                 width: auto;
@@ -506,7 +672,10 @@ $button-color: #111111;
                             }
     
                             .img-container {
-                                flex-direction: column;
+                                -webkit-box-orient: vertical;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: column;
+                                        flex-direction: column;
                                 padding: 0px 10px;
     
                                 hr {
@@ -518,7 +687,10 @@ $button-color: #111111;
                                 }
     
                                 .images {
-                                    flex-direction: column;
+                                    -webkit-box-orient: vertical;
+                                    -webkit-box-direction: normal;
+                                        -ms-flex-direction: column;
+                                            flex-direction: column;
     
                                     img {
                                         margin: 5px 0px;
@@ -536,9 +708,16 @@ $button-color: #111111;
                     margin: 10px 20px 10px 20px;
     
                     .text {
-                        flex-direction: row;
-                        align-items: center;
-                        justify-content: space-between;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
+                        -webkit-box-pack: justify;
+                            -ms-flex-pack: justify;
+                                justify-content: space-between;
                         width: 330px;
                         margin: 15px 30px 15px 30px;
     
@@ -575,20 +754,31 @@ $button-color: #111111;
                         border-radius: 0px;
     
                         .color-wrapper {
-                            flex-direction: row;
+                            -webkit-box-orient: horizontal;
+                            -webkit-box-direction: normal;
+                                -ms-flex-direction: row;
+                                    flex-direction: row;
                             width: 100%;
                             height: 100%;
+                            display: -webkit-box;
+                            display: -ms-flexbox;
                             display: flex;
+                            background-image: -o-radial-gradient(100% 50%, circle, rgba(10, 10, 18, 0), $main-color, $main-color);
                             background-image: radial-gradient(circle at 100% 50%, rgba(10, 10, 18, 0), $main-color, $main-color); 
     
                             .pvp-img {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                align-items: center;
-                                justify-content: center;                    
+                                -webkit-box-align: center;
+                                    -ms-flex-align: center;
+                                        align-items: center;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;                    
                                 width: 100%;
                                 height: 100%;
                                 margin: 0px;
-                                // background-color: #0A0A12;
                             }
     
                             .image-info {
@@ -597,11 +787,13 @@ $button-color: #111111;
                                 height: 100%;
                                 opacity: 1;
                                 background-color: rgba(0, 0, 0, 0);
-                                // background-image: radial-gradient(circle at 100% 50%, rgba(10, 10, 18, 0), $main-color, $main-color); 
                             }
     
                             .img-container {
-                                flex-direction: row;
+                                -webkit-box-orient: horizontal;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: row;
+                                        flex-direction: row;
                                 padding: 0px 10px;
     
                                 hr {
@@ -613,7 +805,10 @@ $button-color: #111111;
                                 }
     
                                 .images {
-                                    flex-direction: row;
+                                    -webkit-box-orient: horizontal;
+                                    -webkit-box-direction: normal;
+                                        -ms-flex-direction: row;
+                                            flex-direction: row;
     
                                     img {
                                         margin: 0px 5px;
@@ -631,9 +826,16 @@ $button-color: #111111;
                     margin: 10px 20px 10px 20px;
     
                     .text {
-                        flex-direction: row;
-                        align-items: center;
-                        justify-content: space-between;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
+                        -webkit-box-pack: justify;
+                            -ms-flex-pack: justify;
+                                justify-content: space-between;
                         width: 280px;
                         margin: 15px 10px 15px 30px;
     
@@ -675,7 +877,9 @@ $button-color: #111111;
                         border-radius: 0px;
     
                         .color-wrapper {
-                            justify-content: flex-end;
+                            -webkit-box-pack: end;
+                                -ms-flex-pack: end;
+                                    justify-content: flex-end;
     
                             .pvp-img {                   
                                 width: auto;
@@ -694,7 +898,10 @@ $button-color: #111111;
                             }
     
                             .img-container {
-                                flex-direction: row;
+                                -webkit-box-orient: horizontal;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: row;
+                                        flex-direction: row;
                                 padding: 0px 10px;
     
                                 .large-img {
@@ -702,7 +909,10 @@ $button-color: #111111;
                                 }
     
                                 .images {
-                                    flex-direction: row;
+                                    -webkit-box-orient: horizontal;
+                                    -webkit-box-direction: normal;
+                                        -ms-flex-direction: row;
+                                            flex-direction: row;
     
                                     img {
                                         width: 40px;
@@ -715,7 +925,9 @@ $button-color: #111111;
                 }
     
                 .build-wrapper:hover {
-                    transform: scale(1);
+                    -webkit-transform: scale(1);
+                        -ms-transform: scale(1);
+                            transform: scale(1);
                     cursor: pointer;
                 }
             }
@@ -780,7 +992,10 @@ $button-color: #111111;
                             }
     
                             .img-container {
-                                flex-direction: row;
+                                -webkit-box-orient: horizontal;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: row;
+                                        flex-direction: row;
                                 padding: 0px 10px;
     
                                 hr {
@@ -792,7 +1007,10 @@ $button-color: #111111;
                                 }
     
                                 .images {
-                                    flex-direction: row;
+                                    -webkit-box-orient: horizontal;
+                                    -webkit-box-direction: normal;
+                                        -ms-flex-direction: row;
+                                            flex-direction: row;
     
                                     img {
                                         width: 30px;
@@ -805,7 +1023,9 @@ $button-color: #111111;
                 }
     
                 .build-wrapper:hover {
-                    transform: scale(1);
+                    -webkit-transform: scale(1);
+                        -ms-transform: scale(1);
+                            transform: scale(1);
                     cursor: pointer;
                 }
             }
@@ -844,6 +1064,8 @@ $button-color: #111111;
                 width: 50px;
                 height: 50px;
                 border-radius: 100%;
+                -webkit-transition: 200ms ease-in-out;
+                -o-transition: 200ms ease-in-out;
                 transition: 200ms ease-in-out;
         
                 a {
@@ -859,46 +1081,109 @@ $button-color: #111111;
             }
 
             .author:hover {
+                -webkit-transition: 200ms ease-in-out;
+                -o-transition: 200ms ease-in-out;
                 transition: 200ms ease-in-out;
-                box-shadow: 0px 0px 20px purple;
+                -webkit-box-shadow: 0px 0px 20px purple;
+                        box-shadow: 0px 0px 20px purple;
+                -webkit-transition: 0.2s;
+                -o-transition: 0.2s;
                 transition: 0.2s;
-                animation: moveAuthor 2s infinite ease-in-out;
+                -webkit-animation: moveAuthor 2s infinite ease-in-out;
+                        animation: moveAuthor 2s infinite ease-in-out;
+            }
+
+            @-webkit-keyframes moveAuthor {
+                0% {
+                    -webkit-transform: rotate(0) scale(1.2);
+                            transform: rotate(0) scale(1.2);
+                    -webkit-transform-origin: center bottom;
+                            transform-origin: center bottom;
+                }
+                10% {
+                    -webkit-transform: rotate(0) scale(1.2);
+                            transform: rotate(0) scale(1.2);
+                    -webkit-transform-origin: center bottom;
+                            transform-origin: center bottom;
+                }
+                33% {
+                    -webkit-transform: rotate(10deg) scale(1.2);
+                            transform: rotate(10deg) scale(1.2);
+                    -webkit-transform-origin: center bottom;
+                            transform-origin: center bottom;
+                }
+                66% {
+                    -webkit-transform: rotate(-10deg) scale(1.2);
+                            transform: rotate(-10deg) scale(1.2);
+                    -webkit-transform-origin: center bottom;
+                            transform-origin: center bottom;
+                }
+                90% {
+                    -webkit-transform: rotate(0) scale(1.2);
+                            transform: rotate(0) scale(1.2);
+                    -webkit-transform-origin: center bottom;
+                            transform-origin: center bottom;
+                }
+                100% {
+                    -webkit-transform: rotate(0) scale(1.2);
+                            transform: rotate(0) scale(1.2);
+                    -webkit-transform-origin: center bottom;
+                            transform-origin: center bottom;
+                }
             }
 
             @keyframes moveAuthor {
                 0% {
-                    transform: rotate(0) scale(1.2);
-                    transform-origin: center bottom;
+                    -webkit-transform: rotate(0) scale(1.2);
+                            transform: rotate(0) scale(1.2);
+                    -webkit-transform-origin: center bottom;
+                            transform-origin: center bottom;
                 }
                 10% {
-                    transform: rotate(0) scale(1.2);
-                    transform-origin: center bottom;
+                    -webkit-transform: rotate(0) scale(1.2);
+                            transform: rotate(0) scale(1.2);
+                    -webkit-transform-origin: center bottom;
+                            transform-origin: center bottom;
                 }
                 33% {
-                    transform: rotate(10deg) scale(1.2);
-                    transform-origin: center bottom;
+                    -webkit-transform: rotate(10deg) scale(1.2);
+                            transform: rotate(10deg) scale(1.2);
+                    -webkit-transform-origin: center bottom;
+                            transform-origin: center bottom;
                 }
                 66% {
-                    transform: rotate(-10deg) scale(1.2);
-                    transform-origin: center bottom;
+                    -webkit-transform: rotate(-10deg) scale(1.2);
+                            transform: rotate(-10deg) scale(1.2);
+                    -webkit-transform-origin: center bottom;
+                            transform-origin: center bottom;
                 }
                 90% {
-                    transform: rotate(0) scale(1.2);
-                    transform-origin: center bottom;
+                    -webkit-transform: rotate(0) scale(1.2);
+                            transform: rotate(0) scale(1.2);
+                    -webkit-transform-origin: center bottom;
+                            transform-origin: center bottom;
                 }
                 100% {
-                    transform: rotate(0) scale(1.2);
-                    transform-origin: center bottom;
+                    -webkit-transform: rotate(0) scale(1.2);
+                            transform: rotate(0) scale(1.2);
+                    -webkit-transform-origin: center bottom;
+                            transform-origin: center bottom;
                 }
             }
 
             .author:hover + .build-wrapper {
+                -webkit-transition: 200ms ease-in-out;
+                -o-transition: 200ms ease-in-out;
                 transition: 200ms ease-in-out;
-                transform: scale(1.04);
+                -webkit-transform: scale(1.04);
+                    -ms-transform: scale(1.04);
+                        transform: scale(1.04);
             }
 
             .author:hover + .build-wrapper .image-info {
                 opacity: 1 !important;
+                -webkit-transition: ease-in-out 0.2s;
+                -o-transition: ease-in-out 0.2s;
                 transition: ease-in-out 0.2s;
             }
 
@@ -913,33 +1198,85 @@ $button-color: #111111;
                 }
 
                 .author:hover {
-                    animation: moveAuthor 2s infinite ease-in-out;
+                    -webkit-animation: moveAuthor 2s infinite ease-in-out;
+                            animation: moveAuthor 2s infinite ease-in-out;
+                }
+    
+                @-webkit-keyframes moveAuthor {
+                    0% {
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center left;
+                                transform-origin: center left;
+                    }
+                    10% {
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center left;
+                                transform-origin: center left;
+                    }
+                    33% {
+                        -webkit-transform: rotate(10deg) scale(1.2);
+                                transform: rotate(10deg) scale(1.2);
+                        -webkit-transform-origin: center left;
+                                transform-origin: center left;
+                    }
+                    66% {
+                        -webkit-transform: rotate(-10deg) scale(1.2);
+                                transform: rotate(-10deg) scale(1.2);
+                        -webkit-transform-origin: center left;
+                                transform-origin: center left;
+                    }
+                    90% {
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center left;
+                                transform-origin: center left;
+                    }
+                    100% {
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center left;
+                                transform-origin: center left;
+                    }
                 }
     
                 @keyframes moveAuthor {
                     0% {
-                        transform: rotate(0) scale(1.2);
-                        transform-origin: center left;
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center left;
+                                transform-origin: center left;
                     }
                     10% {
-                        transform: rotate(0) scale(1.2);
-                        transform-origin: center left;
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center left;
+                                transform-origin: center left;
                     }
                     33% {
-                        transform: rotate(10deg) scale(1.2);
-                        transform-origin: center left;
+                        -webkit-transform: rotate(10deg) scale(1.2);
+                                transform: rotate(10deg) scale(1.2);
+                        -webkit-transform-origin: center left;
+                                transform-origin: center left;
                     }
                     66% {
-                        transform: rotate(-10deg) scale(1.2);
-                        transform-origin: center left;
+                        -webkit-transform: rotate(-10deg) scale(1.2);
+                                transform: rotate(-10deg) scale(1.2);
+                        -webkit-transform-origin: center left;
+                                transform-origin: center left;
                     }
                     90% {
-                        transform: rotate(0) scale(1.2);
-                        transform-origin: center left;
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center left;
+                                transform-origin: center left;
                     }
                     100% {
-                        transform: rotate(0) scale(1.2);
-                        transform-origin: center left;
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center left;
+                                transform-origin: center left;
                     }
                 }
             }
@@ -951,33 +1288,85 @@ $button-color: #111111;
                 }
 
                 .author:hover {
-                    animation: moveAuthor 2s infinite ease-in-out;
+                    -webkit-animation: moveAuthor 2s infinite ease-in-out;
+                            animation: moveAuthor 2s infinite ease-in-out;
+                }
+    
+                @-webkit-keyframes moveAuthor {
+                    0% {
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center;
+                                transform-origin: center;
+                    }
+                    10% {
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center;
+                                transform-origin: center;
+                    }
+                    33% {
+                        -webkit-transform: rotate(10deg) scale(1.2);
+                                transform: rotate(10deg) scale(1.2);
+                        -webkit-transform-origin: center;
+                                transform-origin: center;
+                    }
+                    66% {
+                        -webkit-transform: rotate(-10deg) scale(1.2);
+                                transform: rotate(-10deg) scale(1.2);
+                        -webkit-transform-origin: center;
+                                transform-origin: center;
+                    }
+                    90% {
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center;
+                                transform-origin: center;
+                    }
+                    100% {
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center;
+                                transform-origin: center;
+                    }
                 }
     
                 @keyframes moveAuthor {
                     0% {
-                        transform: rotate(0) scale(1.2);
-                        transform-origin: center;
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center;
+                                transform-origin: center;
                     }
                     10% {
-                        transform: rotate(0) scale(1.2);
-                        transform-origin: center;
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center;
+                                transform-origin: center;
                     }
                     33% {
-                        transform: rotate(10deg) scale(1.2);
-                        transform-origin: center;
+                        -webkit-transform: rotate(10deg) scale(1.2);
+                                transform: rotate(10deg) scale(1.2);
+                        -webkit-transform-origin: center;
+                                transform-origin: center;
                     }
                     66% {
-                        transform: rotate(-10deg) scale(1.2);
-                        transform-origin: center;
+                        -webkit-transform: rotate(-10deg) scale(1.2);
+                                transform: rotate(-10deg) scale(1.2);
+                        -webkit-transform-origin: center;
+                                transform-origin: center;
                     }
                     90% {
-                        transform: rotate(0) scale(1.2);
-                        transform-origin: center;
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center;
+                                transform-origin: center;
                     }
                     100% {
-                        transform: rotate(0) scale(1.2);
-                        transform-origin: center;
+                        -webkit-transform: rotate(0) scale(1.2);
+                                transform: rotate(0) scale(1.2);
+                        -webkit-transform-origin: center;
+                                transform-origin: center;
                     }
                 }
             }
@@ -991,11 +1380,14 @@ $button-color: #111111;
                 }
 
                 .author:hover {
-                    animation: none;
+                    -webkit-animation: none;
+                            animation: none;
                 }
                 
                 .author:hover + .build-wrapper {
-                    transform: none;
+                    -webkit-transform: none;
+                        -ms-transform: none;
+                            transform: none;
                 }
     
                 .author:hover + .build-wrapper .image-info {
@@ -1023,26 +1415,38 @@ $button-color: #111111;
         }
 
         .hover-wrapper:has(.build-wrapper:hover) .author {
+            -webkit-transition: 200ms ease-in-out;
+            -o-transition: 200ms ease-in-out;
             transition: 200ms ease-in-out;
-            transform: scale(1.2);
-            transform-origin: center bottom;
+            -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                    transform: scale(1.2);
+            -webkit-transform-origin: center bottom;
+                -ms-transform-origin: center bottom;
+                    transform-origin: center bottom;
         }
 
         @media screen and (max-width: 1600px) {
             .hover-wrapper:has(.build-wrapper:hover) .author {
-                transform-origin: center left;
+                -webkit-transform-origin: center left;
+                    -ms-transform-origin: center left;
+                        transform-origin: center left;
             }
         }
 
         @media screen and (max-width: 1400px) {
             .hover-wrapper:has(.build-wrapper:hover) .author {
-                transform-origin: center;
+                -webkit-transform-origin: center;
+                    -ms-transform-origin: center;
+                        transform-origin: center;
             }
         }
 
         @media screen and (max-width: 850px) {
             .hover-wrapper:has(.build-wrapper:hover) .author {
-                transform: none;
+                -webkit-transform: none;
+                    -ms-transform: none;
+                        transform: none;
             }
         }
     }
@@ -1063,6 +1467,20 @@ $button-color: #111111;
     }
 }
 
+@-webkit-keyframes fadeCards {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+        margin-top: 50px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
 @keyframes fadeCards {
     0% {
         opacity: 0;
@@ -1080,11 +1498,18 @@ $button-color: #111111;
 // CSS for the build guides page
 // General CSS for the page
 .build-guide-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 95%;
     height: auto;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: auto;
     padding-top: 120px;
     padding-bottom: 100px;
@@ -1092,7 +1517,8 @@ $button-color: #111111;
     span {
         position: relative;
         letter-spacing: 0.4rem;
-        filter: none;
+        -webkit-filter: none;
+                filter: none;
     }
 
     .largeLine {
@@ -1107,22 +1533,31 @@ $button-color: #111111;
     }
 
     .build-general {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 100%;
         max-width: 1829px;
         max-height: 1090px;
-        animation: slideIn 1s;
+        -webkit-animation: slideIn 1s;
+                animation: slideIn 1s;
         background-color: $main-color; 
         border-left: 5px solid $border-color;
 
         section {
             min-height: 900px;
             width: 50%;
-            animation: visibility 1.5s;
+            -webkit-animation: visibility 1.5s;
+                    animation: visibility 1.5s;
 
             .shared-container {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
                 width: 80%;
 
                 h3 {
@@ -1132,15 +1567,29 @@ $button-color: #111111;
                 }
 
                 .info-container {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    flex-direction: column;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
                     width: 90%;
-                    align-self: center;
+                    -ms-flex-item-align: center;
+                        -ms-grid-row-align: center;
+                        align-self: center;
 
                     .row {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        -webkit-box-pack: justify;
+                            -ms-flex-pack: justify;
+                                justify-content: space-between;
                         padding-top: 50px;
 
                         p {
@@ -1148,9 +1597,15 @@ $button-color: #111111;
                         }
 
                         .button {
+                            display: -webkit-box;
+                            display: -ms-flexbox;
                             display: flex;
-                            align-items: center;
-                            justify-content: center;
+                            -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                    align-items: center;
+                            -webkit-box-pack: center;
+                                -ms-flex-pack: center;
+                                    justify-content: center;
                             width: 220px;
                             height: 60px;
                             font-size: 18px;
@@ -1160,6 +1615,8 @@ $button-color: #111111;
                             text-align: center;
                             outline: none;
                             cursor: pointer;
+                            -webkit-transition: 0.3s;
+                            -o-transition: 0.3s;
                             transition: 0.3s;
                             text-decoration: none;
                             letter-spacing: 0.2rem;
@@ -1172,16 +1629,28 @@ $button-color: #111111;
                         }
 
                         .button:hover {
-                            box-shadow:
+                            -webkit-box-shadow:
                                 0 0 0 4px $main-color,
                                 0 0 0 7px hsl(0, 0%, 90%);
+                                    box-shadow:
+                                0 0 0 4px $main-color,
+                                0 0 0 7px hsl(0, 0%, 90%);
+                            -webkit-transition: 0.3s;
+                            -o-transition: 0.3s;
                             transition: 0.3s;
                         }
 
                         .item {
+                            display: -webkit-box;
+                            display: -ms-flexbox;
                             display: flex;
-                            flex-direction: column;
-                            align-items: flex-start;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                                -ms-flex-direction: column;
+                                    flex-direction: column;
+                            -webkit-box-align: start;
+                                -ms-flex-align: start;
+                                    align-items: flex-start;
 
                             h3 {
                                 padding: 0px;
@@ -1197,13 +1666,21 @@ $button-color: #111111;
                                 width: auto;
 
                                 .hover-box {
+                                    display: -webkit-box;
+                                    display: -ms-flexbox;
                                     display: flex;
-                                    flex-direction: column;
-                                    align-items: flex-start;
+                                    -webkit-box-orient: vertical;
+                                    -webkit-box-direction: normal;
+                                        -ms-flex-direction: column;
+                                            flex-direction: column;
+                                    -webkit-box-align: start;
+                                        -ms-flex-align: start;
+                                            align-items: flex-start;
                                     visibility: hidden;
                                     width: 350px;
                                     background-color: rgba(20, 20, 20, 0.8);
-                                    backdrop-filter: blur(10px);
+                                    -webkit-backdrop-filter: blur(10px);
+                                            backdrop-filter: blur(10px);
                                     color: #fff;
                                     text-align: center;
                                     
@@ -1246,6 +1723,8 @@ $button-color: #111111;
                             }
 
                             .item-row {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
                                 
                                 img {
@@ -1263,8 +1742,13 @@ $button-color: #111111;
             background-size: fill;
 
             .above-layer {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                justify-content: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                background-image: -o-radial-gradient(-10% 50%, circle, rgba(10, 10, 18, 0.7), $main-color, $main-color);
                 background-image: radial-gradient(circle at -10% 50%, rgba(10, 10, 18, 0.7), $main-color, $main-color); 
                 width: 100%;
                 height: 100%;
@@ -1273,11 +1757,17 @@ $button-color: #111111;
 
         // Special CSS for the second half of the first section
         .equipment-container {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             border-left: 5px solid;
             padding-bottom: 40px;
-            border-image: linear-gradient(to top, $main-color 5%, $border-color 5%, $border-color 95%, $main-color 95%) 5;
+            -o-border-image: -o-linear-gradient(bottom, $main-color 5%, $border-color 5%, $border-color 95%, $main-color 95%) 5;
+               border-image: -webkit-gradient(linear, left bottom, left top, color-stop(5%, $main-color), color-stop(5%, $border-color), color-stop(95%, $border-color), color-stop(95%, $main-color)) 5;
+               border-image: linear-gradient(to top, $main-color 5%, $border-color 5%, $border-color 95%, $main-color 95%) 5;
 
             .text-item {
                 max-width: 320px;
@@ -1293,11 +1783,16 @@ $button-color: #111111;
             }
 
             .item-row {
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
 
                 .arrow {
                     margin: 10px 10px 0px 0px;
-                    transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                        -ms-transform: rotate(45deg);
+                            transform: rotate(45deg);
                     
                     &::before {
                         content: '';
@@ -1316,8 +1811,12 @@ $button-color: #111111;
                 }
 
                 .multiple-items {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    align-items: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
 
                     hr {
                         border: none;
@@ -1341,9 +1840,15 @@ $button-color: #111111;
 
     //CSS for the second section of the page
     .build-guide {
-        animation: slideIn 1s;
+        -webkit-animation: slideIn 1s;
+                animation: slideIn 1s;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         width: 100%;
         max-width: 1829px;
         margin-top: 40px;
@@ -1360,10 +1865,18 @@ $button-color: #111111;
         }
 
         section {
-            animation: visibility 1.5s;
+            -webkit-animation: visibility 1.5s;
+                    animation: visibility 1.5s;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            align-self: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -ms-flex-item-align: center;
+                -ms-grid-row-align: center;
+                align-self: center;
             width: 90%;
             background-image: url('../img/logo-icon/logo-bg.png');
             background-repeat: no-repeat;
@@ -1376,21 +1889,36 @@ $button-color: #111111;
             }
 
             .guide-container {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 width: 90%;
-                align-self: center;
+                -ms-flex-item-align: center;
+                    -ms-grid-row-align: center;
+                    align-self: center;
 
                 .row {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    justify-self: center;
-                    flex-direction: column;
+                    -ms-grid-column-align: center;
+                        justify-self: center;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
                     padding-top: 50px;
                     width: 50%;
 
                     .item {
                         padding-top: 40px;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        flex-direction: column;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
                         margin-right: 40px;
 
                         p {
@@ -1405,7 +1933,8 @@ $button-color: #111111;
 
                         img {
                             border-radius: 20px;
-                            box-shadow: 0px 0px 15px black;
+                            -webkit-box-shadow: 0px 0px 15px black;
+                                    box-shadow: 0px 0px 15px black;
                         }
                     }
 
@@ -1438,12 +1967,33 @@ $button-color: #111111;
         }
     }
 
+    @-webkit-keyframes slideIn {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+
     @keyframes slideIn {
         0% {
             width: 0%;
         }
         100% {
             width: 100%;
+        }
+    }
+
+    @-webkit-keyframes visibility {
+        0% {
+            opacity: 0;
+        }
+        80% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
         }
     }
 
@@ -1463,13 +2013,15 @@ $button-color: #111111;
 .red {
     color: red;
     position: relative;
-    filter: none;
+    -webkit-filter: none;
+            filter: none;
 }
 
 .green {
     color: green;
     position: relative;
-    filter: none;
+    -webkit-filter: none;
+            filter: none;
 }
 
 // Images for cards and background on the Build Guide page

@@ -1,9 +1,26 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 $size: 50rem;
 $time: 1;
 $color: #666;
 
 .unload {
-    animation: unload 0.5s forwards;
+    -webkit-animation: unload 0.5s forwards;
+            animation: unload 0.5s forwards;
+}
+
+@-webkit-keyframes unload {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes unload {
@@ -20,9 +37,15 @@ $color: #666;
 }
 
 main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: fixed;
   z-index: 5;
   height: 100vh;
@@ -34,10 +57,19 @@ main {
 .button-container {
   position: absolute;
   top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   
   &__clear {
     margin-top: 2rem;
@@ -48,19 +80,33 @@ main {
   width: $size;
   height: $size;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .circle {
   border: 1px solid $color;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: absolute;
+  -webkit-transition-property: width, height, opacity;
+  -o-transition-property: width, height, opacity;
   transition-property: width, height, opacity;
-  transition-timing-function: ease-in-out;
-  transition-duration: $time + s;
+  -webkit-transition-timing-function: ease-in-out;
+       -o-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: $time + s;
+       -o-transition-duration: $time + s;
+          transition-duration: $time + s;
 }
 
 .circle--1 {
@@ -91,23 +137,47 @@ main {
   width: 1px;
   height: 100%;
   position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, $color), color-stop(60%, $color), to(transparent));
+  background: -o-linear-gradient(transparent 0%, $color 40%, $color 60%, transparent 100%);
   background: linear-gradient(transparent 0%, $color 40%, $color 60%, transparent 100%);
+  -webkit-transition-property: left, opacity;
+  -o-transition-property: left, opacity;
   transition-property: left, opacity;
-  transition-timing-function: ease;
-  transition-duration: $time + s;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: $time + s;
+       -o-transition-duration: $time + s;
+          transition-duration: $time + s;
 }
 
 .line-group {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: calc($size / 2.25);
   height: $size;
-  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transition-property: width, -webkit-transform-origin, -webkit-transform;
+  transition-property: width, -webkit-transform-origin, -webkit-transform;
+  -o-transition-property: width, transform-origin, transform;
   transition-property: width, transform-origin, transform;
-  transition-timing-function: ease-in-out;
-  transition-duration: $time + s;
+  transition-property: width, transform-origin, transform, -webkit-transform-origin, -ms-transform-origin, -webkit-transform;
+  -webkit-transition-timing-function: ease-in-out;
+       -o-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: $time + s;
+       -o-transition-duration: $time + s;
+          transition-duration: $time + s;
 
   .line--1 {
     left: 0%;
@@ -127,47 +197,86 @@ main {
 }
 
 .line-group--1 {
-  transform: rotate(55deg);
+  -webkit-transform: rotate(55deg);
+      -ms-transform: rotate(55deg);
+          transform: rotate(55deg);
 }
 
 .line-group--2 {
-  transform: rotate(-55deg);
+  -webkit-transform: rotate(-55deg);
+      -ms-transform: rotate(-55deg);
+          transform: rotate(-55deg);
 }
 
 .line-group--3 {
   width: calc($size / 2.8);
-  transform: rotate(0);
+  -webkit-transform: rotate(0);
+      -ms-transform: rotate(0);
+          transform: rotate(0);
 }
 
 .shape-group {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: calc(#{$size} - 50%);
   height: $size;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  transform-origin: 50% 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transition-property: width, -webkit-transform-origin, -webkit-transform;
+  transition-property: width, -webkit-transform-origin, -webkit-transform;
+  -o-transition-property: width, transform-origin, transform;
   transition-property: width, transform-origin, transform;
-  transition-timing-function: ease-in-out;
-  transition-duration: $time + s;
+  transition-property: width, transform-origin, transform, -webkit-transform-origin, -ms-transform-origin, -webkit-transform;
+  -webkit-transition-timing-function: ease-in-out;
+       -o-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: $time + s;
+       -o-transition-duration: $time + s;
+          transition-duration: $time + s;
 }
 
 .shape {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: calc($size / 4.51);
   height: calc($size / 4.51);
   top: 50%;
   left: 50%;
-  transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, 90deg);
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, 90deg);
+          transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, 90deg);
+  -webkit-transition-property: width, height, top, bottom, left, right, opacity, -webkit-transform;
+  transition-property: width, height, top, bottom, left, right, opacity, -webkit-transform;
+  -o-transition-property: width, height, transform, top, bottom, left, right, opacity;
   transition-property: width, height, transform, top, bottom, left, right, opacity;
-  transition-timing-function: ease-in-out;
-  transition-duration: $time + s;
+  transition-property: width, height, transform, top, bottom, left, right, opacity, -webkit-transform;
+  -webkit-transition-timing-function: ease-in-out;
+       -o-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: $time + s;
+       -o-transition-duration: $time + s;
+          transition-duration: $time + s;
   
   &::after,
   &::before {
@@ -177,10 +286,19 @@ main {
     position: absolute;
     border-style: solid;
     border-color: transparent;
-    transform: rotate3d(0, 0, 1, 180deg);
+    -webkit-transform: rotate3d(0, 0, 1, 180deg);
+            transform: rotate3d(0, 0, 1, 180deg);
+    -webkit-transition-property: border-width, border-color, top, bottom, left, right, opacity, width, -webkit-transform;
+    transition-property: border-width, border-color, top, bottom, left, right, opacity, width, -webkit-transform;
+    -o-transition-property: border-width, border-color, top, bottom, left, right, transform, opacity, width;
     transition-property: border-width, border-color, top, bottom, left, right, transform, opacity, width;
-    transition-timing-function: ease-in-out;
-    transition-duration: $time + s;
+    transition-property: border-width, border-color, top, bottom, left, right, transform, opacity, width, -webkit-transform;
+    -webkit-transition-timing-function: ease-in-out;
+         -o-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    -webkit-transition-duration: $time + s;
+         -o-transition-duration: $time + s;
+            transition-duration: $time + s;
   }
   
   &::before {
@@ -249,7 +367,9 @@ main {
 
   .line-group--3 {
     width: calc($size / 3.3);
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
 
     .line--1 {
       left: 0%;
@@ -266,13 +386,21 @@ main {
   }
 
   .line-group--1 {
-    transform: rotate(30deg);
-    transform-origin: 50% 40%;
+    -webkit-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+            transform: rotate(30deg);
+    -webkit-transform-origin: 50% 40%;
+        -ms-transform-origin: 50% 40%;
+            transform-origin: 50% 40%;
   }
 
   .line-group--2 {
-    transform: rotate(-30deg);
-    transform-origin: 50% 40%;
+    -webkit-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    -webkit-transform-origin: 50% 40%;
+        -ms-transform-origin: 50% 40%;
+            transform-origin: 50% 40%;
   }
 
   .shape-group {
@@ -281,7 +409,8 @@ main {
   
     .shape {
       &::before {
-        transform: rotate3d(0, 0, 1, -90deg);
+        -webkit-transform: rotate3d(0, 0, 1, -90deg);
+                transform: rotate3d(0, 0, 1, -90deg);
         border-bottom-width: calc($size / 4);
         border-left-width: calc($size / 7);
         border-right-width: calc($size / 7);
@@ -292,24 +421,29 @@ main {
         border-top-width: calc($size / 4);
         border-left-width: calc($size / 7);
         border-right-width: calc($size / 7);
-        transform: translate3d(0%, -11%, 0) rotate3d(0, 0, 1, 90deg);
+        -webkit-transform: translate3d(0%, -11%, 0) rotate3d(0, 0, 1, 90deg);
+                transform: translate3d(0%, -11%, 0) rotate3d(0, 0, 1, 90deg);
       }
     }
 
     .shape--1 {
-      transform: translate3d(-55.5%, -37%, 0) rotate3d(0, 0, 1, 90deg);
+      -webkit-transform: translate3d(-55.5%, -37%, 0) rotate3d(0, 0, 1, 90deg);
+              transform: translate3d(-55.5%, -37%, 0) rotate3d(0, 0, 1, 90deg);
     }
 
     .shape--2 {
-      transform: translate3d(-88%, -37%, 0) rotate3d(0, 0, 1, 90deg);
+      -webkit-transform: translate3d(-88%, -37%, 0) rotate3d(0, 0, 1, 90deg);
+              transform: translate3d(-88%, -37%, 0) rotate3d(0, 0, 1, 90deg);
     }
 
     .shape--3 {
-      transform: translate3d(-55.5%, -37%, 0) rotate3d(0, 0, 1, 90deg);
+      -webkit-transform: translate3d(-55.5%, -37%, 0) rotate3d(0, 0, 1, 90deg);
+              transform: translate3d(-55.5%, -37%, 0) rotate3d(0, 0, 1, 90deg);
     }
 
     .shape--4 {
-      transform: translate3d(-22%, -37%, 0) rotate3d(0, 0, 1, 90deg);
+      -webkit-transform: translate3d(-22%, -37%, 0) rotate3d(0, 0, 1, 90deg);
+              transform: translate3d(-22%, -37%, 0) rotate3d(0, 0, 1, 90deg);
     }
   }
 }
@@ -362,18 +496,28 @@ main {
   }
     
   .line-group--1 {
-    transform: rotate(-55deg);
-    transform-origin: 50% 50%;
+    -webkit-transform: rotate(-55deg);
+        -ms-transform: rotate(-55deg);
+            transform: rotate(-55deg);
+    -webkit-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
   }
 
   .line-group--2 {
-    transform: rotate(55deg);
-    transform-origin: 50% 50%;
+    -webkit-transform: rotate(55deg);
+        -ms-transform: rotate(55deg);
+            transform: rotate(55deg);
+    -webkit-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
   }
 
   .line-group--3 {
     width: calc($size / 4.2);
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
     
     .line--2,
     .line--3 {
@@ -386,21 +530,25 @@ main {
     height: calc(#{$size} - 50%);
 
     .shape--1 {
-      transform: translate3d(-50%, -87%, 0) rotate3d(0, 0, 1, 90deg); 
+      -webkit-transform: translate3d(-50%, -87%, 0) rotate3d(0, 0, 1, 90deg);
+              transform: translate3d(-50%, -87%, 0) rotate3d(0, 0, 1, 90deg); 
     }
 
     .shape--2 {
-      transform: translate3d(-103%, -50%, 0) rotate3d(0, 0, 1, 90deg);
+      -webkit-transform: translate3d(-103%, -50%, 0) rotate3d(0, 0, 1, 90deg);
+              transform: translate3d(-103%, -50%, 0) rotate3d(0, 0, 1, 90deg);
       
       &::before { opacity: 0; }
     }
 
     .shape--3 {
-      transform: translate3d(-50%, -12%, 0) rotate3d(0, 0, 1, 90deg); 
+      -webkit-transform: translate3d(-50%, -12%, 0) rotate3d(0, 0, 1, 90deg);
+              transform: translate3d(-50%, -12%, 0) rotate3d(0, 0, 1, 90deg); 
     }
 
     .shape--4 {
-      transform: translate3d(4%, -50%, 0) rotate3d(0, 0, 1, 90deg);
+      -webkit-transform: translate3d(4%, -50%, 0) rotate3d(0, 0, 1, 90deg);
+              transform: translate3d(4%, -50%, 0) rotate3d(0, 0, 1, 90deg);
       
       &::after { opacity: 0; }
     }
@@ -438,18 +586,28 @@ main {
   }
 
   .line-group--1 {
-    transform: rotate(34deg);
-    transform-origin: 50% 40%;
+    -webkit-transform: rotate(34deg);
+        -ms-transform: rotate(34deg);
+            transform: rotate(34deg);
+    -webkit-transform-origin: 50% 40%;
+        -ms-transform-origin: 50% 40%;
+            transform-origin: 50% 40%;
   }
 
   .line-group--2 {
-    transform: rotate(-34deg);
-    transform-origin: 50% 40%;
+    -webkit-transform: rotate(-34deg);
+        -ms-transform: rotate(-34deg);
+            transform: rotate(-34deg);
+    -webkit-transform-origin: 50% 40%;
+        -ms-transform-origin: 50% 40%;
+            transform-origin: 50% 40%;
   }
   
   .line-group--3 {
     width: calc($size / 3.2);
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
   }
 
   .shape-group {
@@ -463,32 +621,38 @@ main {
         border-right-width: calc($size / 14);
         height: 0;
         width: calc($size / 7.5);
-        transform: rotate3d(0, 0, 1, 90deg);
+        -webkit-transform: rotate3d(0, 0, 1, 90deg);
+                transform: rotate3d(0, 0, 1, 90deg);
       }
       
       &::after {
         border-top: calc($size / 10) solid #999999;
         border-left: calc($size / 14) solid transparent;
         border-right: calc($size / 14) solid transparent;
-        transform: translate3d(-2%, 120%, 0) rotate3d(0, 0, 1, 270deg);
+        -webkit-transform: translate3d(-2%, 120%, 0) rotate3d(0, 0, 1, 270deg);
+                transform: translate3d(-2%, 120%, 0) rotate3d(0, 0, 1, 270deg);
       }
     }
 
     .shape--1 {
-      transform: translate3d(-76%, -97%, 0) rotate3d(0, 0, 1, 270deg);
+      -webkit-transform: translate3d(-76%, -97%, 0) rotate3d(0, 0, 1, 270deg);
+              transform: translate3d(-76%, -97%, 0) rotate3d(0, 0, 1, 270deg);
     }
 
     .shape--2 {
       opacity: 0;
-      transform: translate3d(-76%, -5%, 0) rotate3d(0, 0, 1, 270deg);
+      -webkit-transform: translate3d(-76%, -5%, 0) rotate3d(0, 0, 1, 270deg);
+              transform: translate3d(-76%, -5%, 0) rotate3d(0, 0, 1, 270deg);
     }
 
     .shape--3 {
-      transform: translate3d(-76%, -4%, 0) rotate3d(0, 0, 1, 270deg);
+      -webkit-transform: translate3d(-76%, -4%, 0) rotate3d(0, 0, 1, 270deg);
+              transform: translate3d(-76%, -4%, 0) rotate3d(0, 0, 1, 270deg);
     }
 
     .shape--4 {
-      transform: translate3d(-76%, -50%, 0) rotate3d(0, 0, 1, 270deg);
+      -webkit-transform: translate3d(-76%, -50%, 0) rotate3d(0, 0, 1, 270deg);
+              transform: translate3d(-76%, -50%, 0) rotate3d(0, 0, 1, 270deg);
     }
   }
 }
