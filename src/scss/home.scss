@@ -699,3 +699,52 @@ $button-color: #111111;
         }
     }
 }
+
+@media screen and (max-width: 450px) {
+    .landing {
+    
+        .text-box {
+            padding: 92px 15px 0px 15px;
+    
+            h2 {
+                font-size: 35px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .landing {
+    
+        .text-box {
+    
+            h2 {
+                font-size: 35px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .landing {
+    
+        .text-box {
+    
+            h2 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}

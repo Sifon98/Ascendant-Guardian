@@ -44,6 +44,18 @@ $button-color: #111111;
         }
     }
 
+    @media screen and (max-width: 850px) {
+        .intro {
+            height: 350px;
+        }
+    }
+
+    @media screen and (max-width: 560px) {
+        .intro {
+            height: 250px;
+        }
+    }
+
     .border {
         border-bottom: 5px solid $border-color;
         -webkit-animation: slideIntro 1.5s;
@@ -217,14 +229,14 @@ $button-color: #111111;
             border: 3px solid $border-color;
             position: absolute;
             cursor: pointer;
-            z-index: 2;
+            z-index: -1 !important;
             background-color: $button-color;
             margin: 0px 20px;
 
             ul {
                 padding: 0px;
                 margin: 0px;
-                z-index: 100;
+                z-index: -1 !important;
 
                 li {
                     display: -webkit-box;
@@ -245,6 +257,7 @@ $button-color: #111111;
                     color: white;
                     text-align: center;
                     outline: none;
+                    z-index: -1 !important;
                 }
 
                 li:last-child {
@@ -461,6 +474,7 @@ $button-color: #111111;
     }
   
     .build-container {
+        z-index: -1;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;

@@ -535,6 +535,7 @@ $border-color: #97989b;
     100% {
         opacity: 0;
         display: none;
+        visibility: hidden;
     }
 }
 
@@ -548,11 +549,13 @@ $border-color: #97989b;
     100% {
         opacity: 0;
         display: none;
+        visibility: hidden;
     }
 }
 
 .hamburger-temp {
     display: none;
+    visibility: hidden;
 
     .hamburger-menu {
         margin-top: 92px;
