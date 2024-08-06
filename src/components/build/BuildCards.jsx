@@ -22,7 +22,7 @@ export default function BuildCards({buildId, tags, classImg, buildTitle, buildTe
           </div>
         </div>
         <div id={classImg} className="image">
-          <div class="color-wrapper">
+          <div className="color-wrapper">
             <div className="pvp-img">
               { tags[2] == "PVP" ? <img src={ CrucibleImg } />: null }
             </div> 

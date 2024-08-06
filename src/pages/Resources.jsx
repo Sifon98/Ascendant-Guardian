@@ -67,7 +67,7 @@ export function Resources() {
             <hr />
             <hr />
           </div>
-          <div className={navOpen == 0 ? '' : navOpen == 1 ? 'navOpen' : 'navClosed'}>
+          <div className={navOpen == 0 ? 'nav-temp' : navOpen == 1 ? 'navOpen' : 'navClosed'}>
             <div className="nav-menu">
               <a href="#intro" className="nav-large" onClick={toggleNav}>ESSENTIAL</a>
               <a href="#collection" className="nav-large" onClick={toggleNav}>COLLECTION</a>
