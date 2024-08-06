@@ -715,6 +715,7 @@ $button-color: #111111;
                 .build-wrapper {
                     height: 100px;
                     margin: 10px 20px 10px 20px;
+                    justify-content: space-between;
     
                     .text {
                         -webkit-box-orient: horizontal;
@@ -1389,6 +1390,15 @@ $button-color: #111111;
 
             @media screen and (max-width: 680px) {
                 .author {
+                    left: 43%;
+                    top: 24.5px;
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+
+            @media screen and (max-width: 520px) {
+                .author {
                     left: 50%;
                     top: 24.5px;
                     width: 30px;
@@ -1403,6 +1413,13 @@ $button-color: #111111;
                     width: 30px;
                     height: 30px;
                 }
+            }
+        }
+
+        @media screen and (max-width: 850px) {
+            .hover-wrapper {
+                width: 100%;
+                margin: 0px 10px;
             }
         }
 
