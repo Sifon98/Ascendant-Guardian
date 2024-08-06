@@ -180,6 +180,27 @@ $button-color: #111111;
     }
 }
 
+@media screen and (max-width: 910px) {
+    .sorting-container {
+
+        .medium-header {
+            display: block;
+            margin: 0px 0px 0px 20px;
+            font-size: 25px;
+            letter-spacing: 0.2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .sorting-container {
+
+        .medium-header {
+            display: none;
+        }
+    }
+}
+
 .largeLine {
     margin: 10px 0px 0px 0px;
     border: 1px solid $border-color;
@@ -222,6 +243,8 @@ $button-color: #111111;
                 background-image: -o-radial-gradient(100% 50%, circle, rgba(10, 10, 18, 0.7), $main-color, $main-color);
                 background-image: radial-gradient(circle at 100% 50%, rgba(10, 10, 18, 0.7), $main-color, $main-color);
                 border-radius: 50px;
+                position: relative;
+                display: flex;
 
                 .guide-card {
                     display: -webkit-box;
@@ -282,7 +305,7 @@ $button-color: #111111;
                         -webkit-transition: 0.3s;
                         -o-transition: 0.3s;
                         transition: 0.3s;
-                        margin: 40px 0px 10px 20px;
+                        margin: 40px 0px 0px 20px;
                         text-decoration: none;
                         letter-spacing: 0.2rem;
                     }
@@ -297,6 +320,132 @@ $button-color: #111111;
                         -webkit-transition: 0.3s;
                         -o-transition: 0.3s;
                         transition: 0.3s;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1700px) {
+        .guide-container {
+            width: auto;
+            padding: 0px 20px 40px 20px;
+        }
+    }
+
+    @media screen and (max-width: 1450px) {
+        .guide-container {
+    
+            .guide-card-img {
+                width: 100%;
+                background-position: 400px bottom;
+                background-size: cover;
+                border-radius: 50px;
+                margin-top: 40px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1250px) {
+        .guide-container {
+    
+            .guide-card-img {
+                background-position: 300px bottom;
+
+                .layer {
+
+                    .guide-card {
+                        width: 70%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 920px) {
+        .guide-container {
+    
+            .guide-card-img {
+                background-position: 0px bottom;
+
+                .layer {
+
+                    .guide-card {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 769px) {
+        .guide-container {
+    
+            .guide-card-img {
+                background-position: -200px bottom;
+
+                .layer {
+
+                    .guide-card {
+
+                        .flex-container {
+
+                            .medium-header {
+                                margin: 0px 0px 10px 20px;
+                                font-size: 28px;
+                            }
+
+                            .under-header {
+                                margin: 20px 0px 10px 20px;
+                                font-size: 20px;
+                            }
+
+                            p {
+                                font-size: 18px;
+                                margin: 20px 0px 10px 20px;
+                            }
+                        }
+
+                        .button {
+                            margin: 20px 0px 10px 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 540px) {
+        .guide-container {
+    
+            .guide-card-img {
+
+                .layer {
+
+                    .guide-card {
+
+                        .flex-container {
+
+                            .medium-header {
+                                margin: 0px 0px 10px 0px;
+                                font-size: 24px;
+                            }
+
+                            .under-header {
+                                margin: 20px 0px 10px 0px;
+                                font-size: 18px;
+                            }
+
+                            p {
+                                font-size: 18px;
+                                margin: 20px 0px 10px 0px;
+                            }
+                        }
+
+                        .button {
+                            margin: 20px 0px 10px 0px;
+                        }
                     }
                 }
             }
