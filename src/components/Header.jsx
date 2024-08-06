@@ -69,8 +69,6 @@ export default function header() {
     }
   },[location]);
 
-  const [isOpen, setOpen] = useState(false);
-
   // Change variable depending on screen width
   const [width, setWidth] = useState(window.innerWidth);
   useEffect(() => {
@@ -123,7 +121,7 @@ export default function header() {
                 </li>
             </ul> : 
             <>
-                <div className={`hamburger ${burgerOpen == 0 ? '' : burgerOpen == 1 ? 'burgerOpen' : 'burgerClosed'}`} to="/" onClick={toggleBurger}>
+                <div className={`hamburger ${burgerOpen == 0 ? '' : burgerOpen == 1 ? 'burgerOpen' : 'burgerClosed'}`} onClick={toggleBurger}>
                     <hr />
                     <hr />
                     <hr />

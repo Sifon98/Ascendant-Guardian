@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from "react-router-dom"
 import '../scss/resources.scss'
 import DimImg from '../img/resources/dim.jpg'
@@ -19,9 +19,35 @@ import ByfImg from '../img/resources/byf.jpg'
 import MyelinImg from '../img/resources/myelin.jpg'
 
 export function Resources() {
+  // Change variable depending on screen width
+  const [width, setWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [window.innerWidth]);
+
+  const [navOpen, setNavOpen] = useState(0);
+
+  const toggleNav = () => {
+    if (navOpen == 0 || navOpen == 2) {
+      setNavOpen(1)
+    }
+    else {
+      setNavOpen(2)
+    }
+  }
+
   return (
     <div id="intro" className="resource-page">
       <div className="resource-page-container">
+        { width > 768 ? 
         <div className="navigation-window">
           <div className="navigation background-slide">
             <div className="wrapper content-fade">
@@ -34,7 +60,23 @@ export function Resources() {
               <a href="#lore" className="nav-large">LORE</a><br/>
             </div>
           </div>
+        </div> 
+        : 
+        <div className="nav-mobile">
+          <div className={`nav-arrow ${navOpen == 0 ? '' : navOpen == 1 ? 'navOpenArrow' : 'navClosedArrow'}`} onClick={toggleNav}>
+            <hr />
+            <hr />
+          </div>
+          <div className={navOpen == 0 ? '' : navOpen == 1 ? 'navOpen' : 'navClosed'}>
+            <div className="nav-menu">
+              <a href="#intro" className="nav-large" onClick={toggleNav}>ESSENTIAL</a>
+              <a href="#collection" className="nav-large" onClick={toggleNav}>COLLECTION</a>
+              <a href="#statistics" className="nav-large" onClick={toggleNav}>STATISTICS</a>
+              <a href="#lore" className="nav-large" onClick={toggleNav}>LORE</a>
+            </div>
+          </div>
         </div>
+        }
         <div className="information">
           <section className="background-slide">
             <div className="wrapper content-fade">
@@ -134,7 +176,7 @@ export function Resources() {
               </div>
               <div className="style-header-inverted">
                   <div className="img">
-                    <iframe src="https://open.spotify.com/embed/playlist/6qKIGSrWeqEGFo5HYQlBi4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe src="https://open.spotify.com/embed/playlist/6qKIGSrWeqEGFo5HYQlBi4?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                   </div>
                   <div className="text">
                       <h3>GREAT MUSIC</h3>
