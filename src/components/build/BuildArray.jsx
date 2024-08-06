@@ -5,8 +5,8 @@ export const preBuildArray = [
         buildTitle: "ONE PUNCH MAN",
         buildText: "One of, if not the best build for Hunters. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
         superImg: "https://www.bungie.net/common/destiny2_content/icons/edf23f2e6951efcab4c4b10630b6f7c4.png", 
-        aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/6a3e6a42ba1ebbd55714f64f26e0d63e.jpg", 
-        aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/7a06c8d2240676ebe3d9479bca280375.jpg", 
+        aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/aec5d87a0d36729045b0ab0baffb8620.jpg", 
+        aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/83c6b789cfbe88a92f1d247ebf4ff62f.jpg", 
         exoticImg: "https://www.bungie.net/common/destiny2_content/icons/51cdf5976d29b61a6800ad5f4d8b10d8.jpg",
         buildGuide: {
             title: "ONE PUNCH MAN <span>/</span>/ HUNTER",
@@ -39,12 +39,12 @@ export const preBuildArray = [
             ],
             aspectsGuide: [
                 {
-                    aspectImg: "https://www.bungie.net/common/destiny2_content/icons/6a3e6a42ba1ebbd55714f64f26e0d63e.jpg",
+                    aspectImg: "https://www.bungie.net/common/destiny2_content/icons/aec5d87a0d36729045b0ab0baffb8620.jpg",
                     aspectTitle: "LETHAL CURRENT",
                     aspectText: "After dodging, your next melee attack has increased lunge range, jolts the target, and creates a damaging aftershock.<br/><br/>Damaging any jolted target with melee attacks also blinds them."
                 },
                 {
-                    aspectImg: "https://www.bungie.net/common/destiny2_content/icons/7a06c8d2240676ebe3d9479bca280375.jpg",
+                    aspectImg: "https://www.bungie.net/common/destiny2_content/icons/83c6b789cfbe88a92f1d247ebf4ff62f.jpg",
                     aspectTitle: "FLOW STATE",
                     aspectText: "Defeating a jolted target makes you amplified.<br/><br/>While you are amplified, your dodge recharges more quickly, you are more resilient while dodging, and your reload speed is greatly increased."
                 }

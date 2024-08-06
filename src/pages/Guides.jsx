@@ -29,7 +29,7 @@ export function Guides() {
         <div className="border" />
       </div>
     <div className={`hider ${menuOpen1 ? 'active' : 'inactive'}`} onClick={()=>{closeAll()}}></div>
-    <div className="sorting-container">
+    <div className="sorting-container-guides">
       <h2 className="medium-header">SORTING:</h2>
       <div className="menu-container">
         <div className={`menu-selector ${menuOpen1 ? 'box-shadow' : '' }`} onClick={()=>{setMenuOpen1(!menuOpen1)}}>
