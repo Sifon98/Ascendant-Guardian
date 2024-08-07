@@ -307,6 +307,7 @@ $button-color: #111111;
 
                     li {
                         width: 180px;
+                        letter-spacing: 0.1rem;
                     }
                 }
             }
@@ -380,7 +381,51 @@ $button-color: #111111;
                     li {
                         width: 110px;
                         height: 45px;
-                        letter-spacing: 0.1rem;
+                        letter-spacing: 0.05rem;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .menu-container:nth-child(2) {
+
+            .menu-selector {
+                margin-left: 0px;
+            }
+        }
+
+        .menu-container:last-child {
+
+            .menu-selector {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .sorting-container {
+        height: 80px;
+
+        .menu-container {
+
+            .menu-selector {
+                width: 100px;
+                margin: 0px 4px;
+                letter-spacing: 0rem;
+                font-size: 14px;
+            }
+
+            .dropdown-menu {
+                margin: 0px 5px;
+
+                ul {
+
+                    li {
+                        width: 110px;
+                        height: 45px;
+                        letter-spacing: 0.05rem;
                         font-size: 14px;
                     }
                 }
@@ -578,9 +623,7 @@ $button-color: #111111;
                         -webkit-box-direction: normal;
                             -ms-flex-direction: column;
                                 flex-direction: column;
-                        -webkit-box-pack: justify;
-                            -ms-flex-pack: justify;
-                                justify-content: space-between;
+                        justify-content: flex-end;
 
                         .pvp-img {
                             text-align: right;
@@ -684,11 +727,8 @@ $button-color: #111111;
                                     justify-content: space-between;
                             -webkit-box-align: start;
                                 -ms-flex-align: start;
-                                    align-items: flex-start;
-                            -webkit-box-orient: horizontal;
-                            -webkit-box-direction: reverse;
-                                -ms-flex-direction: row-reverse;
-                                    flex-direction: row-reverse;
+                                    align-items: flex-end;
+                                    flex-direction: row;
     
                             .image-info {
                                 width: auto;
@@ -1040,27 +1080,62 @@ $button-color: #111111;
 
             @media screen and (max-width: 465px) {
                 .build-wrapper {
+                    height: auto;
+                    flex-direction: column;
     
                     .text {
-                        width: 170px;
-                        margin: 10px 10px 10px 15px;
+                        justify-content: center;
+                        width: auto;
     
                         .normal-info {
     
                             h3 {
-                                text-align: left;
-                                font-size: 16px;
-                                letter-spacing: 0;
+                                text-align: center;
                             }
     
                             p {
-                                text-align: left;
-                                margin-top: 5px;
-                                margin-left: 0px;
-                                font-size: 14px;
+                                text-align: center;
                             }
                         }
                     }
+    
+                    .image {
+    
+                        .color-wrapper {
+                            justify-content: center;
+                            background-image: radial-gradient(circle at 80% 300%, rgba(10, 10, 18, 0), $main-color, $main-color); 
+
+    
+                            .pvp-img {
+                                display: flex;
+                            }
+    
+                            .img-container {
+    
+                                hr {
+                                    display: block;
+                                }
+    
+                                .large-img {
+                                    width: 50px;
+                                }
+    
+                                .images {
+    
+                                    img {
+                                        width: 40px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .build-wrapper:hover {
+                    -webkit-transform: scale(1);
+                        -ms-transform: scale(1);
+                            transform: scale(1);
+                    cursor: pointer;
                 }
             }
 
@@ -1198,7 +1273,7 @@ $button-color: #111111;
             @media screen and (max-width: 1600px) {
                 .author {
                     right: 7.5%;
-                    top: 75%;
+                    top: 35px;
             
                     a {
                         display: block;
@@ -1424,8 +1499,8 @@ $button-color: #111111;
 
             @media screen and (max-width: 465px) {
                 .author {
-                    left: 44%;
-                    top: 24.5px;
+                    left: 88.5%;
+                    top: 21px;
                     width: 30px;
                     height: 30px;
                 }

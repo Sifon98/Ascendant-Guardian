@@ -23,9 +23,6 @@ export default function BuildCards({buildId, tags, classImg, buildTitle, buildTe
         </div>
         <div id={classImg} className="image">
           <div className="color-wrapper">
-            <div className="pvp-img">
-              { tags[2] == "PVP" ? <img src={ CrucibleImg } />: null }
-            </div> 
             <div className="image-info">
                 <div className="img-container">
                     <img className="large-img" src={superImg}/>

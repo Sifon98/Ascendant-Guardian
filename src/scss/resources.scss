@@ -538,15 +538,14 @@ $button-color: #111111;
     }
 
     .nav-mobile {
-        display: flex;
-        flex-direction: column;
         z-index: 1;
 
         .nav-arrow {
+            padding: 5px 0px;
             z-index: 1;
             background-color: #0A0A12;
-            height: 80px;
-            width: 80px;
+            height: 60px;
+            width: 60px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -558,7 +557,7 @@ $button-color: #111111;
             transition: 0.6s ease-in-out;
 
             hr {
-                width: 40px;
+                width: 30px;
                 height: 6px;
                 margin: 6px 0px;
                 border-radius: 9999px;
@@ -568,21 +567,20 @@ $button-color: #111111;
 
             hr:first-child {
                 rotate: 45deg;
-                translate: 0 -3px;
                 transition: 0.6s ease-in-out;
             }
 
             hr:last-child {
                 rotate: -45deg;
-                translate: 0 4px;
                 transition: 0.6s ease-in-out;
             }
         }
 
         .navOpenArrow {
             left: 100vw;
-            margin-left: -80px;
+            margin-left: -60px;
             transition: 0.6s ease-in-out;
+            background-color: #0a0a1200;
 
             hr:first-child {
                 rotate: -45deg;
@@ -716,6 +714,36 @@ $button-color: #111111;
                     color: white;
                     margin-left: 20px;
                     display: none;
+                }
+            }
+        }
+
+        @media screen and (max-width: 520px) {
+            .nav-arrow {
+                top: 62px;
+            }
+
+            .navOpen {
+            
+                .nav-menu {
+                    top: 62px;
+                    height: 300px;
+        
+                    a {
+                        font-size: 40px;
+                    }
+                }
+            }
+
+            .navClosed {
+            
+                .nav-menu {
+                    top: 62px;
+                    height: 300px;
+        
+                    a {
+                        font-size: 40px;
+                    }
                 }
             }
         }
@@ -856,5 +884,12 @@ $button-color: #111111;
                 display: none;
             }
         }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .resource-page {
+        
+        padding-top: 90px;
     }
 }

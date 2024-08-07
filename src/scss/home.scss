@@ -700,6 +700,15 @@ $button-color: #111111;
     }
 }
 
+@media screen and (max-width: 550px) {
+    .landing {
+    
+        .text-box {
+            padding: 92px 30px 30px 30px;
+        }
+    }
+}
+
 @media screen and (max-width: 450px) {
     .landing {
     
