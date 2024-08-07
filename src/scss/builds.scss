@@ -330,7 +330,7 @@ $button-color: #111111;
                 width: 160px;
                 height: 50px;
                 margin: 0px 10px;
-                letter-spacing: 0;
+                letter-spacing: 0.05rem;
                 font-size: 16px;
             }
 
@@ -342,6 +342,7 @@ $button-color: #111111;
                     li {
                         width: 160px;
                         height: 50px;
+                        letter-spacing: 0.05rem;
                         font-size: 16px;
                     }
                 }
@@ -367,8 +368,8 @@ $button-color: #111111;
                 width: 110px;
                 height: 45px;
                 margin: 0px 5px;
-                letter-spacing: 0;
-                font-size: 16px;
+                letter-spacing: 0.05rem;
+                font-size: 14px;
             }
 
             .dropdown-menu {
@@ -379,9 +380,24 @@ $button-color: #111111;
                     li {
                         width: 110px;
                         height: 45px;
-                        font-size: 16px;
+                        letter-spacing: 0.1rem;
+                        font-size: 14px;
                     }
                 }
+            }
+        }
+
+        .menu-container:nth-child(2) {
+
+            .menu-selector {
+                margin-left: 0px;
+            }
+        }
+
+        .menu-container:last-child {
+
+            .menu-selector {
+                margin-right: 0px;
             }
         }
     }

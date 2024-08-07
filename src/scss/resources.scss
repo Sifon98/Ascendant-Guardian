@@ -424,6 +424,32 @@ $button-color: #111111;
                             -webkit-text-fill-color: rgba(255, 255, 255, 0.15);
                         }
                     }
+
+                    @media screen and (max-width: 1500px) {
+                        .img-link {
+                            font-size: 60px;
+                        }
+                    }
+
+                    @media screen and (max-width: 1340px) {
+                        .img-link {
+                            font-size: 80px;
+                            width: 100%;
+                            justify-content: center;
+                        }
+                    }
+
+                    @media screen and (max-width: 550px) {
+                        .img-link {
+                            font-size: 50px;
+                        }
+                    }
+
+                    @media screen and (max-width: 320px) {
+                        .img-link {
+                            font-size: 35px;
+                        }
+                    }
     
                     .style-header {
                         display: -webkit-box;
@@ -444,6 +470,7 @@ $button-color: #111111;
                         .img {
                             position: relative;
                             width: 50%;
+                            display: flex;
                             
                             img {
                                 width: 100%;

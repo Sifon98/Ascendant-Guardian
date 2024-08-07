@@ -451,6 +451,39 @@ $button-color: #111111;
             }
         }
     }
+
+    @media screen and (max-width: 350px) {
+        .guide-container {
+    
+            .guide-card-img {
+
+                .layer {
+
+                    .guide-card {
+
+                        .flex-container {
+
+                            .medium-header {
+                                font-size: 20px;
+                            }
+
+                            .under-header {
+                                font-size: 16px;
+                            }
+
+                            p {
+                                font-size: 16px;
+                            }
+                        }
+
+                        .button {
+                            width: 170px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @-webkit-keyframes fadeGuide {
