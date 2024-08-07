@@ -1462,7 +1462,7 @@ export const preBuildArray = [
 
 
 
-    {buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+    {buildId:"arcTitan1", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
         buildTitle: "ARC PUNCH",
         buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
         superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -1655,7 +1655,7 @@ export const preBuildArray = [
                 loopEnd: "<strong>Continue spamming grenades</strong>"
             }
         }
-    },{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+    },{buildId:"arcTitan2", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
     buildTitle: "ARC PUNCH",
     buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
     superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -1848,7 +1848,7 @@ export const preBuildArray = [
             loopEnd: "<strong>Continue spamming grenades</strong>"
         }
     }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan3", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -2041,7 +2041,7 @@ buildGuide: {
         loopEnd: "<strong>Continue spamming grenades</strong>"
     }
 }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan4", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -2234,7 +2234,7 @@ buildGuide: {
         loopEnd: "<strong>Continue spamming grenades</strong>"
     }
 }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan5", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -2427,7 +2427,7 @@ buildGuide: {
         loopEnd: "<strong>Continue spamming grenades</strong>"
     }
 }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan6", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -2620,7 +2620,7 @@ buildGuide: {
         loopEnd: "<strong>Continue spamming grenades</strong>"
     }
 }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan7", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -2813,7 +2813,7 @@ buildGuide: {
         loopEnd: "<strong>Continue spamming grenades</strong>"
     }
 }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan8", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -3006,7 +3006,7 @@ buildGuide: {
         loopEnd: "<strong>Continue spamming grenades</strong>"
     }
 }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan9", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -3199,7 +3199,7 @@ buildGuide: {
         loopEnd: "<strong>Continue spamming grenades</strong>"
     }
 }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan10", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -3392,7 +3392,7 @@ buildGuide: {
         loopEnd: "<strong>Continue spamming grenades</strong>"
     }
 }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan11", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -3585,7 +3585,7 @@ buildGuide: {
         loopEnd: "<strong>Continue spamming grenades</strong>"
     }
 }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan12", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -3778,7 +3778,7 @@ buildGuide: {
         loopEnd: "<strong>Continue spamming grenades</strong>"
     }
 }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan13", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -3971,7 +3971,7 @@ buildGuide: {
         loopEnd: "<strong>Continue spamming grenades</strong>"
     }
 }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan14", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
@@ -4164,7 +4164,7 @@ buildGuide: {
         loopEnd: "<strong>Continue spamming grenades</strong>"
     }
 }
-},{buildId:"arcTitan", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
+},{buildId:"arcTitan15", classImg: "arcT", tags: ['TITAN', 'ARC', 'PVP'],
 buildTitle: "ARC PUNCH",
 buildText: "One of, if not the best build for Warlocks. Meele focused with insane survivability. Perfect for tough PVE endgame content.",
 superImg: "https://www.bungie.net/common/destiny2_content/icons/2f3615ddcd86ab7c50653d2d1847c3bf.png",
