@@ -1177,12 +1177,12 @@ $button-color: #111111;
                 opacity: 1;
             }
             99% {
-                opacity: 0;
-                visibility: visible;
                 display: inline-block;
             }
             100% {
+                opacity: 0;
                 display: none;
+                visibility: hidden;
             }
         }
 
@@ -1338,6 +1338,21 @@ $button-color: #111111;
                             }
                         }
 
+                        .style-noheader {
+                            flex-direction: column;
+                            align-items: center;
+
+                            .text {
+                                width: 100%;
+                                margin: 0px;
+                            }
+
+                            .img {
+                                margin-top: 30px;
+                                width: 100%;
+                            }
+                        }
+
                         .style-header-inverted {
                             flex-direction: column-reverse;
                             align-items: center;
@@ -1381,6 +1396,11 @@ $button-color: #111111;
                         }
 
                         .style-header {
+                            margin-left: 0px;
+                            margin-right: 0px;
+                        }
+
+                        .style-noheader {
                             margin-left: 0px;
                             margin-right: 0px;
                         }
