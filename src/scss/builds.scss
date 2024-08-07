@@ -1638,7 +1638,6 @@ $button-color: #111111;
         display: flex;
         width: 100%;
         max-width: 1829px;
-        max-height: 1090px;
         -webkit-animation: slideIn 1s;
                 animation: slideIn 1s;
         background-color: $main-color; 
@@ -2109,6 +2108,482 @@ $button-color: #111111;
         }
     }
 }
+
+@media screen and (max-width: 1550px) {
+    .build-guide-container {
+
+        .build-general {
+            flex-direction: column;
+            height: auto !important;
+
+            section {
+
+                .shared-container {
+
+                    .info-container {
+
+                        .row {
+
+                            .item {
+
+                                .hover-container {
+
+                                    .hover-box {
+                                                
+                                        margin-left: -140px !important;
+                                    }
+                                }
+
+                                .item-row {
+
+                                    .multiple-items {
+
+                                        .hover-container {
+
+                                            .hover-box {
+                                                
+                                                margin-left: -140px !important;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .background-img {
+                width: auto;
+                display: grid;
+                border-bottom: 5px solid;
+                border-image: linear-gradient(to right, $border-color 0%, $border-color 70%, $main-color 90%) 3;
+            }
+
+            .equipment-container {
+                width: auto;
+                border: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .build-guide-container {
+
+        .build-guide {
+            padding-bottom: 40px;
+            width: 100%;
+
+            section {
+
+                .guide-container {
+                    flex-direction: column;
+
+                    .row {
+                        width: 100%;
+
+                        .item {
+                            margin-right: 0px;
+                        }
+
+                        .last-text {
+                            margin-bottom: 0px;
+                        }
+                    }
+
+                    .row:nth-child(2) {
+                        flex-direction: row;
+
+                        .item {
+                            width: 50%;
+                            margin-left: 0px;
+
+                            ul {
+                                
+                                li {
+                                    margin-right: 0px;
+                                }
+                            }
+                        }
+
+                        .item:nth-child(2) {
+                            padding: 0px 0px 0px 40px;
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .build-guide-container {
+
+        .build-general {
+
+            section {
+
+                .shared-container {
+
+                    .info-container {
+
+                        .row {
+
+                            .item {
+
+                                .hover-container {
+
+                                    .hover-box {
+                                        width: 250px;
+                                        margin-left: -80px !important;
+
+                                        .hover-box-header {
+
+                                                h3 {
+                                                font-size: 20px;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .item-row {
+
+                                    .multiple-items {
+
+                                        .hover-container {
+
+                                            .hover-box {
+                                                width: 250px;
+                                                margin-left: -80px !important;
+        
+                                                .hover-box-header {
+        
+                                                        h3 {
+                                                        font-size: 20px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .build-guide {
+
+            section {
+
+                .guide-container {
+
+                    .row:nth-child(2) {
+                        flex-direction: column;
+
+                        .item {
+                            width: 100%;
+                        }
+
+                        .item:nth-child(2) {
+                            padding: 40px 0px 0px 0px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .build-guide-container {
+
+        .build-general {
+
+            section {
+
+                .shared-container {
+
+                    .info-container {
+
+                        .row {
+                            flex-direction: column;
+                            padding-top: 0;
+
+                            .item {
+                                padding-top: 30px;
+
+                                .button {
+                                    margin-bottom: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .build-guide-container {
+
+        .build-general {
+
+            section {
+
+                .shared-container {
+
+                    .info-container {
+
+                        .row {
+
+                            .item {
+
+                                .hover-container {
+
+                                    .hover-box {
+                                        width: 250px;
+                                        margin-left: -40px !important;
+
+                                        .hover-box-header {
+
+                                                h3 {
+                                                font-size: 20px;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .item-row {
+
+                                    .multiple-items {
+
+                                        .hover-container {
+
+                                            .hover-box {
+                                                width: 250px;
+                                                margin-left: -40px !important;
+        
+                                                .hover-box-header {
+        
+                                                        h3 {
+                                                        font-size: 20px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .background-img {
+
+                .above-layer {
+
+                    .shared-container {
+                        width: 90%;
+                    }
+                }
+            }
+
+            .equipment-container {
+                
+                .shared-container {
+                    width: 90%;
+                }
+            }
+        }
+
+        .build-guide {
+
+            section {
+
+                .guide-container {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .build-guide-container {
+
+        .build-general {
+
+            section {
+
+                .shared-container {
+
+                    .info-container {
+
+                        .row {
+
+                            .item {
+
+                                .hover-container {
+
+                                    .hover-box {
+                                        width: auto;
+                                        margin: 0px 25px !important;
+                                        left: 0;
+
+                                        .hover-box-header {
+
+                                            h3 {
+                                                font-size: 16px;
+                                                letter-spacing: 0.1rem;
+                                            }
+                                        }
+
+                                        p {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+
+                                .item-row {
+
+                                    .multiple-items {
+
+                                        .hover-container {
+
+                                            .hover-box {
+                                                width: auto;
+                                                margin: 0px 25px !important;
+                                                left: 0;
+        
+                                                .hover-box-header {
+        
+                                                    h3 {
+                                                        font-size: 16px;
+                                                        letter-spacing: 0.1rem;
+                                                    }
+                                                }
+        
+                                                p {
+                                                    font-size: 14px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .build-guide-container {
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .build-guide-container {
+
+        .build-general {
+
+            section {
+
+                .shared-container {
+
+                    .info-container {
+
+                        .row {
+
+                            .item {
+
+                                .hover-container {
+
+                                    .super-img {
+                                        height: 70px;
+                                    }
+
+                                    .hover-box {
+                                        margin: 0px 15px !important;
+
+                                        .hover-box-header {
+
+                                            h3 {
+                                                letter-spacing: 0.05rem;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .item-row {
+
+                                    .multiple-items {
+
+                                        .hover-container {
+
+                                            .hover-box {
+                                                margin: 0px 15px !important;
+        
+                                                .hover-box-header {
+        
+                                                    h3 {
+                                                        letter-spacing: 0.05rem;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .hover-container {
+                                        
+                                        img {
+                                            height: 50px;
+                                        }
+                                    }
+                                }
+
+                                p {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .build-guide {
+
+            section {
+
+                .guide-container {
+
+                    .row {
+
+                        .item {
+
+                            p {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 .red {
     color: red;

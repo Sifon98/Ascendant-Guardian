@@ -120,12 +120,12 @@ export const preBuildArray = [
                 ],
                 arms: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0f92411871de9bf4e2ab55c666c7a2e5.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/6891aeae420441de2e1ce01a290ef9b9.png",
                         modTitle: "HEAVY HANDED",
                         modText: "Your powered melee final blows create Orbs of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0f92411871de9bf4e2ab55c666c7a2e5.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/6891aeae420441de2e1ce01a290ef9b9.png",
                         modTitle: "HEAVY HANDED",
                         modText: "Your powered melee final blows create Orbs of Power."
                     },
@@ -137,17 +137,17 @@ export const preBuildArray = [
                 ],
                 chest: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/d03f442015fcd68e9929c2a4a39a5ff4.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/5ac37f66e94586d07a6ad1c5ea745459.png",
                         modTitle: "CONCUSSIVE DAMPENER",
                         modText: "Reduces incoming area-of-effect damage from combatants."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                         modTitle: "ARC RESISTANCE",
                         modText: "Reduces incoming Arc damage from combatants."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                         modTitle: "SOLAR RESISTANCE",
                         modText: "Reduces incoming Solar damage from combatants."
                     }
@@ -171,17 +171,17 @@ export const preBuildArray = [
                 ],
                 class: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/709551228e3c365edfaa34484d2b3212.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/bca43b0289e75519786e7617321e480c.png",
                         modTitle: "REAPER",
                         modText: "Shortly after using your class ability, your next weapon final blow spawns an Orb of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                         modTitle: "POWERFUL ATTRACTION",
                         modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/c3f2da94d6cfb3c643932d3d4c41b4a0.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/b9cc0d0a7689c2a94e4f1d2bbc1b106c.png",
                         modTitle: "BOMBER",
                         modText: "Reduces grenade cooldown when using your class ability."
                     }
@@ -421,8 +421,8 @@ export const preBuildArray = [
         buildTitle: "SUSPENDER",
         buildText: "One of, if not the best build for Hunters. Meele focused with insane survivability.",
         superImg: "https://www.bungie.net/common/destiny2_content/icons/3da7e8684b09600e90ea5c16f1edebe0.png",
-        aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/838134e7e3d13bb5b74ae995653715fc.jpg",
-        aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/fb8ad358e003be53e70e1f25aa9f607a.jpg", 
+        aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/ab8095cdd657b0cd66452ddb44ef01e1.jpg",
+        aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/5e777fa7e6fe7c1ae0574c91639bee10.jpg", 
         exoticImg: "https://www.bungie.net/common/destiny2_content/icons/e6e10342a97eb3f6b974399ef7214e75.jpg",
         author: "Sifon",
         buildGuide: {
@@ -456,34 +456,34 @@ export const preBuildArray = [
             ],
             aspectsGuide: [
                 {
-                    aspectImg: "https://www.bungie.net/common/destiny2_content/icons/838134e7e3d13bb5b74ae995653715fc.jpg",
+                    aspectImg: "https://www.bungie.net/common/destiny2_content/icons/ab8095cdd657b0cd66452ddb44ef01e1.jpg",
                     aspectTitle: "WHIRLING MAELSTROM",
                     aspectText: "Destroying a Tangle will weave a violent, writhing mass of Strand fibers. The Strand mass seeks out and damages targets, emitting Unraveling projectiles when it defeats them."
                 },
                 {
-                    aspectImg: "https://www.bungie.net/common/destiny2_content/icons/fb8ad358e003be53e70e1f25aa9f607a.jpg",
+                    aspectImg: "https://www.bungie.net/common/destiny2_content/icons/5e777fa7e6fe7c1ae0574c91639bee10.jpg",
                     aspectTitle: "ENSNARING SLAM",
                     aspectText: "Activate your air move to consume your class ability energy and dive to the ground, suspending all nearby targets on impact. Using this ability extends class ability cooldown time.<br/><br/>A small shadow box with an arachnid on display showcasing the creature's deadly beauty. Give them something to really catch their eye."
                 }
             ],
             fragmentsGuide: [
                 {
-                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/feffa1ea71e0317462b406807a9d8b45.jpg",
+                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/9937046794352b7c7ce31340ac7832ba.jpg",
                     fragmentTitle: "THREAD OF WARDING",
                     fragmentText: "Picking up an Orb of Power grants Woven Mail.<br/><br/>-10 Resilience <span className='red'>▼</span>"
                 },
                 {
-                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/4b78910e8b8b684d7dfca716eaea4616.jpg",
+                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/d42d64ff749d858b6c72c5dc4b775797.jpg",
                     fragmentTitle: "THREAD OF PROPAGATION",
                     fragmentText: "Powered meele final blows grant your Strand weapons Unraveling Rounds<br/><br/>+10 Strenght <span className='green'>▲</span>"
                 },
                 {
-                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/f3d9e926cd9b18f7b68ecb49dcadefc4.jpg",
+                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/8cceec23c83bbbf576bd0b7eba18abe4.jpg",
                     fragmentTitle: "THREAD OF GENERATION",
                     fragmentText: "Dealing damage generates greneda energy.<br/><br/>-10 Discipline <span className='red'>▼</span>"
                 },
                 {
-                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/2d629d0adbf1d1cab255f087caaafeae.jpg",
+                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/384da9161d140e14030e417aae613266.jpg",
                     fragmentTitle: "THREAD OF CONTINUITY",
                     fragmentText: "Suspend, Unravel, and Sever effect applied to targets have increased duration."
                 }
