@@ -578,7 +578,7 @@ $button-color: #111111;
 
         .navOpenArrow {
             left: 100vw;
-            margin-left: -60px;
+            margin-left: -70px;
             transition: 0.6s ease-in-out;
             background-color: #0a0a1200;
 
@@ -875,6 +875,43 @@ $button-color: #111111;
     }
 }
 
+@media screen and (max-width: 1050px) {
+    .resource-page {
+
+        .resource-page-container {
+
+            .information {
+
+                section {
+
+                    .wrapper {
+
+                        .medium-header {
+                            margin-left: 0px;
+                            margin-right: 0px;
+                        }
+
+                        .info {
+                            margin-left: 0px;
+                            margin-right: 0px;
+                        }
+
+                        .style-header {
+                            margin-left: 0px;
+                            margin-right: 0px;
+                        }
+
+                        .style-header-inverted {
+                            margin-left: 0px;
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 769px) {
     .resource-page {
 
@@ -889,7 +926,6 @@ $button-color: #111111;
 
 @media screen and (max-width: 520px) {
     .resource-page {
-        
         padding-top: 90px;
     }
 }
