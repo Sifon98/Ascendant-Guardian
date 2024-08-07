@@ -20,6 +20,7 @@ export default function Loading({unload}) {
 
   return (
         <main className={`${unload && "unload"}`}>
+            <div className="testermannen">
             <div className={`the-cade-6-unit-dank-af-anmation ${hunter == true ? "hunter" : '' } ${warlock == true ? "warlock" : '' } ${titan == true ? "titan" : '' }`}>
                 <span className="circle circle--1"></span>
                 <span className="circle circle--2"></span>
@@ -49,6 +50,7 @@ export default function Loading({unload}) {
                     <span className="shape shape--3"></span>
                     <span className="shape shape--4"></span>
                 </div>
+            </div>
             </div>
         </main>
   )
