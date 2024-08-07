@@ -97,9 +97,11 @@ export default function header() {
   return (
     <div className={color ? "navbar navbar-dark" : "navbar"}>
         <div className="logo">
-            { width < 1160 ? "" : <h1 className="first">ASCENDANT</h1> }
-            <img src={logo} alt="Destiny logo" />
-            { width < 1160 ? "" : <h1>GUARDIAN</h1> }
+            <Link to="/">
+                { width < 1160 ? "" : <h1 className="first">ASCENDANT</h1> }
+                <img src={logo} alt="Destiny logo" />
+                { width < 1160 ? "" : <h1>GUARDIAN</h1> }
+            </Link>
         </div>
         { width > 768 ? 
             <ul>

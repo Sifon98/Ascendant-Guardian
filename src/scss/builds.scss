@@ -211,18 +211,6 @@ $button-color: #111111;
             letter-spacing: 0.2rem;
         }
 
-        .menu-selector:hover {
-            -webkit-box-shadow:
-                0 0 0 4px $main-color,
-                0 0 0 7px hsl(0, 0%, 90%);
-                    box-shadow:
-                0 0 0 4px $main-color,
-                0 0 0 7px hsl(0, 0%, 90%);
-            -webkit-transition: 0.3s;
-            -o-transition: 0.3s;
-            transition: 0.3s;
-        }
-
         .dropdown-menu {
             display: none;
             margin-top: 13px !important;
@@ -373,6 +361,15 @@ $button-color: #111111;
                 font-size: 14px;
             }
 
+            .box-shadow {
+                -webkit-box-shadow:
+                    0 0 0 3px $main-color,
+                    0 0 0 5px hsl(0, 0%, 90%);
+                        box-shadow:
+                    0 0 0 3px $main-color,
+                    0 0 0 5px hsl(0, 0%, 90%);
+            }
+
             .dropdown-menu {
                 margin: 0px 5px;
 
@@ -423,7 +420,7 @@ $button-color: #111111;
                 ul {
 
                     li {
-                        width: 110px;
+                        width: 100px;
                         height: 45px;
                         letter-spacing: 0.05rem;
                         font-size: 14px;
