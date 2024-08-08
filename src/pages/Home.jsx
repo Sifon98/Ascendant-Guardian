@@ -2,10 +2,10 @@ import React, { useEffect, useState, useRef } from 'react'
 import '../scss/home.scss'
 import { Link } from "react-router-dom"
 // Images for the page landing
-import Ennead from "../img/home/Ennead.jpg"
+import Ennead from "../img/home/ennead.jpg"
 import Ennead1920 from "../img/home/ennead-1920w.jpg"
 import EnneadMobile from "../img/home/ennead-mobile.jpg"
-import Enneadwebp from "../img/home/Ennead.webp"
+import Enneadwebp from "../img/home/ennead.webp"
 import Ennead1920webp from "../img/home/ennead-1920w.webp"
 import EnneadMobilewebp from "../img/home/ennead-mobile.webp"
 // Images for the pages builds section
