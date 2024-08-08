@@ -1911,6 +1911,7 @@ $button-color: #111111;
 
         // Special CSS for the second half of the first section
         .equipment-container {
+            position: relative;
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -2451,7 +2452,8 @@ $button-color: #111111;
 
 @media screen and (max-width: 630px) {
     .build-guide-container {
-
+        margin: 0px;
+        
         .build-general {
 
             section {

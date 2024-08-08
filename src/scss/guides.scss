@@ -560,6 +560,45 @@ $button-color: #111111;
         }
     }
 
+    @media screen and (max-width: 1540px) {
+        .modal {
+    
+            img {
+                margin-top: 0px;
+                max-width: 95%;
+                height: auto;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 769px) {
+        .modal {
+            z-index: 10;
+    
+            img {
+                margin-top: 0px;
+                max-width: 95%;
+                height: auto;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    @media screen and (max-height: 769px) {
+        .modal {
+            z-index: 10;
+    
+            img {
+                margin-top: 0px;
+                max-width: 95%;
+                max-height: 95%;
+                height: auto;
+                border-radius: 20px;
+            }
+        }
+    }
+
     .active {
         display: -webkit-box !important;
         display: -ms-flexbox !important;
