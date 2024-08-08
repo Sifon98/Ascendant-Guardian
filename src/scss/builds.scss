@@ -843,7 +843,6 @@ $button-color: #111111;
 
                             .testar {
                                 height: 190%;
-
                             }
                         }
     
@@ -1652,6 +1651,7 @@ $button-color: #111111;
     margin: auto;
     padding-top: 120px;
     padding-bottom: 100px;
+    align-items: flex-start;
 
     span {
         position: relative;
@@ -1876,10 +1876,26 @@ $button-color: #111111;
         }
         
         .background-img {
-            background-position: -750px center;
-            background-size: fill;
+            display: flex;
+            position: relative;
+
+            .image-chooser {
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                
+                img {
+                    height: 100%;
+                    width: auto;
+                    margin-left: -500px;
+                }
+            }
 
             .above-layer {
+                z-index: 1;
                 display: -webkit-box;
                 display: -ms-flexbox;
                 display: flex;
@@ -2265,6 +2281,7 @@ $button-color: #111111;
             section {
 
                 .shared-container {
+                    width: 90%;
 
                     .info-container {
 
@@ -2338,10 +2355,67 @@ $button-color: #111111;
     }
 }
 
+@media screen and (max-width: 800px) {
+    .build-guide-container {
+
+        .build-general {
+
+            section {
+
+                .shared-container {
+
+                    .info-container {
+
+                        .row {
+
+                            .item {
+
+                                .hover-container {
+
+                                    .hover-box {
+                                        width: auto;
+                                        margin: 0px 15px !important;
+                                        left: 0;
+                                    }
+                                }
+
+                                .item-row {
+
+                                    .multiple-items {
+
+                                        .hover-container {
+
+                                            .hover-box {
+                                                width: auto;
+                                                margin: 0px 15px !important;
+                                                left: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 750px) {
     .build-guide-container {
 
         .build-general {
+
+            .background-img {
+
+                .image-chooser {
+
+                    img {
+                        margin-left: 0px;
+                    }
+                }
+            }
 
             section {
 
@@ -2361,10 +2435,16 @@ $button-color: #111111;
                                 }
                             }
                         }
+
+                        .mod-row {
+                                
+                            .item {
+                                padding-top: 0px;
+                            }
+                        }
                     }
                 }
             }
-            
         }
     }
 }
@@ -2387,8 +2467,6 @@ $button-color: #111111;
                                 .hover-container {
 
                                     .hover-box {
-                                        width: 250px;
-                                        margin-left: -40px !important;
 
                                         .hover-box-header {
 
@@ -2406,8 +2484,6 @@ $button-color: #111111;
                                         .hover-container {
 
                                             .hover-box {
-                                                width: 250px;
-                                                margin-left: -40px !important;
         
                                                 .hover-box-header {
         
@@ -2449,6 +2525,16 @@ $button-color: #111111;
 
                 .guide-container {
                     width: 100%;
+
+                    .row {
+    
+                        .item {
+    
+                            ul {
+                                padding-left: 20px;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -2473,9 +2559,6 @@ $button-color: #111111;
                                 .hover-container {
 
                                     .hover-box {
-                                        width: auto;
-                                        margin: 0px 25px !important;
-                                        left: 0;
 
                                         .hover-box-header {
 
@@ -2484,7 +2567,7 @@ $button-color: #111111;
                                                 letter-spacing: 0.1rem;
                                             }
                                         }
-
+        
                                         p {
                                             font-size: 14px;
                                         }
@@ -2498,10 +2581,7 @@ $button-color: #111111;
                                         .hover-container {
 
                                             .hover-box {
-                                                width: auto;
-                                                margin: 0px 25px !important;
-                                                left: 0;
-        
+
                                                 .hover-box-header {
         
                                                     h3 {
@@ -2529,11 +2609,6 @@ $button-color: #111111;
 @media screen and (max-width: 520px) {
     .build-guide-container {
         padding-top: 90px;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    .build-guide-container {
 
         .build-general {
 
@@ -2554,7 +2629,7 @@ $button-color: #111111;
                                     }
 
                                     .hover-box {
-                                        margin: 0px 15px !important;
+                                        margin: 0px 10px !important;
 
                                         .hover-box-header {
 
@@ -2566,13 +2641,15 @@ $button-color: #111111;
                                 }
 
                                 .item-row {
+                                    flex-wrap: wrap;
+                                    
 
                                     .multiple-items {
 
                                         .hover-container {
 
                                             .hover-box {
-                                                margin: 0px 15px !important;
+                                                margin: 0px 10px !important;
         
                                                 .hover-box-header {
         
@@ -2582,6 +2659,11 @@ $button-color: #111111;
                                                 }
                                             }
                                         }
+                                    }
+
+                                    .svg-row {
+                                        width: 180px;
+                                        transform-origin: left;
                                     }
 
                                     .hover-container {
@@ -2623,6 +2705,73 @@ $button-color: #111111;
     }
 }
 
+@media screen and (max-width: 340px) {
+    .build-guide-container {
+        margin-left: 0px;
+        margin-right: 0px;
+
+        .build-general {
+
+            section {
+
+                .shared-container {
+
+                    h3 {
+                        font-size: 20px;
+                    }
+
+                    .info-container {
+
+                        .row {
+
+                            .item {
+
+                                p {
+                                    font-size: 16px;
+                                }
+
+                                .button {
+                                    width: 180px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .build-guide {
+
+            section {
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                .guide-container {
+
+                    .row {
+
+                        .item {
+
+                            p {
+                                font-size: 16px;
+                            }
+
+                            ul {
+                                padding-left: 20px;
+
+                                li {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 .red {
     color: red;

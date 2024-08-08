@@ -14,6 +14,32 @@ import stasisHunter from '../img/Gif/stasis-hunter.gif'
 import solarWarlock from '../img/Gif/solar-warlock.gif'
 import arcWarlock from '../img/Gif/arc-warlock.gif'
 import dim from '../img/logo-icon/dim-logo.png'
+// Image importing for normal stuff
+import solarH from "../img/class-portrait/SolarHunter1.png"
+import solarW from "../img/class-portrait/SolarWarlock1.png"
+import solarT from "../img/class-portrait/SolarTitan1.png"
+import strandH from "../img/class-portrait/StrandHunter1.png"
+import strandT from "../img/class-portrait/StrandTitan1.png"
+import voidH from "../img/class-portrait/VoidHunter1.png"
+import voidW from "../img/class-portrait/VoidWarlock1.png"
+import voidT from "../img/class-portrait/VoidTitan1.png"
+import arcH from "../img/class-portrait/ArcHunter1.png"
+import arcT from "../img/class-portrait/ArcTitan1.png"
+import stasisH from "../img/class-portrait/StasisHunter1.png"
+import stasisT from "../img/class-portrait/StasisTitan1.png"
+// Cooler image importing for webp
+import solarHwebp from "../img/class-portrait/SolarHunter1.webp"
+import solarWwebp from "../img/class-portrait/SolarWarlock1.webp"
+import solarTwebp from "../img/class-portrait/SolarTitan1.webp"
+import strandHwebp from "../img/class-portrait/StrandHunter1.webp"
+import strandTwebp from "../img/class-portrait/StrandTitan1.webp"
+import voidHwebp from "../img/class-portrait/VoidHunter1.webp"
+import voidWwebp from "../img/class-portrait/VoidWarlock1.webp"
+import voidTwebp from "../img/class-portrait/VoidTitan1.webp"
+import arcHwebp from "../img/class-portrait/ArcHunter1.webp"
+import arcTwebp from "../img/class-portrait/ArcTitan1.webp"
+import stasisHwebp from "../img/class-portrait/StasisHunter1.webp"
+import stasisTwebp from "../img/class-portrait/StasisTitan1.webp"
 
 export function BuildGuide() {
   // Get the array with all the build info
@@ -27,7 +53,80 @@ export function BuildGuide() {
         data.buildId === urlBuildId ?
         <div key={i} className="build-guide-container">
             <div className="build-general">
-                <section id={`${data.classImg}-large`} className="background-img">
+                <section className="background-img">
+                { data.classImg == "solarH" ?
+                    <picture className="image-chooser">
+                        <source type="image/webp" srcSet={solarHwebp} />
+                        <source type="image/png" srcSet={solarH} />
+                        <img className="testar" loading="lazy" src={solarH} />
+                    </picture> :
+                data.classImg == "solarW" ?
+                    <picture className="image-chooser">
+                        <source type="image/webp" srcSet={solarWwebp} />
+                        <source type="image/png" srcSet={solarW} />
+                        <img className="testar" loading="lazy" src={solarW} />
+                    </picture> :
+                data.classImg == "solarT" ?
+                    <picture className="image-chooser">
+                        <source type="image/webp" srcSet={solarTwebp} />
+                        <source type="image/png" srcSet={solarT} />
+                        <img className="testar" loading="lazy" src={solarT} />
+                    </picture> :
+                data.classImg == "strandH" ?
+                    <picture className="image-chooser">
+                        <source type="image/webp" srcSet={strandHwebp} />
+                        <source type="image/png" srcSet={strandH} />
+                        <img className="testar" loading="lazy" src={strandH} />
+                    </picture> :
+                data.classImg == "strandT" ?
+                    <picture className="image-chooser">
+                        <source type="image/webp" srcSet={strandTwebp} />
+                        <source type="image/png" srcSet={strandT} />
+                        <img className="testar" loading="lazy" src={strandT} />
+                    </picture> :
+                data.classImg == "voidH" ?
+                    <picture className="image-chooser">
+                        <source type="image/webp" srcSet={voidHwebp} />
+                        <source type="image/png" srcSet={voidH} />
+                        <img className="testar" loading="lazy" src={voidH} />
+                    </picture> :
+                data.classImg == "voidW" ?
+                    <picture className="image-chooser">
+                        <source type="image/webp" srcSet={voidWwebp} />
+                        <source type="image/png" srcSet={voidW} />
+                        <img className="testar" loading="lazy" src={voidW} />
+                    </picture> :
+                data.classImg == "voidT" ?
+                    <picture className="image-chooser">
+                        <source type="image/webp" srcSet={voidTwebp} />
+                        <source type="image/png" srcSet={voidT} />
+                        <img className="testar" loading="lazy" src={voidT} />
+                    </picture> :
+                data.classImg == "arcH" ?
+                    <picture className="image-chooser">
+                        <source type="image/webp" srcSet={arcHwebp} />
+                        <source type="image/png" srcSet={arcH} />
+                        <img className="testar" loading="lazy" src={arcH} />
+                    </picture> :
+                data.classImg == "arcT" ?
+                    <picture className="image-chooser">
+                        <source type="image/webp" srcSet={arcTwebp} />
+                        <source type="image/png" srcSet={arcT} />
+                        <img className="testar" loading="lazy" src={arcT} />
+                    </picture> :
+                data.classImg == "stasisH" ?
+                    <picture className="image-chooser">
+                        <source type="image/webp" srcSet={stasisHwebp} />
+                        <source type="image/png" srcSet={stasisH} />
+                        <img className="testar" loading="lazy" src={stasisH} />
+                    </picture> :
+                data.classImg == "stasisT" ?
+                    <picture className="image-chooser">
+                        <source type="image/webp" srcSet={stasisTwebp} />
+                        <source type="image/png" srcSet={stasisT} />
+                        <img className="testar" loading="lazy" src={stasisT} />
+                    </picture> 
+                : null }
                     <div className="above-layer">
                         <div className="shared-container">
                             <h3>{ parse(data.buildGuide.title) }</h3>
@@ -196,7 +295,7 @@ export function BuildGuide() {
                             <div className="item">
                                 <h4>STATS</h4>
                                 <div className="item-row">
-                                    <div className="multiple-items">
+                                    <div className="multiple-items svg-row">
                                         {data.buildGuide.armorStats.map((svg, i) => (
                                             <SvgPage key={i} i={i} pickSvg={svg} />
                                         ))}

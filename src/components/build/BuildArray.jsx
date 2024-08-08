@@ -259,7 +259,7 @@ export const preBuildArray = [
             ],
             fragmentsGuide: [
                 {
-                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/87d29fbf5c877e2a385354ae76a09f06.jpg",
+                    fragmentImg: "https://www.bungie.net/common/destiny2_content/icons/d355e5ee66fd28b82d93a0f2dd895b2d.jpg",
                     fragmentTitle: "ECHO OF CESSATION",
                     fragmentText: "Finisher final blows create a burst of Void damage that causes nearby combatants to become volatile.<br/><br/>Defeating volatile targets creates a Void Breach."
                 },
@@ -323,14 +323,14 @@ export const preBuildArray = [
                         modText: "When one of your ammo finder perks creates a brick of Heavy ammo for you, it also creates bricks of Heavy ammo for your allies."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                         modTitle: "HARMONIC SIPHON",
                         modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                     }
                 ],
                 arms: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                         modTitle: "MOMENTUM TRANSFER",
                         modText: "Causing damage with a grenade reduces your melee cooldown."
                     },
@@ -357,7 +357,7 @@ export const preBuildArray = [
                         modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/4e358a4a9a1c4ac08bb79f63019b2a6e.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/06896c45f0888673cadfb990fa9a3f51.png",
                         modTitle: "HARMONIC RESISTANCE",
                         modText: "Reduces incoming damage matching your subclass element from combatants."
                     }
@@ -374,7 +374,7 @@ export const preBuildArray = [
                         modText: "Collecting a Firesprite, Ionic Trace, Stasis shard, or Void Breach, or destroying a Strand Tangle has an escalating chance to give you Armor Charge."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/bedffab45576f8f1b94dfe1597114bc9.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/92206d6d5b6cf08c559f3c47da690e3f.png",
                         modTitle: "INSULATION",
                         modText: "Reduces class ability cooldown each time you pick up an Orb of Power."
                     }
@@ -386,12 +386,12 @@ export const preBuildArray = [
                         modText: "Your decaying Armor Charge has a longer duration."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                         modTitle: "POWERFUL ATTRACTION",
                         modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/c3f2da94d6cfb3c643932d3d4c41b4a0.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/b9cc0d0a7689c2a94e4f1d2bbc1b106c.png",
                         modTitle: "BOMBER",
                         modText: "Reduces grenade cooldown when using your class ability."
                     }
@@ -516,7 +516,7 @@ export const preBuildArray = [
             armor: {
                 head: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                         modTitle: "HARMONIC SIPHON",
                         modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                     },
@@ -533,12 +533,12 @@ export const preBuildArray = [
                 ],
                 arms: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0f92411871de9bf4e2ab55c666c7a2e5.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/6891aeae420441de2e1ce01a290ef9b9.png",
                         modTitle: "HEAVY HANDED",
                         modText: "Your powered melee final blows create Orbs of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/78ede7e0aa4ce2804699b24dd353bcb2.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/23c01b637a242a477f7598847fc5ece5.png",
                         modTitle: "IMPACT INDUCTION",
                         modText: "Causing damage with a powered melee attack reduces your grenade cooldown."
                     },
@@ -555,29 +555,29 @@ export const preBuildArray = [
                         modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                         modTitle: "ARC RESISTANCE",
                         modText: "Reduces incoming Arc damage from combatants."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                         modTitle: "SOLAR RESISTANCE",
                         modText: "Reduces incoming Solar damage from combatants."
                     }
                 ],
                 legs: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                         modTitle: "RECUPERATION",
                         modText: "Replenishes health each time you pick up an Orb of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/bedffab45576f8f1b94dfe1597114bc9.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/92206d6d5b6cf08c559f3c47da690e3f.png",
                         modTitle: "INSULATION",
                         modText: "Reduces class ability cooldown each time you pick up an Orb of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/4d0629536fb1d84b03f39bd6169e55a5.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0e5bddaf8f4751d9cb134841ddb449c9.png",
                         modTitle: "ABSOLUTION",
                         modText: "Reduces all ability cooldowns each time you pick up an Orb of Power."
                     }
@@ -589,12 +589,12 @@ export const preBuildArray = [
                         modText: "Collecting an Orb of Power causes you to gain 1 temporary Armor Charge."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/709551228e3c365edfaa34484d2b3212.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/bca43b0289e75519786e7617321e480c.png",
                         modTitle: "REAPER",
                         modText: "Shortly after using your class ability, your next weapon final blow spawns an Orb of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/c3f2da94d6cfb3c643932d3d4c41b4a0.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/b9cc0d0a7689c2a94e4f1d2bbc1b106c.png",
                         modTitle: "BOMBER",
                         modText: "Reduces grenade cooldown when using your class ability."
                     }
@@ -726,7 +726,7 @@ export const preBuildArray = [
             armor: {
                 head: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                         modTitle: "HARMONIC SIPHON",
                         modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                     },
@@ -743,12 +743,12 @@ export const preBuildArray = [
                 ],
                 arms: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/de17966d270d9273d61c5937939b6be4.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/6db6217ee03d58c51c4a15c52000967e.png",
                         modTitle: "HARMONIC LOADER",
                         modText: "Increases reload speed of weapons matching your subclass element."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/78ede7e0aa4ce2804699b24dd353bcb2.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/23c01b637a242a477f7598847fc5ece5.png",
                         modTitle: "IMPACT INDUCTION",
                         modText: "Causing damage with a powered melee attack reduces your grenade cooldown."
                     },
@@ -765,12 +765,12 @@ export const preBuildArray = [
                         modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                         modTitle: "ARC RESISTANCE",
                         modText: "Reduces incoming Arc damage from combatants."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                         modTitle: "SOLAR RESISTANCE",
                         modText: "Reduces incoming Solar damage from combatants."
                     }
@@ -794,17 +794,17 @@ export const preBuildArray = [
                 ],
                 class: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                         modTitle: "POWERFUL ATTRACTION",
                         modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/709551228e3c365edfaa34484d2b3212.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/bca43b0289e75519786e7617321e480c.png",
                         modTitle: "REAPER",
                         modText: "Shortly after using your class ability, your next weapon final blow spawns an Orb of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/c3f2da94d6cfb3c643932d3d4c41b4a0.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/b9cc0d0a7689c2a94e4f1d2bbc1b106c.png",
                         modTitle: "BOMBER",
                         modText: "Reduces grenade cooldown when using your class ability."
                     }
@@ -940,12 +940,12 @@ export const preBuildArray = [
             armor: {
                 head: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                         modTitle: "HARMONIC SIPHON",
                         modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                         modTitle: "HARMONIC SIPHON",
                         modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                     },
@@ -967,7 +967,7 @@ export const preBuildArray = [
                         modText: "When your grenade energy is fully expended, your Armor Charge is consumed and you gain grenade energy for each Armor Charge used."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/a59eeffba270134a09d2dc4cab8bd94f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/61fa2e17d01a0bb4eb24652057187b6e.png",
                         modTitle: "FASTBALL",
                         modText: "Increases grenade throw distance."
                     }
@@ -979,12 +979,12 @@ export const preBuildArray = [
                         modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                         modTitle: "ARC RESISTANCE",
                         modText: "Reduces incoming Arc damage from combatants."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                         modTitle: "SOLAR RESISTANCE",
                         modText: "Reduces incoming Solar damage from combatants."
                     }
@@ -996,29 +996,29 @@ export const preBuildArray = [
                         modText: "Collecting a Firesprite, Ionic Trace, Stasis shard, or Void Breach, or destroying a Strand Tangle has an escalating chance to give you Armor Charge."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/35e4b93247e68ccafc83aa763abcdd9b.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/59af698662ba0cf66d08c8ec785f49c3.png",
                         modTitle: "INNERVATION",
                         modText: "Reduces grenade cooldown each time you pick up an Orb of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                         modTitle: "RECUPERATION",
                         modText: "Replenishes health each time you pick up an Orb of Power."
                     }
                 ],
                 class: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/709551228e3c365edfaa34484d2b3212.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/bca43b0289e75519786e7617321e480c.png",
                         modTitle: "REAPER",
                         modText: "Shortly after using your class ability, your next weapon final blow spawns an Orb of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/c3f2da94d6cfb3c643932d3d4c41b4a0.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/b9cc0d0a7689c2a94e4f1d2bbc1b106c.png",
                         modTitle: "BOMBER",
                         modText: "Reduces grenade cooldown when using your class ability."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/c3f2da94d6cfb3c643932d3d4c41b4a0.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/b9cc0d0a7689c2a94e4f1d2bbc1b106c.png",
                         modTitle: "BOMBER",
                         modText: "Reduces grenade cooldown when using your class ability."
                     }
@@ -1135,12 +1135,12 @@ export const preBuildArray = [
             armor: {
                 head: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                         modTitle: "HARMONIC SIPHON",
                         modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                         modTitle: "HARMONIC SIPHON",
                         modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                     },
@@ -1152,12 +1152,12 @@ export const preBuildArray = [
                 ],
                 arms: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                         modTitle: "FIREPOWER",
                         modText: "Your grenade final blows create Orbs of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                         modTitle: "MOMENTUM TRANSFER",
                         modText: "Causing damage with a grenade reduces your melee cooldown."
                     },
@@ -1174,12 +1174,12 @@ export const preBuildArray = [
                         modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                         modTitle: "ARC RESISTANCE",
                         modText: "Reduces incoming Arc damage from combatants."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                         modTitle: "SOLAR RESISTANCE",
                         modText: "Reduces incoming Solar damage from combatants."
                     }
@@ -1191,29 +1191,29 @@ export const preBuildArray = [
                         modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                         modTitle: "INVIGORATION",
                         modText: "Reduces melee cooldown each time you pick up an Orb of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                         modTitle: "RECUPERATION",
                         modText: "Replenishes health each time you pick up an Orb of Power."
                     }
                 ],
                 class: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                         modTitle: "POWERFUL ATTRACTION",
                         modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                         modTitle: "OUTREACH",
                         modText: "Reduces melee cooldown when using your class ability."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                         modTitle: "OUTREACH",
                         modText: "Reduces melee cooldown when using your class ability."
                     }
@@ -1330,12 +1330,12 @@ export const preBuildArray = [
             armor: {
                 head: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                         modTitle: "HARMONIC SIPHON",
                         modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                         modTitle: "HARMONIC SIPHON",
                         modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                     },
@@ -1347,12 +1347,12 @@ export const preBuildArray = [
                 ],
                 arms: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                         modTitle: "FIREPOWER",
                         modText: "Your grenade final blows create Orbs of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                         modTitle: "MOMENTUM TRANSFER",
                         modText: "Causing damage with a grenade reduces your melee cooldown."
                     },
@@ -1369,12 +1369,12 @@ export const preBuildArray = [
                         modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                         modTitle: "ARC RESISTANCE",
                         modText: "Reduces incoming Arc damage from combatants."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                         modTitle: "SOLAR RESISTANCE",
                         modText: "Reduces incoming Solar damage from combatants."
                     }
@@ -1386,29 +1386,29 @@ export const preBuildArray = [
                         modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                         modTitle: "INVIGORATION",
                         modText: "Reduces melee cooldown each time you pick up an Orb of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                         modTitle: "RECUPERATION",
                         modText: "Replenishes health each time you pick up an Orb of Power."
                     }
                 ],
                 class: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                         modTitle: "POWERFUL ATTRACTION",
                         modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                         modTitle: "OUTREACH",
                         modText: "Reduces melee cooldown when using your class ability."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                         modTitle: "OUTREACH",
                         modText: "Reduces melee cooldown when using your class ability."
                     }
@@ -1554,12 +1554,12 @@ export const preBuildArray = [
             armor: {
                 head: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                         modTitle: "HARMONIC SIPHON",
                         modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                         modTitle: "HARMONIC SIPHON",
                         modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                     },
@@ -1571,12 +1571,12 @@ export const preBuildArray = [
                 ],
                 arms: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                         modTitle: "FIREPOWER",
                         modText: "Your grenade final blows create Orbs of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                         modTitle: "MOMENTUM TRANSFER",
                         modText: "Causing damage with a grenade reduces your melee cooldown."
                     },
@@ -1593,12 +1593,12 @@ export const preBuildArray = [
                         modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                         modTitle: "ARC RESISTANCE",
                         modText: "Reduces incoming Arc damage from combatants."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                         modTitle: "SOLAR RESISTANCE",
                         modText: "Reduces incoming Solar damage from combatants."
                     }
@@ -1610,29 +1610,29 @@ export const preBuildArray = [
                         modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                         modTitle: "INVIGORATION",
                         modText: "Reduces melee cooldown each time you pick up an Orb of Power."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                         modTitle: "RECUPERATION",
                         modText: "Replenishes health each time you pick up an Orb of Power."
                     }
                 ],
                 class: [
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                         modTitle: "POWERFUL ATTRACTION",
                         modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                         modTitle: "OUTREACH",
                         modText: "Reduces melee cooldown when using your class ability."
                     },
                     {
-                        modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                        modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                         modTitle: "OUTREACH",
                         modText: "Reduces melee cooldown when using your class ability."
                     }
@@ -1747,12 +1747,12 @@ export const preBuildArray = [
         armor: {
             head: [
                 {
-                    modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                     modTitle: "HARMONIC SIPHON",
                     modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                 },
                 {
-                    modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                     modTitle: "HARMONIC SIPHON",
                     modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
                 },
@@ -1764,12 +1764,12 @@ export const preBuildArray = [
             ],
             arms: [
                 {
-                    modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                     modTitle: "FIREPOWER",
                     modText: "Your grenade final blows create Orbs of Power."
                 },
                 {
-                    modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                     modTitle: "MOMENTUM TRANSFER",
                     modText: "Causing damage with a grenade reduces your melee cooldown."
                 },
@@ -1786,12 +1786,12 @@ export const preBuildArray = [
                     modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
                 },
                 {
-                    modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                     modTitle: "ARC RESISTANCE",
                     modText: "Reduces incoming Arc damage from combatants."
                 },
                 {
-                    modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                     modTitle: "SOLAR RESISTANCE",
                     modText: "Reduces incoming Solar damage from combatants."
                 }
@@ -1803,29 +1803,29 @@ export const preBuildArray = [
                     modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
                 },
                 {
-                    modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                     modTitle: "INVIGORATION",
                     modText: "Reduces melee cooldown each time you pick up an Orb of Power."
                 },
                 {
-                    modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                     modTitle: "RECUPERATION",
                     modText: "Replenishes health each time you pick up an Orb of Power."
                 }
             ],
             class: [
                 {
-                    modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                     modTitle: "POWERFUL ATTRACTION",
                     modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
                 },
                 {
-                    modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                     modTitle: "OUTREACH",
                     modText: "Reduces melee cooldown when using your class ability."
                 },
                 {
-                    modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                    modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                     modTitle: "OUTREACH",
                     modText: "Reduces melee cooldown when using your class ability."
                 }
@@ -1940,12 +1940,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -1957,12 +1957,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -1979,12 +1979,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -1996,29 +1996,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
@@ -2133,12 +2133,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -2150,12 +2150,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -2172,12 +2172,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -2189,29 +2189,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
@@ -2326,12 +2326,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -2343,12 +2343,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -2365,12 +2365,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -2382,29 +2382,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
@@ -2519,12 +2519,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -2536,12 +2536,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -2558,12 +2558,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -2575,29 +2575,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
@@ -2712,12 +2712,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -2729,12 +2729,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -2751,12 +2751,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -2768,29 +2768,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
@@ -2905,12 +2905,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -2922,12 +2922,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -2944,12 +2944,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -2961,29 +2961,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
@@ -3098,12 +3098,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -3115,12 +3115,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -3137,12 +3137,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -3154,29 +3154,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
@@ -3291,12 +3291,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -3308,12 +3308,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -3330,12 +3330,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -3347,29 +3347,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
@@ -3484,12 +3484,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -3501,12 +3501,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -3523,12 +3523,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -3540,29 +3540,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
@@ -3677,12 +3677,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -3694,12 +3694,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -3716,12 +3716,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -3733,29 +3733,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
@@ -3870,12 +3870,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -3887,12 +3887,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -3909,12 +3909,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -3926,29 +3926,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
@@ -4063,12 +4063,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -4080,12 +4080,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -4102,12 +4102,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -4119,29 +4119,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
@@ -4256,12 +4256,12 @@ buildGuide: {
     armor: {
         head: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7cb6d70d007a484b759ad4b63fbca0e7.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/289062a3c0cbe61c01fe8bcf23017357.png",
                 modTitle: "HARMONIC SIPHON",
                 modText: "Rapid weapon final blows matching your subclass element create Orbs of Power."
             },
@@ -4273,12 +4273,12 @@ buildGuide: {
         ],
         arms: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/395592b07f69318fc3782b4ccb9aa7f5.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/18e0ed8fe7b79040db2b36f008e8b995.png",
                 modTitle: "FIREPOWER",
                 modText: "Your grenade final blows create Orbs of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/f01d8efcf018149b7dd475a2fe94e346.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/0c26738fc8f4581f57c2f8b8f5a18923.png",
                 modTitle: "MOMENTUM TRANSFER",
                 modText: "Causing damage with a grenade reduces your melee cooldown."
             },
@@ -4295,12 +4295,12 @@ buildGuide: {
                 modText: "Increases the maximum number of stacks of Armor Charge you can carry by 1."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/076c30078d220424bc0deaccc9a9a96b.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/8704a4449a9933e69eb40d736f106273.png",
                 modTitle: "ARC RESISTANCE",
                 modText: "Reduces incoming Arc damage from combatants."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/dc02248e7007397ecc6e4b1e141ec853.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/4bb877844263663c518d1cafad2ddf98.png",
                 modTitle: "SOLAR RESISTANCE",
                 modText: "Reduces incoming Solar damage from combatants."
             }
@@ -4312,29 +4312,29 @@ buildGuide: {
                 modText: "Picking up an Orb of Power grants you 1 additional stack of Armor Charge."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/7e7d160506e6dd3b18acc3d8fa53328f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/5997a0160fb262b2f87593f009667748.png",
                 modTitle: "INVIGORATION",
                 modText: "Reduces melee cooldown each time you pick up an Orb of Power."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/0b8f0b83b067f52aca8fe42b78e5ae3f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/37097fa6f1cb66ac20e318a3ea302105.png",
                 modTitle: "RECUPERATION",
                 modText: "Replenishes health each time you pick up an Orb of Power."
             }
         ],
         class: [
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/8a2d7ffac5f13973cab7c842edbebaf8.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/eb2f3f2fe083d08fec4bb3391988fb7a.png",
                 modTitle: "POWERFUL ATTRACTION",
                 modText: "Automatically collects nearby Orbs of Power when you activate your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             },
             {
-                modImg: "https://www.bungie.net/common/destiny2_content/icons/2b7af7ed0e3c5a62c62de98daf25a43f.png",
+                modImg: "https://www.bungie.net/common/destiny2_content/icons/3a7e0abed86632bcad156fb090a4c8eb.png",
                 modTitle: "OUTREACH",
                 modText: "Reduces melee cooldown when using your class ability."
             }
