@@ -107,7 +107,7 @@ $button-color: #111111;
 
 // Small additions for a hidden element that closes menus
 .hider {
-    z-index: 0;
+    z-index: 2;
     display: none;
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
@@ -597,6 +597,9 @@ $button-color: #111111;
                 }
 
                 .image {
+                    display: flex;
+                    background-color: #0a0a1200;
+                    position: relative;
                     overflow: hidden;
                     background-position: center;
                     background-size: cover;
@@ -608,7 +611,22 @@ $button-color: #111111;
                     transition: ease-in-out 0.2s;
                     letter-spacing: 0.2rem;
 
+                    picture {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100%;
+                        width: 100%;
+                        z-index: 1;
+
+                        .testar {
+                            height: 100%;
+                        }
+                    }
+
                     .color-wrapper {
+                        width: 100%;
                         height: 100%;
                         display: -webkit-box;
                         display: -ms-flexbox;
@@ -621,6 +639,7 @@ $button-color: #111111;
                             -ms-flex-direction: column;
                                 flex-direction: column;
                         justify-content: flex-end;
+                        z-index: 2;
 
                         .pvp-img {
                             text-align: right;
@@ -632,6 +651,7 @@ $button-color: #111111;
                         }
 
                         .image-info {
+                            z-index: 2;
                             opacity: 0;
                             -webkit-transition: ease-in-out 0.2s;
                             -o-transition: ease-in-out 0.2s;
@@ -764,9 +784,9 @@ $button-color: #111111;
                 }
             }
 
-            @media screen and (max-width: 1451px) {
+            @media screen and (max-width: 1465px) {
                 .build-wrapper {
-                    margin: 20px 30px 20px 30px;
+                    margin: 20px 20px 20px 20px;
                 }
             }
     
@@ -817,6 +837,15 @@ $button-color: #111111;
                         width: 400px;
                         height: 100px;
                         border-radius: 0px;
+
+                        picture {
+                            justify-content: flex-end;
+
+                            .testar {
+                                height: 190%;
+
+                            }
+                        }
     
                         .color-wrapper {
                             -webkit-box-orient: horizontal;
@@ -1367,6 +1396,13 @@ $button-color: #111111;
                 }
             }
 
+            @media screen and (max-width: 1465px) {
+                .author {
+                    right: 5.5%;
+                    top: 35px;
+                }
+            }
+
             @media screen and (max-width: 1400px) {
                 .author {
                     z-index: 1;
@@ -1529,7 +1565,7 @@ $button-color: #111111;
                     transform-origin: center bottom;
         }
 
-        @media screen and (max-width: 1600px) {
+        @media screen and (max-width: 1651px) {
             .hover-wrapper:has(.build-wrapper:hover) .author {
                 -webkit-transform-origin: center left;
                     -ms-transform-origin: center left;
@@ -2600,67 +2636,6 @@ $button-color: #111111;
     position: relative;
     -webkit-filter: none;
             filter: none;
-}
-
-// Images for cards and background on the Build Guide page
-#solarH {
-    background-image: url(../img/class-portrait/mini/SolarHunter1-min.png);
-}
-
-#solarW {
-    background-image: url(../img/class-portrait/mini/SolarWarlock1-min.png);
-}
-
-#solarT {
-    background-image: url(../img/class-portrait/mini/SolarTitan1-min.png);
-}
-
-#solarHPVP {
-    background-image: url(../img/class-portrait/mini/SolarHunter2-min.png);
-}
-
-#solarSpecialH {
-    background-image: url(../img/class-portrait/mini/SolarHunter3-min.png);
-}
-
-#strandH {
-    background-image: url(../img/class-portrait/mini/StrandHunter1-min.png);
-}
-
-#strandT {
-    background-image: url(../img/class-portrait/mini/StrandTitan1-min.png);
-}
-
-#strandHPVP {
-    background-image: url(../img/class-portrait/mini/StrandHunter2-min.png);
-}
-
-#voidH {
-    background-image: url(../img/class-portrait/mini/VoidHunter1-min.png);
-}
-
-#voidW {
-    background-image: url(../img/class-portrait/mini/VoidWarlock1-min.png);
-}
-
-#voidT {
-    background-image: url(../img/class-portrait/mini/VoidTitan1-min.png);
-}
-
-#arcH {
-    background-image: url(../img/class-portrait/mini/ArcHunter1-min.png);
-}
-
-#arcT {
-    background-image: url(../img/class-portrait/mini/ArcTitan1-min.png);
-}
-
-#stasisH {
-    background-image: url(../img/class-portrait/mini/StasisHunter1-min.png);
-}
-
-#stasisT {
-    background-image: url(../img/class-portrait/mini/StasisTitan1-min.png);
 }
 
 // Images for cards and background on the Build Guide page

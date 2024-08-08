@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from "react-router-dom"
 import '../scss/resources.scss'
+// Normal jpg images
 import DimImg from '../img/resources/dim.jpg'
 import ArmorImg from '../img/resources/d2armorpicker.png'
 import LightImg from '../img/resources/light.jpg'
@@ -17,6 +18,23 @@ import WastedImg from '../img/resources/wasted.png'
 import IshtarImg from '../img/resources/ishtar.jpg'
 import ByfImg from '../img/resources/byf.jpg'
 import MyelinImg from '../img/resources/myelin.jpg'
+// Cool webp images
+import DimImgwebp from '../img/resources/dim.webp'
+import ArmorImgwebp from '../img/resources/d2armorpicker.webp'
+import LightImgwebp from '../img/resources/light.webp'
+import StackingImgwebp from '../img/resources/stacking.webp'
+import AegisImgwebp from '../img/resources/aegis.webp'
+import BraytechImgwebp from '../img/resources/braytech.webp'
+import RecipesImgwebp from '../img/resources/recipes.webp'
+import SetsImgwebp from '../img/resources/sets.webp'
+import TodayImgwebp from '../img/resources/today.webp'
+import RaidImgwebp from '../img/resources/raid.webp'
+import TrackerImgwebp from '../img/resources/tracker.webp'
+import TrialsImgwebp from '../img/resources/trials.webp'
+import WastedImgwebp from '../img/resources/wasted.webp'
+import IshtarImgwebp from '../img/resources/ishtar.webp'
+import ByfImgwebp from '../img/resources/byf.webp'
+import MyelinImgwebp from '../img/resources/myelin.webp'
 
 export function Resources() {
   // Change variable depending on screen width
@@ -102,7 +120,11 @@ export function Resources() {
                       </p>
                   </div>
                   <div className="img">
-                      <img src={DimImg} />
+                      <picture>
+                        <source type="image/webp" srcSet={DimImgwebp} />
+                        <source type="image/jpg" srcSet={DimImg} />
+                        <img loading="lazy" src={DimImg} />
+                      </picture>
                       <Link className="img-link" to="https://destinyitemmanager.com" target="_blank">
                         <span className="dim">GO TO PAGE</span>
                       </Link>
@@ -110,7 +132,11 @@ export function Resources() {
               </div>
               <div className="style-header-inverted">
                   <div className="img">
-                    <img src={ArmorImg} />
+                    <picture>
+                      <source type="image/webp" srcSet={ArmorImgwebp} />
+                      <source type="image/png" srcSet={ArmorImg} />
+                      <img loading="lazy" src={ArmorImg} />
+                    </picture>
                     <Link className="img-link" to="https://d2armorpicker.com/#/" target="_blank">
                       <span className="armor">GO TO PAGE</span>
                     </Link>
@@ -135,7 +161,12 @@ export function Resources() {
                       </p>
                   </div>
                   <div className="img">
-                      <img src={LightImg} />
+                      <picture>
+                        <source type="image/webp" srcSet={LightImgwebp} />
+                        <source type="image/jpg" srcSet={LightImg} />
+                        <img loading="lazy" src={LightImg} />
+                      </picture>
+                      {/* <img src={LightImg} /> */}
                       <Link className="img-link" to="https://www.light.gg" target="_blank">
                         <span className="light">GO TO PAGE</span>
                       </Link>
@@ -143,10 +174,15 @@ export function Resources() {
               </div>
               <div className="style-header-inverted">
                   <div className="img">
-                    <img src={StackingImg} />
-                    <Link className="img-link" to="https://docs.google.com/spreadsheets/d/1i1KUwgVkd8qhwYj481gkV9sZNJQCE-C3Q-dpQutPCi4" target="_blank">
-                      <span className="stacking">GO TO PAGE</span>
-                    </Link>
+                      <picture>
+                        <source type="image/webp" srcSet={StackingImgwebp} />
+                        <source type="image/png" srcSet={StackingImg} />
+                        <img loading="lazy" src={StackingImg} />
+                      </picture>
+                      {/* <img src={StackingImg} /> */}
+                      <Link className="img-link" to="https://docs.google.com/spreadsheets/d/1i1KUwgVkd8qhwYj481gkV9sZNJQCE-C3Q-dpQutPCi4" target="_blank">
+                        <span className="stacking">GO TO PAGE</span>
+                      </Link>
                   </div>
                   <div className="text">
                       <h3>COURT'S SPREADSHEETS</h3>
@@ -168,10 +204,15 @@ export function Resources() {
                       </p>
                   </div>
                   <div className="img">
-                    <img src={AegisImg} />
-                    <Link className="img-link" to="https://drive.google.com/drive/folders/1AL3GM6rSSrm4LtSZeayxpSUsvSJdsiU3" target="_blank">
-                      <span className="aegis">GO TO PAGE</span>
-                    </Link>
+                      <picture>
+                        <source type="image/webp" srcSet={AegisImgwebp} />
+                        <source type="image/png" srcSet={AegisImg} />
+                        <img loading="lazy" src={AegisImg} />
+                      </picture>
+                      {/* <img src={AegisImg} /> */}
+                      <Link className="img-link" to="https://drive.google.com/drive/folders/1AL3GM6rSSrm4LtSZeayxpSUsvSJdsiU3" target="_blank">
+                        <span className="aegis">GO TO PAGE</span>
+                      </Link>
                   </div>
               </div>
               <div className="style-header-inverted">
@@ -211,7 +252,12 @@ export function Resources() {
                       </p>
                   </div>
                   <div className="img">
-                      <img src={BraytechImg} />
+                      <picture>
+                        <source type="image/webp" srcSet={BraytechImgwebp} />
+                        <source type="image/jpg" srcSet={BraytechImg} />
+                        <img loading="lazy" src={BraytechImg} />
+                      </picture>
+                      {/* <img src={BraytechImg} /> */}
                       <Link className="img-link" to="https://bray.tech" target="_blank">
                         <span className="braytech">GO TO PAGE</span>
                       </Link>
@@ -219,10 +265,15 @@ export function Resources() {
               </div>
               <div className="style-header-inverted">
                   <div className="img">
-                    <img src={RecipesImg} />
-                    <Link className="img-link" to="https://destinyrecipes.com" target="_blank">
-                      <span className="recipes">GO TO PAGE</span>
-                    </Link>
+                      <picture>
+                        <source type="image/webp" srcSet={RecipesImgwebp} />
+                        <source type="image/png" srcSet={RecipesImg} />
+                        <img loading="lazy" src={RecipesImg} />
+                      </picture>
+                      {/* <img src={RecipesImg} /> */}
+                      <Link className="img-link" to="https://destinyrecipes.com" target="_blank">
+                        <span className="recipes">GO TO PAGE</span>
+                      </Link>
                   </div>
                   <div className="text">
                       <h3>DESTINY RECIPES</h3>
@@ -244,7 +295,12 @@ export function Resources() {
                       </p>
                   </div>
                   <div className="img">
-                      <img src={SetsImg} />
+                      <picture>
+                        <source type="image/webp" srcSet={SetsImgwebp} />
+                        <source type="image/png" srcSet={SetsImg} />
+                        <img loading="lazy" src={SetsImg} />
+                      </picture>
+                      {/* <img src={SetsImg} /> */}
                       <Link className="img-link" to="https://destinysets.com" target="_blank">
                         <span className="sets">GO TO PAGE</span>
                       </Link>
@@ -252,10 +308,15 @@ export function Resources() {
               </div>
               <div className="style-header-inverted">
                   <div className="img">
-                    <img src={TodayImg} />
-                    <Link className="img-link" to="https://www.todayindestiny.com" target="_blank">
-                      <span className="today">GO TO PAGE</span>
-                    </Link>
+                      <picture>
+                        <source type="image/webp" srcSet={TodayImgwebp} />
+                        <source type="image/jpg" srcSet={TodayImg} />
+                        <img loading="lazy" src={TodayImg} />
+                      </picture>
+                      {/* <img src={TodayImg} /> */}
+                      <Link className="img-link" to="https://www.todayindestiny.com" target="_blank">
+                        <span className="today">GO TO PAGE</span>
+                      </Link>
                   </div>
                   <div className="text">
                       <h3>TODAY IN DESTINY</h3>
@@ -293,7 +354,12 @@ export function Resources() {
                       </p>
                   </div>
                   <div className="img">
-                      <img src={RaidImg} />
+                      <picture>
+                        <source type="image/webp" srcSet={RaidImgwebp} />
+                        <source type="image/png" srcSet={RaidImg} />
+                        <img loading="lazy" src={RaidImg} />
+                      </picture>
+                      {/* <img src={RaidImg} /> */}
                       <Link className="img-link" to="https://raid.report" target="_blank">
                         <span className="raid">GO TO PAGE</span>
                       </Link>
@@ -301,10 +367,15 @@ export function Resources() {
               </div>
               <div className="style-header-inverted">
                   <div className="img">
-                    <img src={TrackerImg} />
-                    <Link className="img-link" to="https://destinytracker.com" target="_blank">
-                      <span className="tracker">GO TO PAGE</span>
-                    </Link>
+                      <picture>
+                        <source type="image/webp" srcSet={TrackerImgwebp} />
+                        <source type="image/jpg" srcSet={TrackerImg} />
+                        <img loading="lazy" src={TrackerImg} />
+                      </picture>
+                      {/* <img src={TrackerImg} /> */}
+                      <Link className="img-link" to="https://destinytracker.com" target="_blank">
+                        <span className="tracker">GO TO PAGE</span>
+                      </Link>
                   </div>
                   <div className="text">
                       <h3>DESTINY TRACKER</h3>
@@ -326,7 +397,12 @@ export function Resources() {
                       </p>
                   </div>
                   <div className="img">
-                      <img src={TrialsImg} />
+                      <picture>
+                        <source type="image/webp" srcSet={TrialsImgwebp} />
+                        <source type="image/png" srcSet={TrialsImg} />
+                        <img loading="lazy" src={TrialsImg} />
+                      </picture>
+                      {/* <img src={TrialsImg} /> */}
                       <Link className="img-link" to="https://trials.report" target="_blank">
                         <span className="trials">GO TO PAGE</span>
                       </Link>
@@ -334,10 +410,15 @@ export function Resources() {
               </div>
               <div className="style-header-inverted">
                   <div className="img">
-                    <img src={WastedImg} />
-                    <Link className="img-link" to="https://wastedondestiny.com" target="_blank">
-                      <span className="wasted">GO TO PAGE</span>
-                    </Link>
+                      <picture>
+                        <source type="image/webp" srcSet={WastedImgwebp} />
+                        <source type="image/png" srcSet={WastedImg} />
+                        <img loading="lazy" src={WastedImg} />
+                      </picture>
+                      {/* <img src={WastedImg} /> */}
+                      <Link className="img-link" to="https://wastedondestiny.com" target="_blank">
+                        <span className="wasted">GO TO PAGE</span>
+                      </Link>
                   </div>
                   <div className="text">
                       <h3>TIME WASTED ON DESTINY</h3>
@@ -375,7 +456,12 @@ export function Resources() {
                       </p>
                   </div>
                   <div className="img">
-                      <img src={IshtarImg} />
+                      <picture>
+                        <source type="image/webp" srcSet={IshtarImgwebp} />
+                        <source type="image/jpg" srcSet={IshtarImg} />
+                        <img loading="lazy" src={IshtarImg} />
+                      </picture>
+                      {/* <img src={IshtarImg} /> */}
                       <Link className="img-link" to="https://www.ishtar-collective.net" target="_blank">
                         <span className="ishtar">GO TO PAGE</span>
                       </Link>
@@ -383,10 +469,15 @@ export function Resources() {
               </div>
               <div className="style-header-inverted">
                   <div className="img">
-                    <img src={ByfImg} />
-                    <Link className="img-link" to="https://www.youtube.com/@MynameisByf/featured" target="_blank">
-                      <span className="byf">GO TO PAGE</span>
-                    </Link>
+                      <picture>
+                        <source type="image/webp" srcSet={ByfImgwebp} />
+                        <source type="image/jpg" srcSet={ByfImg} />
+                        <img loading="lazy" src={ByfImg} />
+                      </picture>
+                      {/* <img src={ByfImg} /> */}
+                      <Link className="img-link" to="https://www.youtube.com/@MynameisByf/featured" target="_blank">
+                        <span className="byf">GO TO PAGE</span>
+                      </Link>
                   </div>
                   <div className="text">
                       <h3>MY NAME IS BYF</h3>
@@ -407,7 +498,12 @@ export function Resources() {
                       </p>
                   </div>
                   <div className="img">
-                      <img src={MyelinImg} />
+                      <picture>
+                        <source type="image/webp" srcSet={MyelinImgwebp} />
+                        <source type="image/jpg" srcSet={MyelinImg} />
+                        <img loading="lazy" src={MyelinImg} />
+                      </picture>
+                      {/* <img src={MyelinImg} /> */}
                       <Link className="img-link" to="https://www.youtube.com/c/MyelinGames/featured" target="_blank">
                         <span className="myelin">GO TO PAGE</span>
                       </Link>

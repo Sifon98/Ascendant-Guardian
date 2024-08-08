@@ -25,8 +25,6 @@ $button-color: #111111;
     display: flex;
     justify-content: center;
     align-items: center;
-    -webkit-animation: landing-fade 2s;
-            animation: landing-fade 2s;
 
     picture {
         display: flex;
@@ -40,7 +38,7 @@ $button-color: #111111;
         img {
             min-width: 100%;
             min-height: 100%;
-            animation: landing-fade 2s;
+            animation: landing-fade 1.5s;
         }
     }
 
@@ -84,8 +82,8 @@ $button-color: #111111;
             font-size: 90px;
             letter-spacing: 0.4rem;
             text-shadow: 0px 5px 2px $main-color;
-            -webkit-animation: fade-text 2.5s;
-                    animation: fade-text 2.5s;
+            -webkit-animation: fade-text 1.5s;
+                    animation: fade-text 1.5s;
         }
         
         hr {
@@ -98,8 +96,8 @@ $button-color: #111111;
             font-size: 24px;
             text-align: center;
             text-shadow: 0px 2px 2px $main-color;
-            -webkit-animation: fade-text1 2.8s;
-                    animation: fade-text1 2.8s;
+            -webkit-animation: fade-text1 1.8s;
+                    animation: fade-text1 1.8s;
         }
 
         .large-line {
@@ -121,8 +119,8 @@ $button-color: #111111;
             -webkit-box-align: center;
                 -ms-flex-align: center;
                     align-items: center;
-            -webkit-animation: fade-text 3.1s;
-                    animation: fade-text 3.1s;
+            -webkit-animation: fade-text 2.1s;
+                    animation: fade-text 2.1s;
 
             .arrow {
                 margin: 0px 20px;

@@ -135,18 +135,22 @@ export function Home() {
           <div className="cards">
             <picture className={`card ${isVisible ? 'transform' : ''}`}>
               <source type="image/webp" srcSet={Card1webp} />
+              <source type="image/png" srcSet={Card1} />
               <img loading="lazy" src={Card1} />
             </picture>
             <picture className={`card ${isVisible ? 'transform' : ''}`} >
               <source type="image/webp" srcSet={Card2webp} />
+              <source type="image/png" srcSet={Card2} />
               <img loading="lazy" src={Card2} />
             </picture>
             <picture className={`card ${isVisible ? 'transform' : ''}`}>
               <source type="image/webp" srcSet={Card3webp} />
+              <source type="image/png" srcSet={Card3} />
               <img loading="lazy" src={Card3}  />
             </picture>
             <picture className={`card ${isVisible ? 'transform' : ''}`}>
               <source type="image/webp" srcSet={Card4webp} />
+              <source type="image/png" srcSet={Card4} />
               <img loading="lazy" src={Card4}  />
             </picture>
           </div>
@@ -178,14 +182,17 @@ export function Home() {
           <div className="raid-showcase">
             <picture className={`raid ${isVisible1 ? 'transform-raid' : ''}`}>
               <source type="image/webp" srcSet={RaidCard1webp} />
+              <source type="image/jpg" srcSet={RaidCard1} />
               <img loading="lazy" src={RaidCard1} />
             </picture>
             <picture className={`raid ${isVisible1 ? 'transform-raid' : ''}`} >
               <source type="image/webp" srcSet={RaidCard2webp} />
+              <source type="image/jpg" srcSet={RaidCard2} />
               <img loading="lazy" src={RaidCard2} />
             </picture>
             <picture className={`raid ${isVisible1 ? 'transform-raid' : ''}`}>
               <source type="image/webp" srcSet={RaidCard3webp} />
+              <source type="image/jpg" srcSet={RaidCard3} />
               <img loading="lazy" src={RaidCard3}  />
             </picture>
           </div>
@@ -194,18 +201,22 @@ export function Home() {
           <div className="resource-showcase">
             <picture className={`resource ${isVisible2 ? 'transform-resource' : ''}`}>
               <source type="image/webp" srcSet={ResCard1webp} />
+              <source type="image/jpg" srcSet={ResCard1} />
               <img loading="lazy" src={ResCard1} />
             </picture>
             <picture className={`resource ${isVisible2 ? 'transform-resource' : ''}`} >
               <source type="image/webp" srcSet={ResCard2webp} />
+              <source type="image/png" srcSet={ResCard2} />
               <img loading="lazy" src={ResCard2} />
             </picture>
             <picture className={`resource ${isVisible2 ? 'transform-resource' : ''}`}>
               <source type="image/webp" srcSet={ResCard3webp} />
+              <source type="image/jpg" srcSet={ResCard3} />
               <img loading="lazy" src={ResCard3}  />
             </picture>
             <picture className={`resource ${isVisible2 ? 'transform-resource' : ''}`}>
               <source type="image/webp" srcSet={ResCard4webp} />
+              <source type="image/png" srcSet={ResCard4} />
               <img loading="lazy" src={ResCard4}  />
             </picture>
           </div>
