@@ -30,8 +30,8 @@ $button-color: #111111;
         background-repeat: none;
         background-position: 0px;
         height: 500px;
-        -webkit-animation: fadeIntro 2s;
-                animation: fadeIntro 2s;
+        -webkit-animation: fadeIntro 1.5s;
+                animation: fadeIntro 1.5s;
     
         h2 {
             margin: 0px;
@@ -58,8 +58,8 @@ $button-color: #111111;
 
     .border {
         border-bottom: 5px solid $border-color;
-        -webkit-animation: slideIntro 1.5s;
-                animation: slideIntro 1.5s;
+        -webkit-animation: slideIntro 1s;
+                animation: slideIntro 1s;
     }
 }
 
@@ -178,12 +178,12 @@ $button-color: #111111;
     h2 {
         display: block;
         margin: 0px 20px 0px 70px;
-        -webkit-animation: fadeSorting 2s;
-                animation: fadeSorting 2s;
+        -webkit-animation: fadeSorting 1.5s;
+                animation: fadeSorting 1.5s;
     }
 
     .menu-container {
-        z-index: 2;
+        z-index: 3;
 
         .menu-selector {
             display: -webkit-box;
@@ -257,18 +257,18 @@ $button-color: #111111;
     }
 
     .menu-container:nth-child(2) {
-        -webkit-animation: fadeSorting 2.3s;
-                animation: fadeSorting 2.3s;
+        -webkit-animation: fadeSorting 1.7s;
+                animation: fadeSorting 1.7s;
     }
 
     .menu-container:nth-child(3) {
-        -webkit-animation: fadeSorting 2.6s;
-                animation: fadeSorting 2.6s;
+        -webkit-animation: fadeSorting 1.9s;
+                animation: fadeSorting 1.9s;
     }
 
     .menu-container:nth-child(4) {
-        -webkit-animation: fadeSorting 2.9s;
-                animation: fadeSorting 2.9s;
+        -webkit-animation: fadeSorting 2.1s;
+                animation: fadeSorting 2.1s;
     }
 }
 
@@ -539,8 +539,8 @@ $button-color: #111111;
                 justify-content: center;
         width: 1650px;
         padding: 20px 0px 15px 0px;
-        -webkit-animation: fadeCards 3.3s;
-                animation: fadeCards 3.3s;
+        -webkit-animation: fadeCards 2.3s;
+                animation: fadeCards 2.3s;
 
         .hover-wrapper {
             position: relative;

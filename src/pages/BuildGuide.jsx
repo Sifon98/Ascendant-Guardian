@@ -307,7 +307,6 @@ export function BuildGuide() {
                 </section>
             </div>
             <div className="build-guide">
-                {/* <img src={logoHunter} alt="" className="logo-bg" /> */}
                 <section>
                     <h3>GAMEPLAY AND TIPS</h3>
                     <hr className="largeLine" />
