@@ -711,7 +711,7 @@ $button-color: #111111;
                 transition: ease-in-out 0.2s;
             }
 
-            @media screen and (max-width: 1600px) {
+            @media screen and (max-width: 1651px) {
                 .build-wrapper {
     
                     .image {
@@ -761,6 +761,12 @@ $button-color: #111111;
                             }
                         }
                     }
+                }
+            }
+
+            @media screen and (max-width: 1451px) {
+                .build-wrapper {
+                    margin: 20px 30px 20px 30px;
                 }
             }
     
@@ -1267,7 +1273,7 @@ $button-color: #111111;
                 transition: ease-in-out 0.2s;
             }
 
-            @media screen and (max-width: 1600px) {
+            @media screen and (max-width: 1651px) {
                 .author {
                     right: 7.5%;
                     top: 35px;
@@ -1548,7 +1554,7 @@ $button-color: #111111;
         }
     }
 
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1650px) {
         .build-container {
             width: auto;
         }

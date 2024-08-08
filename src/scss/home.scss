@@ -15,20 +15,58 @@ $button-color: #111111;
 }
 
 .landing {
-    background-image: url('../img/ennead.jpg');
-    background-size: cover;
-    background-position: center;
+    position: relative;
     width: 100%;
     height: 100vh;
     max-height: 1080px;
-    z-index: -10;
     display: -webkit-box;
     display: -ms-flexbox;
+    overflow: hidden;
     display: flex;
+    justify-content: center;
+    align-items: center;
     -webkit-animation: landing-fade 2s;
             animation: landing-fade 2s;
 
+    picture {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        img {
+            min-width: 100%;
+            min-height: 100%;
+            animation: landing-fade 2s;
+        }
+    }
+
+    @media screen and (max-width: 608px) {
+        picture {
+    
+            img {
+                width: auto;
+                height: 100%;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1920px) {
+        picture {
+            flex-direction: row;
+    
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
     .text-box {
+        z-index: 1;
         padding: 92px 30px 0px 30px;
         width: auto;
         margin: auto;
@@ -111,11 +149,9 @@ $button-color: #111111;
             }
             66% {
                 opacity: 0;
-                margin-top: 40px;
             }
             100% {
                 opacity: 1;
-                margin-top: 0px;
             }
         }
 
@@ -125,11 +161,9 @@ $button-color: #111111;
             }
             66% {
                 opacity: 0;
-                margin-top: 40px;
             }
             100% {
                 opacity: 1;
-                margin-top: 0px;
             }
         }
         
@@ -139,11 +173,9 @@ $button-color: #111111;
             }
             66% {
                 opacity: 0;
-                margin-top: 65px;
             }
             100% {
                 opacity: 1;
-                margin-top: 25px;
             }
         }
         
@@ -153,11 +185,9 @@ $button-color: #111111;
             }
             66% {
                 opacity: 0;
-                margin-top: 65px;
             }
             100% {
                 opacity: 1;
-                margin-top: 25px;
             }
         }
     }
@@ -236,13 +266,13 @@ $button-color: #111111;
             width: 50%;
 
             .card {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 -webkit-transform-origin: bottom left;
                     -ms-transform-origin: bottom left;
                         transform-origin: bottom left;
                 position: absolute;
-                background-image: url(../img/class-portrait/mini/SolarHunter1-min.png);
-                background-position: center;
-                background-size: cover;
                 width: 500px;
                 height: 300px;
                 z-index: 4;
@@ -251,20 +281,18 @@ $button-color: #111111;
                 -o-transition: ease-in-out 0.8s;
                 transition: ease-in-out 0.8s;
                 letter-spacing: 0.2rem;
+                overflow: hidden;
             }
 
             .card:nth-child(2) {
-                background-image: url(../img/class-portrait/mini/StrandTitan1-min.png);
                 z-index: 3;
             }
 
             .card:nth-child(3) {
-                background-image: url(../img/class-portrait/mini/StasisHunter1-min.png);
                 z-index: 2;
             }
 
             .card:nth-child(4) {
-                background-image: url(../img/class-portrait/mini/VoidWarlock1-min.png);
                 z-index: 1;
             }
 
@@ -291,6 +319,7 @@ $button-color: #111111;
                     -ms-transform: rotate(16deg);
                         transform: rotate(16deg);
             }
+            
         }
 
         .raid-showcase {
@@ -308,13 +337,13 @@ $button-color: #111111;
             width: 50%;
 
             .raid {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 -webkit-transform-origin: bottom;
                     -ms-transform-origin: bottom;
                         transform-origin: bottom;
                 position: absolute;
-                background-image: url(../img/kings-art.jpg);
-                background-position: center;
-                background-size: cover;
                 width: 300px;
                 height: 500px;
                 z-index: 4;
@@ -323,15 +352,14 @@ $button-color: #111111;
                 -o-transition: ease-in-out 0.8s;
                 transition: ease-in-out 0.8s;
                 letter-spacing: 0.2rem;
+                overflow: hidden;
             }
 
             .raid:nth-child(2) {
-                background-image: url(../img/vault-art.jpg);
                 z-index: 3;
             }
 
             .raid:nth-child(3) {
-                background-image: url(../img/crota-art.jpg);
                 z-index: 2;
             }
 
@@ -466,13 +494,12 @@ $button-color: #111111;
             width: 50%;
 
             .resource {
+                display: flex;
+                justify-content: center;
                 -webkit-transform-origin: bottom;
                     -ms-transform-origin: bottom;
                         transform-origin: bottom;
                 position: absolute;
-                background-image: url(../img/resources/dim.jpg);
-                background-position: center;
-                background-size: cover;
                 width: 430px;
                 height: 250px;
                 z-index: 4;
@@ -481,18 +508,7 @@ $button-color: #111111;
                 -o-transition: ease-in-out 0.8s;
                 transition: ease-in-out 0.8s;
                 letter-spacing: 0.2rem;
-            }
-
-            .resource:nth-child(2) {
-                background-image: url(../img/resources/d2armorpicker.png);
-            }
-
-            .resource:nth-child(3) {
-                background-image: url(../img/resources/ishtar.jpg);
-            }
-
-            .resource:nth-child(4) {
-                background-image: url(../img/resources/raid.png);
+                overflow: hidden;
             }
 
             .transform-resource:nth-child(1) {

@@ -1,6 +1,38 @@
 import React, { useEffect, useState, useRef } from 'react'
 import '../scss/home.scss'
 import { Link } from "react-router-dom"
+// Images for the page landing
+import Ennead from "../img/home/Ennead.jpg"
+import Ennead1920 from "../img/home/ennead-1920w.jpg"
+import EnneadMobile from "../img/home/ennead-mobile.jpg"
+import Enneadwebp from "../img/home/Ennead.webp"
+import Ennead1920webp from "../img/home/ennead-1920w.webp"
+import EnneadMobilewebp from "../img/home/ennead-mobile.webp"
+// Images for the pages builds section
+import Card1 from "../img/class-portrait/mini/SolarHunter1-min.png"
+import Card2 from "../img/class-portrait/mini/StrandTitan1-min.png"
+import Card3 from "../img/class-portrait/mini/StasisHunter1-min.png"
+import Card4 from "../img/class-portrait/mini/VoidWarlock1-min.png"
+import Card1webp from "../img/class-portrait/mini/SolarHunter1-min.webp"
+import Card2webp from "../img/class-portrait/mini/StrandTitan1-min.webp"
+import Card3webp from "../img/class-portrait/mini/StasisHunter1-min.webp"
+import Card4webp from "../img/class-portrait/mini/VoidWarlock1-min.webp"
+// Images for the pages raids section
+import RaidCard1 from "../img/kings-art.jpg"
+import RaidCard2 from "../img/vault-art.jpg"
+import RaidCard3 from "../img/crota-art.jpg"
+import RaidCard1webp from "../img/kings-art.webp"
+import RaidCard2webp from "../img/vault-art.webp"
+import RaidCard3webp from "../img/crota-art.webp"
+// Images for the pages resources section
+import ResCard1 from "../img/resources/dim.jpg"
+import ResCard2 from "../img/resources/d2armorpicker.png"
+import ResCard3 from "../img/resources/ishtar.jpg"
+import ResCard4 from "../img/resources/raid.png"
+import ResCard1webp from "../img/resources/dim.webp"
+import ResCard2webp from "../img/resources/d2armorpicker.webp"
+import ResCard3webp from "../img/resources/ishtar.webp"
+import ResCard4webp from "../img/resources/raid.webp"
 
 export function Home() {
   const containerRef = useRef(null)
@@ -78,10 +110,19 @@ export function Home() {
     <>
       <div className="background-color">
         <div className="landing">
+          <picture>
+            <source
+              type="image/webp"
+              srcSet={`${EnneadMobilewebp} 608w, ${Ennead1920webp} 1920w, ${Enneadwebp} 2000w`}
+            />
+            <img
+              src={Ennead1920}
+              srcSet={`${EnneadMobile} 608w, ${Ennead1920} 1920w, ${Ennead} 2000w`}
+              alt="wow an image"
+            />
+          </picture>
           <div className="text-box">
             <h2>ASCENDANT GUARDIAN</h2>
-            {/* <hr className="large-line"/>
-            <hr/> */}
             <p><i>Get ready for your <strong>ascension</strong> guardian, builds and guides to help with your <strong>journey</strong></i></p>
             <div className="arrow-box">
               <a href="#builds" className="arrow"></a>
@@ -92,10 +133,22 @@ export function Home() {
       <div className="container" id="builds">
         <section ref={containerRef}>
           <div className="cards">
-            <div className={`card ${isVisible ? 'transform' : ''}`} />
-            <div className={`card ${isVisible ? 'transform' : ''}`} />
-            <div className={`card ${isVisible ? 'transform' : ''}`} />
-            <div className={`card ${isVisible ? 'transform' : ''}`} />
+            <picture className={`card ${isVisible ? 'transform' : ''}`}>
+              <source type="image/webp" srcSet={Card1webp} />
+              <img loading="lazy" src={Card1} />
+            </picture>
+            <picture className={`card ${isVisible ? 'transform' : ''}`} >
+              <source type="image/webp" srcSet={Card2webp} />
+              <img loading="lazy" src={Card2} />
+            </picture>
+            <picture className={`card ${isVisible ? 'transform' : ''}`}>
+              <source type="image/webp" srcSet={Card3webp} />
+              <img loading="lazy" src={Card3}  />
+            </picture>
+            <picture className={`card ${isVisible ? 'transform' : ''}`}>
+              <source type="image/webp" srcSet={Card4webp} />
+              <img loading="lazy" src={Card4}  />
+            </picture>
           </div>
           <div className="info">
             <div className="text-container">
@@ -123,17 +176,38 @@ export function Home() {
             </div>
           </div>
           <div className="raid-showcase">
-            <div className={`raid ${isVisible1 ? 'transform-raid' : ''}`} />
-            <div className={`raid ${isVisible1 ? 'transform-raid' : ''}`} />
-            <div className={`raid ${isVisible1 ? 'transform-raid' : ''}`} />
+            <picture className={`raid ${isVisible1 ? 'transform-raid' : ''}`}>
+              <source type="image/webp" srcSet={RaidCard1webp} />
+              <img loading="lazy" src={RaidCard1} />
+            </picture>
+            <picture className={`raid ${isVisible1 ? 'transform-raid' : ''}`} >
+              <source type="image/webp" srcSet={RaidCard2webp} />
+              <img loading="lazy" src={RaidCard2} />
+            </picture>
+            <picture className={`raid ${isVisible1 ? 'transform-raid' : ''}`}>
+              <source type="image/webp" srcSet={RaidCard3webp} />
+              <img loading="lazy" src={RaidCard3}  />
+            </picture>
           </div>
         </section>
         <section ref={containerResourceRef} className="resource-section">
           <div className="resource-showcase">
-            <div className={`resource ${isVisible2 ? 'transform-resource' : ''}`} />
-            <div className={`resource ${isVisible2 ? 'transform-resource' : ''}`} />
-            <div className={`resource ${isVisible2 ? 'transform-resource' : ''}`} />
-            <div className={`resource ${isVisible2 ? 'transform-resource' : ''}`} />
+            <picture className={`resource ${isVisible2 ? 'transform-resource' : ''}`}>
+              <source type="image/webp" srcSet={ResCard1webp} />
+              <img loading="lazy" src={ResCard1} />
+            </picture>
+            <picture className={`resource ${isVisible2 ? 'transform-resource' : ''}`} >
+              <source type="image/webp" srcSet={ResCard2webp} />
+              <img loading="lazy" src={ResCard2} />
+            </picture>
+            <picture className={`resource ${isVisible2 ? 'transform-resource' : ''}`}>
+              <source type="image/webp" srcSet={ResCard3webp} />
+              <img loading="lazy" src={ResCard3}  />
+            </picture>
+            <picture className={`resource ${isVisible2 ? 'transform-resource' : ''}`}>
+              <source type="image/webp" srcSet={ResCard4webp} />
+              <img loading="lazy" src={ResCard4}  />
+            </picture>
           </div>
           <div className="info">
             <div className="text-container">
