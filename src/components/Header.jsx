@@ -130,10 +130,10 @@ export default function header() {
                 </div>
                 <div className={burgerOpen == 0 ? 'hamburger-temp' : burgerOpen == 1 ? 'burgerOpen' : 'burgerClosed'}>
                     <div className='hamburger-menu'>
-                        <Link to="/" onClick={toggleBurger}>Home</Link>
-                        <Link to="/builds" onClick={toggleBurger}>Builds</Link>
-                        <Link to="/guides" onClick={toggleBurger}>Guides</Link>
-                        <Link to="/resources" onClick={toggleBurger}>Resources</Link>
+                        <Link to="/" onClick={toggleBurger}>HOME</Link>
+                        <Link to="/builds" onClick={toggleBurger}>BUILDS</Link>
+                        <Link to="/guides" onClick={toggleBurger}>GUIDES</Link>
+                        <Link to="/resources" onClick={toggleBurger}>RESOURCES</Link>
                     </div>
                 </div>
             </>

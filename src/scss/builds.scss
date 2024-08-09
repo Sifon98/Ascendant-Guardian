@@ -1806,7 +1806,7 @@ $button-color: #111111;
                                 .hover-box {
                                     display: -webkit-box;
                                     display: -ms-flexbox;
-                                    display: flex;
+                                    display: block;
                                     -webkit-box-orient: vertical;
                                     -webkit-box-direction: normal;
                                         -ms-flex-direction: column;
@@ -1823,7 +1823,7 @@ $button-color: #111111;
                                     text-align: center;
                                     
                                     /* Position the tooltip */
-                                    position: absolute;
+                                    position: fixed;
                                     z-index: 1;
 
                                     .hover-box-header {

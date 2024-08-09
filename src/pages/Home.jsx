@@ -18,12 +18,12 @@ import Card2webp from "../img/class-portrait/mini/StrandTitan1-min.webp"
 import Card3webp from "../img/class-portrait/mini/StasisHunter1-min.webp"
 import Card4webp from "../img/class-portrait/mini/VoidWarlock1-min.webp"
 // Images for the pages raids section
-import RaidCard1 from "../img/kings-art.jpg"
-import RaidCard2 from "../img/vault-art.jpg"
-import RaidCard3 from "../img/crota-art.jpg"
-import RaidCard1webp from "../img/kings-art.webp"
-import RaidCard2webp from "../img/vault-art.webp"
-import RaidCard3webp from "../img/crota-art.webp"
+import RaidCard1 from "../img/home/kings-art.jpg"
+import RaidCard2 from "../img/home/vault-art.jpg"
+import RaidCard3 from "../img/home/crota-art.jpg"
+import RaidCard1webp from "../img/home/kings-art.webp"
+import RaidCard2webp from "../img/home/vault-art.webp"
+import RaidCard3webp from "../img/home/crota-art.webp"
 // Images for the pages resources section
 import ResCard1 from "../img/resources/dim.jpg"
 import ResCard2 from "../img/resources/d2armorpicker.png"
@@ -33,6 +33,8 @@ import ResCard1webp from "../img/resources/dim.webp"
 import ResCard2webp from "../img/resources/d2armorpicker.webp"
 import ResCard3webp from "../img/resources/ishtar.webp"
 import ResCard4webp from "../img/resources/raid.webp"
+// Images for the pages resources section
+import AGLogo from "../img/logo-icon/ascendant-guardian.png"
 
 export function Home() {
   const containerRef = useRef(null)
@@ -122,8 +124,11 @@ export function Home() {
             />
           </picture>
           <div className="text-box">
-            <h2>ASCENDANT GUARDIAN</h2>
-            <p><i>Get ready for your <strong>ascension</strong> guardian, builds and guides to help with your <strong>journey</strong></i></p>
+            <img src={AGLogo} alt="" width="200px" height="200px"/>
+            <div className="text-wrapper">
+              <h2>ASCENDANT GUARDIAN</h2>
+              <p><i>Get ready for your <strong>ascension</strong> guardian, builds and guides to help with your <strong>journey</strong></i></p>
+            </div>
             <div className="arrow-box">
               <a href="#builds" className="arrow"></a>
             </div>

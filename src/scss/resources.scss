@@ -5,9 +5,7 @@
 * Browsers: last 4 version
 */
 
-$border-color: #97989b;
-$main-color: #0A0A12;
-$button-color: #111111;
+@use "../scss/global.scss" as *;
 
 .resource-page {
     display: -webkit-box;
@@ -250,163 +248,139 @@ $button-color: #111111;
                         }
     
                         .dim {
-                            background: url(../img/resources/dim.jpg);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .armor {
-                            background: url(../img/resources/d2armorpicker.png);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .light {
-                            background: url(../img/resources/light.jpg);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
+                        }
+
+                        .foundry {
+                            background-size: cover;
+                            background-position: center center;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -webkit-background-clip: text;
                         }
     
                         .stacking {
-                            background: url(../img/resources/stacking.png);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .aegis {
-                            background: url(../img/resources/aegis.png);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .braytech {
-                            background: url(../img/resources/braytech.jpg);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .recipes {
-                            background: url(../img/resources/recipes.png);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .sets {
-                            background: url(../img/resources/sets.png);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .today {
-                            background: url(../img/resources/today.jpg);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .raid {
-                            background: url(../img/resources/raid.png);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .tracker {
-                            background: url(../img/resources/tracker.jpg);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .trials {
-                            background: url(../img/resources/trials.png);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .wasted {
-                            background: url(../img/resources/wasted.png);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .ishtar {
-                            background: url(../img/resources/ishtar.jpg);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .byf {
-                            background: url(../img/resources/byf.jpg);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
     
                         .myelin {
-                            background: url(../img/resources/myelin.jpg);
                             background-size: cover;
                             background-position: center center;
                             background-clip: text;
                             -webkit-text-fill-color: transparent;
                             -webkit-background-clip: text;
-                            margin-top: -4px;
                         }
                     }
     

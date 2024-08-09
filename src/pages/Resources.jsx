@@ -5,6 +5,7 @@ import '../scss/resources.scss'
 import DimImg from '../img/resources/dim.jpg'
 import ArmorImg from '../img/resources/d2armorpicker.png'
 import LightImg from '../img/resources/light.jpg'
+import FoundryImg from '../img/resources/foundry.png'
 import StackingImg from '../img/resources/stacking.png'
 import AegisImg from '../img/resources/aegis.png'
 import BraytechImg from '../img/resources/braytech.jpg'
@@ -22,6 +23,7 @@ import MyelinImg from '../img/resources/myelin.jpg'
 import DimImgwebp from '../img/resources/dim.webp'
 import ArmorImgwebp from '../img/resources/d2armorpicker.webp'
 import LightImgwebp from '../img/resources/light.webp'
+import FoundryImgwebp from '../img/resources/foundry.webp'
 import StackingImgwebp from '../img/resources/stacking.webp'
 import AegisImgwebp from '../img/resources/aegis.webp'
 import BraytechImgwebp from '../img/resources/braytech.webp'
@@ -175,15 +177,26 @@ export function Resources() {
               <div className="style-header-inverted">
                   <div className="img">
                       <picture>
-                        <source type="image/webp" srcSet={StackingImgwebp} />
-                        <source type="image/png" srcSet={StackingImg} />
-                        <img loading="lazy" src={StackingImg} />
+                        <source type="image/webp" srcSet={FoundryImgwebp} />
+                        <source type="image/png" srcSet={FoundryImg} />
+                        <img loading="lazy" src={FoundryImg} />
                       </picture>
-                      {/* <img src={StackingImg} /> */}
-                      <Link className="img-link" to="https://docs.google.com/spreadsheets/d/1i1KUwgVkd8qhwYj481gkV9sZNJQCE-C3Q-dpQutPCi4" target="_blank">
-                        <span className="stacking">GO TO PAGE</span>
+                      {/* <img src={LightImg} /> */}
+                      <Link className="img-link" to="https://d2foundry.gg" target="_blank">
+                        <span className="foundry">GO TO PAGE</span>
                       </Link>
                   </div>
+                  <div className="text">
+                      <h3>D2 Foundry</h3>
+                      <hr className="smallLine" />
+                      <p><strong>Destiny 2</strong> has a huge number of <strong>weapons</strong> with a lot of different <strong>perks</strong>.
+                        Keeping track of which of them are good can be quite daunting. <strong>Light.gg</strong> makes it easy to figure
+                        out, simply search for a weapon and see all the <strong>possible rolls</strong> it can have and also what the
+                        community considers the <strong>god roll</strong> to be.
+                      </p>
+                  </div>
+              </div>
+              <div className="style-header">
                   <div className="text">
                       <h3>COURT'S SPREADSHEETS</h3>
                       <hr className="smallLine" />
@@ -193,16 +206,19 @@ export function Resources() {
                         goes through, among other things, <strong>mods</strong> and <strong>perks</strong>.
                       </p>
                   </div>
-              </div>
-              <div className="style-header">
-                  <div className="text">
-                      <h3>AEGIS'S SPREADSHEETS</h3>
-                      <hr className="smallLine" />
-                      <p>During your time in <strong>Destiny 2</strong> you will recieve many different weapons. Knowing which of these
-                        are the <strong>best</strong> is not at all easy. With the help of <strong>Aegis</strong> and his <strong>tier lists </strong>
-                        you will soon know which of your weapons are the best.
-                      </p>
+                  <div className="img">
+                      <picture>
+                        <source type="image/webp" srcSet={StackingImgwebp} />
+                        <source type="image/png" srcSet={StackingImg} />
+                        <img loading="lazy" src={StackingImg} />
+                      </picture>
+                      {/* <img src={StackingImg} /> */}
+                      <Link className="img-link" to="https://docs.google.com/spreadsheets/d/1i1KUwgVkd8qhwYj481gkV9sZNJQCE-C3Q-dpQutPCi4" target="_blank">
+                        <span className="stacking">GO TO PAGE</span>
+                      </Link>
                   </div>
+              </div>
+              <div className="style-header-inverted">
                   <div className="img">
                       <picture>
                         <source type="image/webp" srcSet={AegisImgwebp} />
@@ -214,11 +230,16 @@ export function Resources() {
                         <span className="aegis">GO TO PAGE</span>
                       </Link>
                   </div>
-              </div>
-              <div className="style-header-inverted">
-                  <div className="img">
-                    <iframe src="https://open.spotify.com/embed/playlist/6qKIGSrWeqEGFo5HYQlBi4?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                  <div className="text">
+                      <h3>AEGIS'S SPREADSHEETS</h3>
+                      <hr className="smallLine" />
+                      <p>During your time in <strong>Destiny 2</strong> you will recieve many different weapons. Knowing which of these
+                        are the <strong>best</strong> is not at all easy. With the help of <strong>Aegis</strong> and his <strong>tier lists </strong>
+                        you will soon know which of your weapons are the best.
+                      </p>
                   </div>
+              </div>
+              <div className="style-header">
                   <div className="text">
                       <h3>GREAT MUSIC</h3>
                       <hr className="smallLine" />
@@ -226,6 +247,9 @@ export function Resources() {
                         but if you want to listen to some <strong>other music</strong> as well or just your favorite <strong>Destiny</strong> tracks check
                         out my playlist with some more <strong>relaxing</strong> gaming music.
                       </p>
+                  </div>
+                  <div className="img">
+                    <iframe src="https://open.spotify.com/embed/playlist/6qKIGSrWeqEGFo5HYQlBi4?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                   </div>
               </div>
             </div>
