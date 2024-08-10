@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useLocation} from 'react-router-dom'
-import logo from '../img/logo-icon/logo.png'
+import logo from "../img/logo-icon/ascendant-guardian-logo2.PNG"
 import '../scss/main.scss'
+import { getWidth } from "./hooks/getWidth"
 
 const activeNav = (setUseCheck) => {
     // Communicate that this particular button has been pressed
@@ -69,22 +70,8 @@ export default function header() {
     }
   },[location]);
 
-  // Change variable depending on screen width
-  const [width, setWidth] = useState(window.innerWidth);
-  useEffect(() => {
-    const handleResize = () => {
-      setWidth(window.innerWidth);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, [window.innerWidth]);
-
+  // Set if the burger menu is open or not
   const [burgerOpen, setBurgerOpen] = useState(0);
-
   const toggleBurger = () => {
     if (burgerOpen == 0 || burgerOpen == 2) {
         setBurgerOpen(1)
@@ -94,12 +81,15 @@ export default function header() {
     }
   }
 
+  // Change variable depending on screen width
+  const { width } = getWidth();
+
   return (
     <div className={color ? "navbar navbar-dark" : "navbar"}>
         <div className="logo">
             <Link to="/">
                 { width < 1160 ? "" : <h1 className="first">ASCENDANT</h1> }
-                <img src={logo} alt="Destiny logo" />
+                <img src={logo} alt="Ascendant Guardian logo" />
                 { width < 1160 ? "" : <h1>GUARDIAN</h1> }
             </Link>
         </div>

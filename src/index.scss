@@ -4,7 +4,7 @@
 :root {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   color: $white-color;
-  background-color: rgb(17, 17, 24);
+  background-color: $background-color;
 }
 
 html {
@@ -21,8 +21,26 @@ h1 {
 }
 
 h2 {
-  font-size: 72px;
+  font-size: $large-header;
   letter-spacing: 0.4rem;
+}
+
+@media screen and (max-width: 1320px) {
+  h2 {
+    font-size: $large-medium-header;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  h2 {
+    font-size: $medium-header;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h2 {
+    font-size: $small-header;
+  }
 }
 
 .medium-header {

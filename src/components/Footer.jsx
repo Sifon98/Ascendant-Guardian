@@ -3,7 +3,7 @@ import '../scss/footer.scss'
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="row">
         © 2023 - Ascendant Guardian
       </div>
@@ -15,6 +15,6 @@ export default function Footer() {
             style={{height: "48px", width: "173px"}}/>
         </a>       */}
       </div>
-    </div>
+    </footer>
   )
 }

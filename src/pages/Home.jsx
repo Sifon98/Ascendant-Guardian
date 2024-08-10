@@ -33,8 +33,6 @@ import ResCard1webp from "../img/resources/dim.webp"
 import ResCard2webp from "../img/resources/d2armorpicker.webp"
 import ResCard3webp from "../img/resources/ishtar.webp"
 import ResCard4webp from "../img/resources/raid.webp"
-// Images for the pages resources section
-import AGLogo from "../img/logo-icon/ascendant-guardian.png"
 
 export function Home() {
   const containerRef = useRef(null)
@@ -124,13 +122,30 @@ export function Home() {
             />
           </picture>
           <div className="text-box">
-            <img src={AGLogo} alt="" width="200px" height="200px"/>
-            <div className="text-wrapper">
+            <div className="text-wrapper">              
+              <p>Builds <span>/</span>/ Guides <span>/</span>/ Resources</p>
               <h2>ASCENDANT GUARDIAN</h2>
-              <p><i>Get ready for your <strong>ascension</strong> guardian, builds and guides to help with your <strong>journey</strong></i></p>
             </div>
-            <div className="arrow-box">
-              <a href="#builds" className="arrow"></a>
+            <a href="#builds" >
+              <div className="circular-box">
+                <div className="arrow"/>
+              </div>
+            </a>
+            <div className="landing-hover-box">
+              <div className="line-wrapper">
+                <div className="line" />
+                <div className="line" />
+                <div className="line" />
+                <div className="line" />
+                <div className="line" />
+                <div className="line" />
+                <div className="line" />
+                <div className="line" />
+                <div className="line" />
+                <div className="line" />
+                <div className="line" />
+                <div className="line" />
+              </div>
             </div>
           </div>
         </div>
@@ -171,7 +186,7 @@ export function Home() {
             </div>
           </div>
         </section>
-        <section ref={containerRaidRef} className="guide-section">
+        <section ref={containerRaidRef}>
           <div className="info">
             <div className="text-container">
               <h2>GUIDES</h2>
