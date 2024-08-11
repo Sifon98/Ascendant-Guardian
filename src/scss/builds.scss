@@ -514,7 +514,7 @@
     align-items: center;
     z-index: 5;
     border-radius: 9999px;
-    box-shadow: 0px 5px 0px $main-color;
+    box-shadow: 3px 3px 0px $main-color;
     cursor: pointer;
     transition: 0.1s;
 }
@@ -580,6 +580,14 @@
             li:active {
                 transform: scale(0.9);
                 transition: 0.1s;
+            }
+
+            li:first-child {
+                margin-left: 0px;
+            }
+
+            li:last-child {
+                margin-right: 0px;
             }
 
             .smaller-warlock {
@@ -930,8 +938,8 @@
                             text-align: center;
                             font-size: 30px;
                             width: 100%;
-                            padding: 40px 0px 10px 0px;
-                            background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 75%, rgba(0,0,0,0.5) 87%, rgba(0,0,0,0) 100%);
+                            padding: 30px 0px 10px 0px;
+                            background-image: linear-gradient(0deg, $main-color 0%, #0a0a12af 75%, #0a0a1279 87%, #0a0a1200 100%);
                         }
 
                         p {
@@ -1013,8 +1021,8 @@
                             .image-info {
                                 width: auto;
                                 height: 100%;
-                                padding: 0px 20px 0px 0px;
-                                background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 75%, rgba(0,0,0,0.5) 87%, rgba(0,0,0,0) 100%);
+                                padding: 0px 30px 0px 0px;
+                                background-image: linear-gradient(90deg, $main-color 0%, #0a0a12af 75%, #0a0a1279 87%, #0a0a1200 100%);
                             }
     
                             .img-container {

@@ -118,7 +118,7 @@ export function Home() {
             <img
               src={Ennead1920}
               srcSet={`${EnneadMobile} 608w, ${Ennead1920} 1920w, ${Ennead} 2000w`}
-              alt="wow an image"
+              alt="Header image, Ennead wallpaper"
             />
           </picture>
           <div className="text-box">
@@ -126,7 +126,7 @@ export function Home() {
               <p>Builds <span>/</span>/ Guides <span>/</span>/ Resources</p>
               <h2>ASCENDANT GUARDIAN</h2>
             </div>
-            <a href="#builds" >
+            <a href="#builds" aria-label="Scroll down to the build section">
               <div className="circular-box">
                 <div className="arrow"/>
               </div>
@@ -156,22 +156,22 @@ export function Home() {
             <picture className={`card ${isVisible ? 'transform' : ''}`}>
               <source type="image/webp" srcSet={Card1webp} />
               <source type="image/png" srcSet={Card1} />
-              <img loading="lazy" src={Card1} />
+              <img loading="lazy" src={Card1} alt="Solar Hunter card"/>
             </picture>
             <picture className={`card ${isVisible ? 'transform' : ''}`} >
               <source type="image/webp" srcSet={Card2webp} />
               <source type="image/png" srcSet={Card2} />
-              <img loading="lazy" src={Card2} />
+              <img loading="lazy" src={Card2} alt="Strand Titan card"/>
             </picture>
             <picture className={`card ${isVisible ? 'transform' : ''}`}>
               <source type="image/webp" srcSet={Card3webp} />
               <source type="image/png" srcSet={Card3} />
-              <img loading="lazy" src={Card3}  />
+              <img loading="lazy" src={Card3} alt="Stasis Hunter card"/>
             </picture>
             <picture className={`card ${isVisible ? 'transform' : ''}`}>
               <source type="image/webp" srcSet={Card4webp} />
               <source type="image/png" srcSet={Card4} />
-              <img loading="lazy" src={Card4}  />
+              <img loading="lazy" src={Card4} alt="Void Warlock card"/>
             </picture>
           </div>
           <div className="info">
@@ -203,17 +203,17 @@ export function Home() {
             <picture className={`raid ${isVisible1 ? 'transform-raid' : ''}`}>
               <source type="image/webp" srcSet={RaidCard1webp} />
               <source type="image/jpg" srcSet={RaidCard1} />
-              <img loading="lazy" src={RaidCard1} />
+              <img loading="lazy" src={RaidCard1} alt="King's Fall raid card"/>
             </picture>
             <picture className={`raid ${isVisible1 ? 'transform-raid' : ''}`} >
               <source type="image/webp" srcSet={RaidCard2webp} />
               <source type="image/jpg" srcSet={RaidCard2} />
-              <img loading="lazy" src={RaidCard2} />
+              <img loading="lazy" src={RaidCard2} alt="Vault of Glass raid card"/>
             </picture>
             <picture className={`raid ${isVisible1 ? 'transform-raid' : ''}`}>
               <source type="image/webp" srcSet={RaidCard3webp} />
               <source type="image/jpg" srcSet={RaidCard3} />
-              <img loading="lazy" src={RaidCard3}  />
+              <img loading="lazy" src={RaidCard3} alt="Crota's End raid card"/>
             </picture>
           </div>
         </section>
@@ -222,22 +222,22 @@ export function Home() {
             <picture className={`resource ${isVisible2 ? 'transform-resource' : ''}`}>
               <source type="image/webp" srcSet={ResCard1webp} />
               <source type="image/jpg" srcSet={ResCard1} />
-              <img loading="lazy" src={ResCard1} />
+              <img loading="lazy" src={ResCard1} alt="DIM card"/>
             </picture>
             <picture className={`resource ${isVisible2 ? 'transform-resource' : ''}`} >
               <source type="image/webp" srcSet={ResCard2webp} />
               <source type="image/png" srcSet={ResCard2} />
-              <img loading="lazy" src={ResCard2} />
+              <img loading="lazy" src={ResCard2} alt="D2ArmorPicker card"/>
             </picture>
             <picture className={`resource ${isVisible2 ? 'transform-resource' : ''}`}>
               <source type="image/webp" srcSet={ResCard3webp} />
               <source type="image/jpg" srcSet={ResCard3} />
-              <img loading="lazy" src={ResCard3}  />
+              <img loading="lazy" src={ResCard3} alt="Ishtar Collective card"/>
             </picture>
             <picture className={`resource ${isVisible2 ? 'transform-resource' : ''}`}>
               <source type="image/webp" srcSet={ResCard4webp} />
               <source type="image/png" srcSet={ResCard4} />
-              <img loading="lazy" src={ResCard4}  />
+              <img loading="lazy" src={ResCard4} alt="Raid Report card"/>
             </picture>
           </div>
           <div className="info">
