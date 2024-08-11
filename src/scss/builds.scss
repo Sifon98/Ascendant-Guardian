@@ -299,7 +299,7 @@
     }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1090px) {
     .sorting-container {
 
         .medium-header {
@@ -559,6 +559,7 @@
             padding: 0;
 
             li {
+                cursor: pointer;
                 margin: 5px 5px;
                 display: flex;
                 align-items: center;
@@ -569,9 +570,22 @@
                 border-radius: 100px;
                 background-color: $background-color;
                 list-style-type: none;
+                transition: 0.1s;
 
                 img {
                     height: 20px;
+                }
+            }
+
+            li:active {
+                transform: scale(0.9);
+                transition: 0.1s;
+            }
+
+            .smaller-warlock {
+
+                img {
+                    height: 17px;
                 }
             }
 
@@ -899,15 +913,6 @@
                         justify-content: flex-end;
                         z-index: 2;
 
-                        .pvp-img {
-                            text-align: right;
-                            margin: 10px;
-
-                            img {
-                                width: 50px;
-                            }
-                        }
-
                         .image-info {
                             z-index: 2;
                             opacity: 0;
@@ -925,8 +930,8 @@
                             text-align: center;
                             font-size: 30px;
                             width: 100%;
-                            padding: 10px 0px 10px 0px;
-                            background-color: rgba(0, 0, 0, 0.8);
+                            padding: 40px 0px 10px 0px;
+                            background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 75%, rgba(0,0,0,0.5) 87%, rgba(0,0,0,0) 100%);
                         }
 
                         p {
@@ -1008,7 +1013,8 @@
                             .image-info {
                                 width: auto;
                                 height: 100%;
-                                padding: 0px;
+                                padding: 0px 20px 0px 0px;
+                                background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 75%, rgba(0,0,0,0.5) 87%, rgba(0,0,0,0) 100%);
                             }
     
                             .img-container {
@@ -1174,7 +1180,7 @@
             @media screen and (max-width: 850px) {
                 .build-wrapper {
                     height: 90px;
-                    margin: 10px 20px 10px 20px;
+                    margin: 10px 0px 10px 0px;
     
                     .text {
                         -webkit-box-orient: horizontal;

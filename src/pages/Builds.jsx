@@ -26,6 +26,10 @@ export function Builds() {
   const [menuOpen1, setMenuOpen1] = useState();
   const [menuOpen2, setMenuOpen2] = useState();
   const [menuOpen3, setMenuOpen3] = useState();
+  // Used for the mobile filter
+  const [prevTarget1, setPrevTarget1] = useState();
+  const [prevTarget2, setPrevTarget2] = useState();
+  const [prevTarget3, setPrevTarget3] = useState();
   // Used to sort builds
   const [selectClass, setSelectClass] = useState('ANY CLASS');
   const [selectSubclass, setSelectSubclass] = useState('ANY SUBCLASS');
@@ -54,12 +58,8 @@ export function Builds() {
     setMenuOpen3(false);
   }
 
-  const [prevTarget1, setPrevTarget1] = useState();
-  const [prevTarget2, setPrevTarget2] = useState();
-  const [prevTarget3, setPrevTarget3] = useState();
   // Mobile search buttons
   const handleMenuMobile1 = (e) => {
-    console.log(prevTarget1)
     setSelectClass(e.currentTarget.id);
     if (prevTarget1 != undefined) {
       prevTarget1.classList.remove("selected")
@@ -124,9 +124,9 @@ export function Builds() {
           <div id="ANY CLASS" className={`dropdown-menu ${menuOpen1 == undefined ? '' : menuOpen1 ? 'active' : 'inactive'}`}>
             <ul>
               <li id="ANY CLASS" onClick={handleMenu1}>ANY CLASS</li>
-              <li id="HUNTER" onClick={handleMenu1}><img src={hunterLogo} alt="Hunter icon" />HUNTER</li>
-              <li id="WARLOCK" onClick={handleMenu1}><img src={warlockLogo} alt="Warlock icon" />WARLOCK</li>
-              <li id="TITAN" onClick={handleMenu1}><img src={titanLogo} alt="Titan icon" />TITAN</li>
+              <li id="HUNTER" onClick={handleMenu1}>HUNTER</li>
+              <li id="WARLOCK" onClick={handleMenu1}>WARLOCK</li>
+              <li id="TITAN" onClick={handleMenu1}>TITAN</li>
             </ul>
           </div>
         </div>
@@ -172,9 +172,9 @@ export function Builds() {
                 <h2>CLASSES</h2>
                 <hr />
                 <ul>
-                  <li id="ANY CLASS" onClick={handleMenuMobile1}>ALL</li>
+                  <li id="ANY CLASS" onClick={handleMenuMobile1}><strong>ALL</strong></li>
                   <li id="HUNTER" onClick={handleMenuMobile1}><img src={hunterLogo} alt="Hunter icon" /></li>
-                  <li id="WARLOCK" onClick={handleMenuMobile1}><img src={warlockLogo} alt="Warlock icon" /></li>
+                  <li id="WARLOCK" onClick={handleMenuMobile1} className="smaller-warlock"><img src={warlockLogo} alt="Warlock icon" /></li>
                   <li id="TITAN" onClick={handleMenuMobile1}><img src={titanLogo} alt="Titan icon" /></li>
                 </ul>
               </div>
@@ -182,7 +182,7 @@ export function Builds() {
                 <h2>SUBCLASSES</h2>
                 <hr />
                 <ul>
-                  <li id="ANY SUBCLASS" onClick={handleMenuMobile2}>ALL</li>
+                  <li id="ANY SUBCLASS" onClick={handleMenuMobile2}><strong>ALL</strong></li>
                   <li id="SOLAR" onClick={handleMenuMobile2}><img src={solarElement} alt="Solar element icon" /></li>
                   <li id="ARC" onClick={handleMenuMobile2}><img src={arcElement} alt="Arc element icon" /></li>
                   <li id="VOID" onClick={handleMenuMobile2}><img src={voidElement} alt="Void element icon" /></li>
@@ -195,9 +195,9 @@ export function Builds() {
                 <h2>ACTIVITES</h2>
                 <hr />
                 <ul>
-                  <li id="ANY ACTIVITY" onClick={handleMenuMobile3}>ALL</li>
-                  <li id="PVE" onClick={handleMenuMobile3}>PVE</li>
-                  <li id="PVP" onClick={handleMenuMobile3}>PVP</li>
+                  <li id="ANY ACTIVITY" onClick={handleMenuMobile3}><strong>ALL</strong></li>
+                  <li id="PVE" onClick={handleMenuMobile3}><strong>PVE</strong></li>
+                  <li id="PVP" onClick={handleMenuMobile3}><strong>PVP</strong></li>
                 </ul>
               </div>
           </div>
