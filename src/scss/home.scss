@@ -363,6 +363,7 @@
         display: flex;
         width: 100%;
         height: 648px;
+        max-width: 1920px;
         background-color: $main-color;
         border-bottom: 5px solid;
         -o-border-image: -o-linear-gradient(left, $main-color 10%, $border-color 30%, $border-color 70%, $main-color 90%) 3;    

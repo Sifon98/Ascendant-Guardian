@@ -5,9 +5,7 @@
 * Browsers: last 4 version
 */
 
-$border-color: #97989b;
-$main-color: #0A0A12;
-$button-color: #111111;
+@use "../scss/global.scss" as *;
 
 .strand-color {
     -webkit-filter: hue-rotate(265deg) brightness(1.3);
@@ -19,28 +17,24 @@ $button-color: #111111;
     background-color: $main-color;
 
     .intro {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: end;
-            -ms-flex-align: end;
-                align-items: flex-end;
-        background-image: url(../img/build-banner.png);
-        background-size: cover;
-        background-repeat: none;
-        background-position: 0px;
+        overflow: hidden;
         height: 500px;
         -webkit-animation: fadeIntro 1.5s;
                 animation: fadeIntro 1.5s;
+
+        picture {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
     
-        h2 {
-            margin: 0px;
-            margin-top: 90px;
-            padding: 20px 60px 20px 20px;
-            background-color: rgba(10, 10, 18, 0.7); 
-            width: auto;
-            max-width: 58%;
-            font-weight: 100;
+            img {
+                min-width: 100%;
+                min-height: 100%;
+                position: inherit;
+            }
         }
     }
 
@@ -53,6 +47,15 @@ $button-color: #111111;
     @media screen and (max-width: 560px) {
         .intro {
             height: 250px;
+        }
+    }
+
+    @media screen and (min-width: 1570px) {
+        .intro {
+
+            picture {
+                flex-direction: row;
+            }
         }
     }
 
@@ -153,10 +156,10 @@ $button-color: #111111;
 .box-shadow {
     -webkit-box-shadow:
         0 0 0 4px $main-color,
-        0 0 0 7px hsl(0, 0%, 90%);
+        0 0 0 6px $white-color;
             box-shadow:
         0 0 0 4px $main-color,
-        0 0 0 7px hsl(0, 0%, 90%);
+        0 0 0 6px $white-color;
 }
 
 // CSS for the sorting functions
@@ -176,7 +179,6 @@ $button-color: #111111;
     background-color: $main-color;
 
     h2 {
-        display: block;
         margin: 0px 20px 0px 70px;
         -webkit-animation: fadeSorting 1.5s;
                 animation: fadeSorting 1.5s;
@@ -197,10 +199,10 @@ $button-color: #111111;
                     justify-content: center;
             width: 220px;
             height: 60px;
-            font-size: 18px;
+            font-size: $mini-header;
             background-color: $button-color;
             border: 3px solid $border-color;
-            color: white;
+            color: $white-color;
             text-align: center;
             outline: none;
             cursor: pointer;
@@ -209,6 +211,25 @@ $button-color: #111111;
             transition: 0.3s;
             margin: 0px 20px;
             letter-spacing: 0.2rem;
+
+            div {
+                display: flex;
+            }
+
+            img {
+                width: auto;
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+
+        .menu-selector:hover {
+            -webkit-box-shadow:
+                0 0 0 4px $main-color,
+                0 0 0 6px hsl(0, 0%, 90%);
+                    box-shadow:
+                0 0 0 4px $main-color,
+                0 0 0 6px hsl(0, 0%, 90%);
         }
 
         .dropdown-menu {
@@ -240,9 +261,15 @@ $button-color: #111111;
                     height: 60px;
                     font-size: 18px;
                     border-bottom: 2px solid $border-color;
-                    color: white;
+                    color: $white-color;
                     text-align: center;
                     outline: none;
+
+                    img {
+                        width: auto;
+                        height: 20px;
+                        margin-right: 5px;
+                    }
                 }
 
                 li:last-child {
@@ -250,7 +277,7 @@ $button-color: #111111;
                 }
 
                 li:hover {
-                    background-color: rgb(65, 65, 65);
+                    background-color: rgb(60, 60, 60);
                 }
             }
         }
@@ -276,7 +303,6 @@ $button-color: #111111;
     .sorting-container {
 
         .medium-header {
-            display: block;
             margin: 0px 20px 0px 40px;
         }
 
@@ -305,37 +331,10 @@ $button-color: #111111;
 
 @media screen and (max-width: 910px) {
     .sorting-container {
+        justify-content: center;
 
         .medium-header {
-            display: block;
-            margin: 0px 0px 0px 10px;
-            font-size: 25px;
-            letter-spacing: 0;
-        }
-
-        .menu-container {
-
-            .menu-selector {
-                width: 160px;
-                height: 50px;
-                margin: 0px 10px;
-                letter-spacing: 0.05rem;
-                font-size: 16px;
-            }
-
-            .dropdown-menu {
-                margin: 0px 10px;
-
-                ul {
-
-                    li {
-                        width: 160px;
-                        height: 50px;
-                        letter-spacing: 0.05rem;
-                        font-size: 16px;
-                    }
-                }
-            }
+            display: none;
         }
     }
 }
@@ -343,19 +342,12 @@ $button-color: #111111;
 @media screen and (max-width: 720px) {
     .sorting-container {
         height: 80px;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-
-        .medium-header {
-            display: none;
-        }
 
         .menu-container {
 
             .menu-selector {
-                width: 110px;
-                height: 45px;
+                width: 130px;
+                height: 50px;
                 margin: 0px 5px;
                 letter-spacing: 0.05rem;
                 font-size: 14px;
@@ -376,8 +368,8 @@ $button-color: #111111;
                 ul {
 
                     li {
-                        width: 110px;
-                        height: 45px;
+                        width: 130px;
+                        height: 50px;
                         letter-spacing: 0.05rem;
                         font-size: 14px;
                     }
@@ -396,6 +388,34 @@ $button-color: #111111;
 
             .menu-selector {
                 margin-right: 0px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .sorting-container {
+
+        .menu-container {
+
+            .menu-selector {
+                width: 100px;
+                margin: 0px 4px;
+                letter-spacing: 0.05rem;
+                font-size: 12px;
+            }
+
+            .dropdown-menu {
+                margin: 0px 4px;
+
+                ul {
+
+                    li {
+                        width: 100px;
+                        letter-spacing: 0.05rem;
+                        font-size: 12px;
+                    }
+                }
             }
         }
     }
@@ -481,25 +501,264 @@ $button-color: #111111;
     }
 }
 
-.info-wrapper {
+.filter-button {
+    background-color: $accent-color;
+    fill: $white-color;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    border-radius: 9999px;
+    box-shadow: 0px 5px 0px $main-color;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.filter-button:active {
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+
+.filter-menu {
+    width: 100%;
+    height: 100%;
+    background-color: #0A0A12;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    align-items: flex-start;
 
-    .quick-info {
-        width: 1000px;
-        
-        h3 {
-            text-align: center;
-            margin: 0px;
-            margin-top: 40px;
-            font-size: 30px;
-            color: #1f1f29;
+    .filter-item {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 15px;
+
+        h2 {
+            margin: 10px 0px 0px 0px;
+            font-size: $tiny-header;
+        }
+
+        hr {
+            width: 40px;
+            margin: 10px 0px;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+
+            li {
+                margin: 5px 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid transparent;
+                width: 50px;
+                height: 50px;
+                border-radius: 100px;
+                background-color: $background-color;
+                list-style-type: none;
+
+                img {
+                    height: 20px;
+                }
+            }
+
+            .selected {
+                border: 2px solid $accent-color;
+            }
         }
     }
+}
+
+.filterOpen {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    position: fixed;
+    top: 92px;
+
+    .filter-menu {
+        -webkit-animation: openFilterMenu 0.5s forwards ease-in-out;
+            animation: openFilterMenu 0.5s forwards ease-in-out;
+
+        .filter-item {
+            animation: openContent 0.7s forwards ease-in-out;
+        }
+
+        @-webkit-keyframes openContent {
+            0% {
+                opacity: 0;
+            }
+            66% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes openContent {
+            0% {
+                opacity: 0;
+            }
+            66% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    @-webkit-keyframes openFilterMenu {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+    
+    @keyframes openFilterMenu {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+}
+
+.filterClosed {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    position: fixed;
+    top: 92px;
+    -webkit-animation: closeFilter 0.5s forwards ease-in-out;
+        animation: closeFilter 0.5s forwards ease-in-out;
+
+    .filter-menu {
+        -webkit-animation: closeFilterMenu 0.5s forwards ease-in-out;
+            animation: closeFilterMenu 0.5s forwards ease-in-out;
+
+        .filter-item {
+            animation: closeContent 0.3s forwards ease-in-out;
+        }
+
+        @-webkit-keyframes closeContent {
+            0% {
+                opacity: 1;
+            }
+            99% {
+                display: block;
+            }
+            100% {
+                opacity: 0;
+                display: none;
+                visibility: hidden;
+            }
+        }
+        
+        @keyframes closeContent {
+            0% {
+                opacity: 1;
+            }
+            99% {
+                display: block;
+            }
+            100% {
+                opacity: 0;
+                display: none;
+                visibility: hidden;
+            }
+        }
+    }
+
+    @-webkit-keyframes closeFilterMenu {
+        0% {
+            width: 100%;
+        }
+        33% {
+            width: 100%;
+        }
+        100% {
+            visibility: hidden;
+            width: 0px;
+        }
+    }
+    
+    @keyframes closeFilterMenu {
+        0% {
+            display: flex;
+            width: 100%;
+        }
+        33% {
+            width: 100%;
+        }
+        100% {
+            visibility: hidden;
+            width: 0%;
+        }
+    }
+}
+
+@-webkit-keyframes closeFilter {
+    0% {
+        display: flex;
+    }
+    99% {
+        display: none;
+    }
+    100% {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@keyframes closeFilter {
+    0% {
+        display: flex;
+    }
+    99% {
+        display: none;
+    }
+    100% {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .filterOpen {
+        top: 62px;
+    }
+
+    .filterClosed {
+        top: 62px;
+    }
+}
+
+.filter-temp {
+    display: none;
+    visibility: hidden;
 }
 
 // CSS for the builds section with the cards
@@ -515,7 +774,6 @@ $button-color: #111111;
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    padding-bottom: 100px;
 
     .largeLine {
         margin: 10px 0px 0px 0px;
@@ -1766,18 +2024,6 @@ $button-color: #111111;
                             }
                         }
 
-                        .button:hover {
-                            -webkit-box-shadow:
-                                0 0 0 4px $main-color,
-                                0 0 0 7px hsl(0, 0%, 90%);
-                                    box-shadow:
-                                0 0 0 4px $main-color,
-                                0 0 0 7px hsl(0, 0%, 90%);
-                            -webkit-transition: 0.3s;
-                            -o-transition: 0.3s;
-                            transition: 0.3s;
-                        }
-
                         .item {
                             display: -webkit-box;
                             display: -ms-flexbox;
@@ -1823,7 +2069,7 @@ $button-color: #111111;
                                     text-align: center;
                                     
                                     /* Position the tooltip */
-                                    position: fixed;
+                                    position: absolute;
                                     z-index: 1;
 
                                     .hover-box-header {

@@ -179,8 +179,8 @@ export function Home() {
               <h2>BUILDS</h2>
               <hr />
               <p>Here you can find builds for <strong>Hunters, Warlocks</strong> and <strong>Titans</strong>.<br/><br/>
-                You will learn what <strong>abilites</strong> to use, which the best <strong>exotics</strong>, <strong>weapons</strong> and <strong>mods</strong> are for your chosen build.
-                After that you will recieve <strong>detailed instructions</strong> with tips for <strong>endgame</strong> and alternative variants for the builds.
+                You will learn what abilites to use, which the best exotics, weapons and mods are for your chosen build.
+                After that you will recieve detailed instructions with tips for endgame and alternative variants for the builds.
               </p>
               <Link to="/builds" className="button">READ MORE</Link>
             </div>
@@ -192,9 +192,9 @@ export function Home() {
               <h2>GUIDES</h2>
               <hr />
               <p>If you need guidance in <strong>Raids</strong> or <strong>Dungeons</strong> you can find help here.<br/><br/>
-                The guides go over everything you would need to know. This includes <strong>Encounters</strong>, <strong>Challenges</strong>
-                , <strong>Red Border Puzzles</strong> and <strong>Secret Chests</strong>. The instructions are easy to read yet still detailed 
-                with <strong>images</strong> and <strong>GIFs</strong> to make it easier to understand.
+                The guides go over everything you would need to know. This includes encounters, challenges, 
+                red border puzzles and secret chests. The instructions are easy to read yet still detailed 
+                with images and GIFs to make it easier to understand.
               </p>
               <Link to="/guides" className="button">READ MORE</Link>
             </div>
@@ -245,8 +245,8 @@ export function Home() {
               <h2>RESOURCES</h2>
               <hr />
               <p>To become the very best in <strong>Destiny</strong> you will need some help.<br/><br/>
-                The <strong>D2 community</strong> is one of the best in gaming and have created various <strong>sites</strong> and <strong>spreadsheets</strong> for anyone to use.
-                This includes sites that allow you to <strong>equip</strong> any items from your <strong>vault</strong> or other <strong>characters</strong> to sites that <strong>optimize</strong> your <strong>builds</strong> further.
+                The D2 community is one of the best in gaming and have created various sites and spreadsheets for anyone to use.
+                This includes sites that allow you to equip any items from your vault or other characters to sites that optimize your builds further.
               </p>
               <Link to="/resources" className="button">READ MORE</Link>
             </div>

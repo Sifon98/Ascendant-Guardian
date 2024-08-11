@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useLocation} from 'react-router-dom'
 import logo from "../img/logo-icon/ascendant-guardian-logo2.PNG"
-import '../scss/main.scss'
 import { getWidth } from "./hooks/getWidth"
+import '../scss/main.scss'
 
 const activeNav = (setUseCheck) => {
     // Communicate that this particular button has been pressed
