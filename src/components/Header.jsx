@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useLocation} from 'react-router-dom'
-import logo from "../img/logo-icon/ascendant-guardian-logo2.PNG"
+import logo from "../img/logo-icon/ascendant-guardian-logo2.png"
 import { getWidth } from "./hooks/getWidth"
 import '../scss/main.scss'
 
