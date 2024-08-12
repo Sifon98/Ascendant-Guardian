@@ -3,9 +3,11 @@
 
 @font-face {
   font-family: 'Test';
-  src: url(./fonts/Jost-Light.ttf);
+  src: url(./fonts/Jost-Light.woff2) format('woff2'),
+       url(./fonts/Jost-Light.woff) format('woff');
   font-style: normal;
   font-weight: 300;
+  font-display: swap;
 }
 
 :root {

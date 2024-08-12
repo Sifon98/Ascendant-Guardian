@@ -1,6 +1,7 @@
 import React from 'react'
 import Zavala from '../img/logo-icon/zavala.png'
 import { Link } from "react-router-dom"
+import '../scss/main.scss'
 
 export function Page404() {
   return (

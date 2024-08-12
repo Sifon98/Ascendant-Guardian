@@ -50,6 +50,7 @@
                 align-items: center;
         width: 60%;
         float: left;
+        animation: navFadeIn 0.7s;
         
         a {
             display: flex;
@@ -97,6 +98,7 @@
         float: right;
         margin: 0px;
         padding: 0px;
+        animation: navFadeIn 0.7s;
 
         li {
             height: 100%;
@@ -226,6 +228,7 @@
         width: 60%;
         height: 60%;
         position: relative;
+        animation: navFadeIn 0.7s;
 
         .row {
             z-index: 1;
@@ -357,6 +360,7 @@
     float: right;
     margin: auto 20px;
     height: 100%;
+    animation: navFadeIn 0.7s;
 
     hr {
         width: 50px;
@@ -676,5 +680,17 @@
 @media screen and (max-width: 520px) {
     .navbar {
         height: 60px;
+    }
+}
+
+@keyframes navFadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
