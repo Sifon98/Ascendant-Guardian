@@ -416,7 +416,9 @@
                 animation: openBurgerMenu 0.5s forwards ease-in-out;
     
         a {
-            font-size: $small-header;
+            font-weight: 700;
+            letter-spacing: 0.4rem;
+            font-size: $tiny-header;
             text-decoration: none;
             color: $white-color;
             margin-right: 20px;
@@ -519,7 +521,7 @@
                 animation: closeBurgerMenu 0.5s forwards ease-in-out, closeBurgerMenuBorder 0.6s forwards ease-in-out;
     
         a {
-            font-size: $small-header;
+            font-size: $tiny-header;
             text-decoration: none;
             color: $white-color;
             margin-right: 20px;

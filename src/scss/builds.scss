@@ -731,6 +731,16 @@
                 
             .build-wrapper {
 
+                .text {
+
+                    .normal-info {
+
+                        p {
+                            justify-content: flex-start;
+                        }
+                    }
+                }
+
                 .image {
 
                     .color-wrapper {
@@ -786,6 +796,7 @@
             
                         p {
                             display: flex;
+                            justify-content: center;
                             margin: 15px 8px 0px 8px;
 
                             img {
@@ -1078,13 +1089,8 @@
                 justify-content: space-between;
 
                 .text {
-                    -webkit-box-orient: horizontal;
-                    -webkit-box-direction: normal;
-                        -ms-flex-direction: row;
-                            flex-direction: row;
-                    -webkit-box-align: center;
-                        -ms-flex-align: center;
-                            align-items: center;
+                    align-items: center;
+                    flex-direction: row;
                     -webkit-box-pack: justify;
                         -ms-flex-pack: justify;
                             justify-content: space-between;
@@ -1098,7 +1104,7 @@
                         }
 
                         p {
-                            text-align: left;
+                            justify-content: flex-start;
                             margin-top: 5px;
                             margin-left: 0px;
                         }
@@ -1230,6 +1236,8 @@
                     justify-content: space-between;
 
                     .text {
+                        flex-direction: row;
+                        align-items: center;
                         width: 330px;
                         margin: 15px 30px 15px 30px;
 
@@ -1240,7 +1248,7 @@
                             }
 
                             p {
-                                text-align: left;
+                                justify-content: flex-start;
                                 margin-top: 5px;
                                 margin-left: 0px;
                             }
@@ -1330,6 +1338,7 @@
                         -webkit-box-align: center;
                             -ms-flex-align: center;
                                 align-items: center;
+                                justify-content: flex-start;
                         width: 280px;
                         margin: 15px 10px 15px 30px;
 
@@ -1341,7 +1350,7 @@
                             }
 
                             p {
-                                text-align: left;
+                                align-items: center;
                                 margin-top: 5px;
                                 margin-left: 0px;
                                 font-size: $small-text;
@@ -1426,6 +1435,7 @@
                             }
 
                             p {
+                                justify-content: center;
                                 margin-top: 5px;
                                 margin-left: 0px;
                                 font-size: 14px;
