@@ -736,7 +736,7 @@
                     .color-wrapper {
 
                         .image-info {
-                            background-image: radial-gradient(circle at 100% 50%, rgba(10, 10, 18, 0), $main-color, $main-color) !important;
+                            background-image: radial-gradient(circle at 100% 50%, rgba(10, 10, 18, 0), $main-color, $main-color);
                         }
                     }
                 }
@@ -785,7 +785,13 @@
                         }
             
                         p {
+                            display: flex;
                             margin: 15px 8px 0px 8px;
+
+                            img {
+                                height: 20px;
+                                margin: 0px 5px;
+                            }
                         }
                     }
                 }
@@ -1131,7 +1137,7 @@
                         display: -webkit-box;
                         display: -ms-flexbox;
                         display: flex;
-                        background-image: radial-gradient(circle at 100% 50%, rgba(10, 10, 18, 0), $main-color, $main-color) !important;
+                        background-image: radial-gradient(circle at 100% 50%, rgba(10, 10, 18, 0), $main-color, $main-color);
 
                         .image-info {
                             width: 100%;
@@ -1258,7 +1264,7 @@
                         picture {
                             justify-content: flex-end;
 
-                            .testar {
+                            img {
                                 height: 190%;
                             }
                         }
@@ -1493,13 +1499,6 @@
 
                     .image {
 
-                        picture {
-
-                            img {
-                               height: 220%; 
-                            }
-                        }
-
                         .color-wrapper {
                             justify-content: center;
                             background-image: radial-gradient(circle at 85% 440%, rgba(10, 10, 18, 0), $main-color, $main-color); 
@@ -1515,13 +1514,6 @@
                 .build-wrapper {
 
                     .image {
-
-                        picture {
-
-                            img {
-                               height: 220%; 
-                            }
-                        }
 
                         .color-wrapper {
                             justify-content: center;
@@ -1539,13 +1531,6 @@
 
                     .image {
 
-                        picture {
-
-                            img {
-                               height: 220%; 
-                            }
-                        }
-
                         .color-wrapper {
                             justify-content: center;
                             background-image: radial-gradient(circle at 80% 340%, rgba(10, 10, 18, 0), $main-color, $main-color); 
@@ -1561,13 +1546,6 @@
                 .build-wrapper {
 
                     .image {
-
-                        picture {
-
-                            img {
-                               height: 220%; 
-                            }
-                        }
 
                         .color-wrapper {
                             justify-content: center;
@@ -1623,7 +1601,7 @@
 
     @media screen and (max-width: 1650px) {
         .build-container {
-            width: auto;
+            width: 100%;
         }
     }
 
