@@ -476,7 +476,7 @@
 
             li {
                 cursor: pointer;
-                margin: 5px 5px;
+                margin: 5px 10px 5px 0px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -496,10 +496,6 @@
             li:active {
                 transform: scale(0.9);
                 transition: 0.05s;
-            }
-
-            li:first-child {
-                margin-left: 0px;
             }
 
             li:last-child {
@@ -1637,8 +1633,6 @@
             align-items: center;
     margin: auto;
     padding-top: 120px;
-    padding-bottom: 100px;
-    align-items: flex-start;
 
     span {
         position: relative;
@@ -1656,6 +1650,13 @@
         margin: 0px;
         width: 40px;
         border: 3px solid $border-color;
+    }
+
+    .smallLine-extra {
+        margin: 0px;
+        width: 40px;
+        border: none;
+        border-top: 3px solid $border-color;
     }
 
     .build-general {
@@ -1734,9 +1735,9 @@
                             width: 220px;
                             height: 60px;
                             font-size: 18px;
-                            background-color: #111111;
-                            border: 3px solid #97989b;
-                            color: white;
+                            background-color: $button-color;
+                            border: 3px solid $border-color;
+                            color: $white-color;
                             text-align: center;
                             outline: none;
                             cursor: pointer;
@@ -1751,6 +1752,15 @@
                                 height: 30px !important;
                                 margin: 0px 10px 0px 0px !important;
                             }
+                        }
+                        
+                        .button:hover {
+                            -webkit-box-shadow:
+                            0 0 0 4px $main-color,
+                            0 0 0 7px hsl(0, 0%, 90%);
+                                box-shadow:
+                            0 0 0 4px $main-color,
+                            0 0 0 7px hsl(0, 0%, 90%);
                         }
 
                         .item {
@@ -1781,7 +1791,7 @@
                                 .hover-box {
                                     display: -webkit-box;
                                     display: -ms-flexbox;
-                                    display: block;
+                                    display: flex;
                                     -webkit-box-orient: vertical;
                                     -webkit-box-direction: normal;
                                         -ms-flex-direction: column;
@@ -1790,7 +1800,7 @@
                                         -ms-flex-align: start;
                                             align-items: flex-start;
                                     visibility: hidden;
-                                    width: 350px;
+                                    width: 450px;
                                     background-color: rgba(20, 20, 20, 0.8);
                                     -webkit-backdrop-filter: blur(10px);
                                             backdrop-filter: blur(10px);
@@ -1805,7 +1815,7 @@
                                         background-color: #202020;
                                         width: 100%;
                                         text-align: left;
-                                        border-bottom: 5px solid #fff;
+                                        border-bottom: 3px solid $white-color;
 
                                         h3 {
                                             margin: 10px;
@@ -1907,8 +1917,8 @@
                 margin-bottom: 0px;
 
                 i {
-                    color: #B4B9BD;
-                    font-size: 16px;
+                    color: $text-color;
+                    font-size: $tiny-text;
                 }
             }
 
@@ -1957,7 +1967,7 @@
 
                     .hover-box {
                         /* Position the tooltip */
-                        margin-left: -280px;
+                        margin-left: -380px;
                     }
                 }
             }
@@ -1987,14 +1997,8 @@
         background-color: $main-color;
         width: auto;
 
-        .logo-bg {
-            width: 200px;
-            position: static;
-            top: 50%;
-
-        }
-
         section {
+            position: relative;
             -webkit-animation: visibility 1.5s;
                     animation: visibility 1.5s;
             display: -webkit-box;
@@ -2008,10 +2012,14 @@
                 -ms-grid-row-align: center;
                 align-self: center;
             width: 90%;
-            background-image: url('../img/logo-icon/logo-bg.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 600px;
+
+            .destiny-logo {
+                position: absolute;
+                height: 600px;
+                top: calc(50% - 300px);
+                left: calc(50% - 323.585px);
+                z-index: 0;
+            }
 
             h3 {
                 padding-top: 40px;
@@ -2019,6 +2027,7 @@
             }
 
             .guide-container {
+                z-index: 1;
                 display: -webkit-box;
                 display: -ms-flexbox;
                 display: flex;
@@ -2079,8 +2088,8 @@
                     ul  {
 
                         li, p {
-                            font-size: 20px;
-                            color: #B4B9BD;
+                            font-size: $large-text;
+                            color: $text-color;
                             margin: 10px 40px 0px 0px;
                         }
                     }
@@ -2160,8 +2169,7 @@
                                 .hover-container {
 
                                     .hover-box {
-                                                
-                                        margin-left: -140px !important;
+                                        margin-left: -190px !important;
                                     }
                                 }
 
@@ -2173,7 +2181,7 @@
 
                                             .hover-box {
                                                 
-                                                margin-left: -140px !important;
+                                                margin-left: -190px !important;
                                             }
                                         }
                                     }
@@ -2201,6 +2209,46 @@
 
 @media screen and (max-width: 1300px) {
     .build-guide-container {
+
+        .build-general {
+
+            section {
+                
+                .shared-container {
+
+                    .info-container {
+
+                        .row {
+
+                            .item {
+
+                                .hover-container {
+
+                                    .hover-box {
+                                        width: 350px;
+                                        margin-left: -140px !important;
+                                    }
+                                }
+
+                                .item-row {
+
+                                    .multiple-items {
+
+                                        .hover-container {
+
+                                            .hover-box {
+                                                width: 350px;
+                                                margin-left: -140px !important;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
         .build-guide {
             padding-bottom: 40px;
@@ -2310,6 +2358,12 @@
         .build-guide {
 
             section {
+
+                .destiny-logo {
+                    height: 400px;
+                    top: calc(50% - 300px);
+                    left: calc(50% - 215.72px);
+                }
 
                 .guide-container {
 
@@ -2422,6 +2476,41 @@
                 }
             }
         }
+
+        .build-guide {
+
+            section {
+
+                .destiny-logo {
+                    display: none;
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .build-guide-container {
+
+        .build-guide {
+
+            section {
+
+                .guide-container {
+
+                    .row {
+
+                        ul {
+
+                            li {
+                                font-size: $small-text;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -2430,53 +2519,6 @@
         margin: 0px;
         
         .build-general {
-
-            section {
-
-                .shared-container {
-
-                    .info-container {
-
-                        .row {
-
-                            .item {
-
-                                .hover-container {
-
-                                    .hover-box {
-
-                                        .hover-box-header {
-
-                                                h3 {
-                                                font-size: 20px;
-                                            }
-                                        }
-                                    }
-                                }
-
-                                .item-row {
-
-                                    .multiple-items {
-
-                                        .hover-container {
-
-                                            .hover-box {
-        
-                                                .hover-box-header {
-        
-                                                        h3 {
-                                                        font-size: 20px;
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
 
             .background-img {
 
@@ -2540,13 +2582,13 @@
                                         .hover-box-header {
 
                                             h3 {
-                                                font-size: 16px;
+                                                font-size: $small-text;
                                                 letter-spacing: 0.1rem;
                                             }
                                         }
         
                                         p {
-                                            font-size: 14px;
+                                            font-size: $tiny-text;
                                         }
                                     }
                                 }
@@ -2562,13 +2604,13 @@
                                                 .hover-box-header {
         
                                                     h3 {
-                                                        font-size: 16px;
+                                                        font-size: $small-text;
                                                         letter-spacing: 0.1rem;
                                                     }
                                                 }
         
                                                 p {
-                                                    font-size: 14px;
+                                                    font-size: $tiny-text;
                                                 }
                                             }
                                         }
@@ -2607,13 +2649,6 @@
 
                                     .hover-box {
                                         margin: 0px 10px !important;
-
-                                        .hover-box-header {
-
-                                            h3 {
-                                                letter-spacing: 0.05rem;
-                                            }
-                                        }
                                     }
                                 }
 
@@ -2627,13 +2662,6 @@
 
                                             .hover-box {
                                                 margin: 0px 10px !important;
-        
-                                                .hover-box-header {
-        
-                                                    h3 {
-                                                        letter-spacing: 0.05rem;
-                                                    }
-                                                }
                                             }
                                         }
                                     }
@@ -2650,29 +2678,6 @@
                                         }
                                     }
                                 }
-
-                                p {
-                                    font-size: 18px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        .build-guide {
-
-            section {
-
-                .guide-container {
-
-                    .row {
-
-                        .item {
-
-                            p {
-                                font-size: 18px;
                             }
                         }
                     }
@@ -2694,7 +2699,7 @@
                 .shared-container {
 
                     h3 {
-                        font-size: 20px;
+                        font-size: $large-text;
                     }
 
                     .info-container {
@@ -2702,10 +2707,6 @@
                         .row {
 
                             .item {
-
-                                p {
-                                    font-size: 16px;
-                                }
 
                                 .button {
                                     width: 180px;
@@ -2722,7 +2723,7 @@
             section {
 
                 h3 {
-                    font-size: 20px;
+                    font-size: $large-text;
                 }
 
                 .guide-container {
@@ -2731,16 +2732,8 @@
 
                         .item {
 
-                            p {
-                                font-size: 16px;
-                            }
-
                             ul {
                                 padding-left: 20px;
-
-                                li {
-                                    font-size: 16px;
-                                }
                             }
                         }
                     }
@@ -2751,78 +2744,17 @@
 }
 
 .red {
-    color: red;
+    color: #632627;
     position: relative;
     -webkit-filter: none;
             filter: none;
 }
 
 .green {
-    color: green;
+    color: #62865f;
     position: relative;
     -webkit-filter: none;
             filter: none;
-}
-
-// Images for cards and background on the Build Guide page
-#solarH-large {
-    background-image: url(../img/class-portrait/SolarHunter1.png);
-}
-
-#solarW-large {
-    background-image: url(../img/class-portrait/SolarWarlock1.png);
-}
-
-#solarT-large {
-    background-image: url(../img/class-portrait/SolarTitan1.png);
-}
-
-#solarHPVP-large {
-    background-image: url(../img/class-portrait/SolarHunter2.png);
-}
-
-#solarSpecialH-large {
-    background-image: url(../img/class-portrait/SolarHunter3.png);
-}
-
-#strandH-large {
-    background-image: url(../img/class-portrait/StrandHunter1.png);
-}
-
-#strandT-large {
-    background-image: url(../img/class-portrait/StrandTitan1.png);
-}
-
-#strandHPVP-large {
-    background-image: url(../img/class-portrait/StrandHunter2.png);
-}
-
-#voidH-large {
-    background-image: url(../img/class-portrait/VoidHunter1.png);
-}
-
-#voidW-large {
-    background-image: url(../img/class-portrait/VoidWarlock1.png);
-}
-
-#voidT-large {
-    background-image: url(../img/class-portrait/VoidTitan1.png);
-}
-
-#arcH-large {
-    background-image: url(../img/class-portrait/ArcHunter1.png);
-}
-
-#arcT-large {
-    background-image: url(../img/class-portrait/ArcTitan1.png);
-}
-
-#stasisH-large {
-    background-image: url(../img/class-portrait/StasisHunter1.png);
-}
-
-#stasisT-large {
-    background-image: url(../img/class-portrait/StasisTitan1.png);
 }
 
 // Gif

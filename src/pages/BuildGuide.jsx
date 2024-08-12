@@ -1,10 +1,12 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import { useSearchParams } from "react-router-dom"
 import '../scss/builds.scss'
 import HoverBox from '../components/HoverBox'
 import { preBuildArray } from '../components/build/BuildArray'
 import parse from 'html-react-parser'
 import SvgPage from '../components/build/Svg'
+// Import the destiny Logo
+import destinyLogo from "../img/logo-icon/logo-bg.png"
 // Gif importing
 import arcHunter from '../img/Gif/arc-hunter.gif'
 import voidHunter from '../img/Gif/void-hunter.gif'
@@ -58,73 +60,73 @@ export function BuildGuide() {
                     <picture className="image-chooser">
                         <source type="image/webp" srcSet={solarHwebp} />
                         <source type="image/png" srcSet={solarH} />
-                        <img className="testar" loading="lazy" src={solarH} />
+                        <img className="testar" src={solarH} alt="Solar Hunter background" />
                     </picture> :
                 data.classImg == "solarW" ?
                     <picture className="image-chooser">
                         <source type="image/webp" srcSet={solarWwebp} />
                         <source type="image/png" srcSet={solarW} />
-                        <img className="testar" loading="lazy" src={solarW} />
+                        <img className="testar" src={solarW} alt="Solar Warlokc background" />
                     </picture> :
                 data.classImg == "solarT" ?
                     <picture className="image-chooser">
                         <source type="image/webp" srcSet={solarTwebp} />
                         <source type="image/png" srcSet={solarT} />
-                        <img className="testar" loading="lazy" src={solarT} />
+                        <img className="testar" src={solarT} alt="Solar Titan background" />
                     </picture> :
                 data.classImg == "strandH" ?
                     <picture className="image-chooser">
                         <source type="image/webp" srcSet={strandHwebp} />
                         <source type="image/png" srcSet={strandH} />
-                        <img className="testar" loading="lazy" src={strandH} />
+                        <img className="testar" src={strandH} alt="Strand Hunter background" />
                     </picture> :
                 data.classImg == "strandT" ?
                     <picture className="image-chooser">
                         <source type="image/webp" srcSet={strandTwebp} />
                         <source type="image/png" srcSet={strandT} />
-                        <img className="testar" loading="lazy" src={strandT} />
+                        <img className="testar" src={strandT} alt="Strand Titan background" />
                     </picture> :
                 data.classImg == "voidH" ?
                     <picture className="image-chooser">
                         <source type="image/webp" srcSet={voidHwebp} />
                         <source type="image/png" srcSet={voidH} />
-                        <img className="testar" loading="lazy" src={voidH} />
+                        <img className="testar" src={voidH} alt="Void Hunter background" />
                     </picture> :
                 data.classImg == "voidW" ?
                     <picture className="image-chooser">
                         <source type="image/webp" srcSet={voidWwebp} />
                         <source type="image/png" srcSet={voidW} />
-                        <img className="testar" loading="lazy" src={voidW} />
+                        <img className="testar" src={voidW} alt="Void Warlock background" />
                     </picture> :
                 data.classImg == "voidT" ?
                     <picture className="image-chooser">
                         <source type="image/webp" srcSet={voidTwebp} />
                         <source type="image/png" srcSet={voidT} />
-                        <img className="testar" loading="lazy" src={voidT} />
+                        <img className="testar" src={voidT} alt="Solar Titan background" />
                     </picture> :
                 data.classImg == "arcH" ?
                     <picture className="image-chooser">
                         <source type="image/webp" srcSet={arcHwebp} />
                         <source type="image/png" srcSet={arcH} />
-                        <img className="testar" loading="lazy" src={arcH} />
+                        <img className="testar" src={arcH} alt="Arc Hunter background" />
                     </picture> :
                 data.classImg == "arcT" ?
                     <picture className="image-chooser">
                         <source type="image/webp" srcSet={arcTwebp} />
                         <source type="image/png" srcSet={arcT} />
-                        <img className="testar" loading="lazy" src={arcT} />
+                        <img className="testar" src={arcT} alt="Arc Titan background" />
                     </picture> :
                 data.classImg == "stasisH" ?
                     <picture className="image-chooser">
                         <source type="image/webp" srcSet={stasisHwebp} />
                         <source type="image/png" srcSet={stasisH} />
-                        <img className="testar" loading="lazy" src={stasisH} />
+                        <img className="testar" src={stasisH} alt="Stasis Hunter background" />
                     </picture> :
                 data.classImg == "stasisT" ?
                     <picture className="image-chooser">
                         <source type="image/webp" srcSet={stasisTwebp} />
                         <source type="image/png" srcSet={stasisT} />
-                        <img className="testar" loading="lazy" src={stasisT} />
+                        <img className="testar" src={stasisT} alt="Stasis Titan background" />
                     </picture> 
                 : null }
                     <div className="above-layer">
@@ -136,12 +138,12 @@ export function BuildGuide() {
                                 <div className="row">
                                     <div className="item">
                                         <h3>SUPER</h3>
-                                        <hr className="smallLine" />
+                                        <hr className="smallLine-extra" />
                                         <HoverBox image={data.buildGuide.superGuide.superImg} title={data.buildGuide.superGuide.superTitle} text={data.buildGuide.superGuide.superText} superImg={true}/>
                                     </div>
                                     <div className="item">
                                         <h3>ABILITIES</h3>
-                                        <hr className="smallLine" />
+                                        <hr className="smallLine-extra" />
                                         <div className="item-row">
                                         {data.buildGuide.abilitiesGuide.map((boxInfo, i) => (
                                             data.tags[1] == "STRAND" ?
@@ -154,7 +156,7 @@ export function BuildGuide() {
                                 <div className="row">
                                     <div className="item">
                                         <h3>ASPECTS</h3>
-                                        <hr className="smallLine" />
+                                        <hr className="smallLine-extra" />
                                         <div className="item-row">
                                             {data.buildGuide.aspectsGuide.map((boxInfo, i) => (
                                                 <HoverBox key={i} image={boxInfo.aspectImg} title={boxInfo.aspectTitle} text={boxInfo.aspectText} />
@@ -163,7 +165,7 @@ export function BuildGuide() {
                                     </div>
                                     <div className="item">
                                         <h3>FRAGMENTS</h3>
-                                        <hr className="smallLine" />
+                                        <hr className="smallLine-extra" />
                                         <div className="item-row">
                                             {data.buildGuide.fragmentsGuide.map((boxInfo, i) => (
                                                 <HoverBox key={i} image={boxInfo.fragmentImg} title={boxInfo.fragmentTitle} text={boxInfo.fragmentText} />
@@ -174,7 +176,7 @@ export function BuildGuide() {
                                 <div className="row">
                                     <div className="item">
                                         <h3>BUILD SUMMARY</h3>
-                                        <hr className="smallLine" />
+                                        <hr className="smallLine-extra" />
                                         <p>{parse(data.buildGuide.buildSummary)}</p>
                                     </div>
                                 </div>
@@ -196,7 +198,7 @@ export function BuildGuide() {
                         <div className="row">
                             <div className="item">
                                 <h3>WEAPONS</h3>
-                                <hr className="smallLine" />
+                                <hr className="smallLine-extra" />
                                 <div className="item-row">
                                     {data.buildGuide.weapons.map((weaponInfo, i) => (
                                         <div key={i} className="multiple-items">
@@ -209,14 +211,14 @@ export function BuildGuide() {
                             </div>
                             <div className="item text-item">
                                 <h3>FURTHER INFO</h3>
-                                <hr className="smallLine" />
+                                <hr className="smallLine-extra" />
                                 <p>{parse(data.buildGuide.weaponInfo)}</p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="item">
                                 <h3>EXOTIC</h3>
-                                <hr className="smallLine" />
+                                <hr className="smallLine-extra" />
                                 <div className="item-row">
                                     <div className="multiple-items">
                                         {data.buildGuide.exotic.exoticRow.map((boxInfo, i) => (
@@ -227,14 +229,14 @@ export function BuildGuide() {
                             </div>
                             <div className="item text-item">
                                 <h3>FURTHER INFO</h3>
-                                <hr className="smallLine" />
+                                <hr className="smallLine-extra" />
                                 <p>{parse(data.buildGuide.exotic.info)}</p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="item">
                                 <h3>ARMOR MODS</h3>
-                                <hr className="smallLine" />
+                                <hr className="smallLine-extra" />
                             </div>
                         </div>
                         <div className="row mod-row">
@@ -308,6 +310,7 @@ export function BuildGuide() {
             </div>
             <div className="build-guide">
                 <section>
+                    <img loading="lazy" className="destiny-logo" src={destinyLogo} alt="The destiny logo as a background" />
                     <h3>GAMEPLAY AND TIPS</h3>
                     <hr className="largeLine" />
                     <hr className="smallLine" />
@@ -315,17 +318,17 @@ export function BuildGuide() {
                         <div className="row">
                             <div className="item start-item">
                                 <h3>GENERAL</h3>
-                                <hr className="smallLine" />
+                                <hr className="smallLine-extra" />
                                 <p>{parse(data.buildGuide.gameplay.general)}</p>
                             </div>
                             <div className="item">
                                 <h3>EXOTIC</h3>
-                                <hr className="smallLine" />
+                                <hr className="smallLine-extra" />
                                 <p>{parse(data.buildGuide.gameplay.exotic)}</p>
                             </div>
                             <div className="item last-text">
                                 <h3>ENDGAME</h3>
-                                <hr className="smallLine" />
+                                <hr className="smallLine-extra" />
                                 <p>{parse(data.buildGuide.gameplay.endgame)}</p>
                             </div>
                         </div>
@@ -342,7 +345,7 @@ export function BuildGuide() {
                             </div>
                             <div className="item">
                                 <h3>GAMEPLAY LOOP</h3>
-                                <hr className="smallLine" />
+                                <hr className="smallLine-extra" />
                                 <ul>
                                     {data.buildGuide.gameplay.loop.map((boxInfo, i) => (
                                         <li key={i}>{parse(boxInfo)}</li>

@@ -12,17 +12,17 @@ export default function HoverBox({image, i, title, energy, text, superImg, stran
     <>
     {i > 0 ? <hr /> : null}
     <div className="hover-container">
-        <img className={superImg ? `super-img` : strand && title == "GAMBLER'S DODGE" || strand && title == "TRIPLE JUMP" ? `strand-color` : ''} src={image}/>
+        <img className={superImg ? `super-img` : strand && title == "GAMBLER'S DODGE" || strand && title == "TRIPLE JUMP" ? `strand-color` : ''} src={image} alt="Image from the build, super, abilities, fragments etc."/>
         <div className="hover-box">
             <div className="hover-box-header">
                 <h3>{title}</h3>
             </div>
-            <p>{energy == undefined ? null : energy == "arc" ? <img src={elementArc} alt="" className="element-img" />
-                                           : energy == "void" ? <img src={elementVoid} alt="" className="element-img" />
-                                           : energy == "solar" ? <img src={elementSolar} alt="" className="element-img" />
-                                           : energy == "stasis" ? <img src={elementStasis} alt="" className="element-img" />
-                                           : energy == "strand" ? <img src={elementStrand} alt="" className="element-img" />
-                                           : energy == "kinetic" ? <img src={elementKinetic} alt="" className="element-img" />
+            <p>{energy == undefined ? null : energy == "arc" ? <img src={elementArc} alt="Arc element icon" className="element-img" />
+                                           : energy == "void" ? <img src={elementVoid} alt="Void element icon" className="element-img" />
+                                           : energy == "solar" ? <img src={elementSolar} alt="Solar element icon" className="element-img" />
+                                           : energy == "stasis" ? <img src={elementStasis} alt="Stasis element icon" className="element-img" />
+                                           : energy == "strand" ? <img src={elementStrand} alt="Strand element icon" className="element-img" />
+                                           : energy == "kinetic" ? <img src={elementKinetic} alt="Kinetic element icon" className="element-img" />
                                            : null }{parse(text)}
             </p>
         </div>

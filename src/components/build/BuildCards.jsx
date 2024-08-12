@@ -60,73 +60,73 @@ export default function BuildCards({buildId, tags, classImg, buildTitle, buildTe
             <picture>
               <source type="image/webp" srcSet={solarHwebp} />
               <source type="image/png" srcSet={solarH} />
-              <img loading="lazy" src={solarH} alt="Solar Hunter background"/>
+              <img src={solarH} alt="Solar Hunter background"/>
             </picture> :
             classImg == "solarW" ?
             <picture>
               <source type="image/webp" srcSet={solarWwebp} />
               <source type="image/png" srcSet={solarW} />
-              <img loading="lazy" src={solarW} alt="Solar Warlock background"/>
+              <img src={solarW} alt="Solar Warlock background"/>
             </picture> :
             classImg == "solarT" ?
             <picture>
               <source type="image/webp" srcSet={solarTwebp} />
               <source type="image/png" srcSet={solarT} />
-              <img loading="lazy" src={solarT} alt="Solar Titan background"/>
+              <img src={solarT} alt="Solar Titan background"/>
             </picture> :
             classImg == "strandH" ?
             <picture>
               <source type="image/webp" srcSet={strandHwebp} />
               <source type="image/png" srcSet={strandH} />
-              <img loading="lazy" src={strandH} alt="Strand Hunter background"/>
+              <img src={strandH} alt="Strand Hunter background"/>
             </picture> :
             classImg == "strandT" ?
             <picture>
               <source type="image/webp" srcSet={strandTwebp} />
               <source type="image/png" srcSet={strandT} />
-              <img loading="lazy" src={strandT} alt="Strand Titan background"/>
+              <img src={strandT} alt="Strand Titan background"/>
             </picture> :
             classImg == "voidH" ?
             <picture>
               <source type="image/webp" srcSet={voidHwebp} />
               <source type="image/png" srcSet={voidH} />
-              <img loading="lazy" src={voidH} alt="Void Hunter background"/>
+              <img src={voidH} alt="Void Hunter background"/>
             </picture> :
             classImg == "voidW" ?
             <picture>
               <source type="image/webp" srcSet={voidWwebp} />
               <source type="image/png" srcSet={voidW} />
-              <img loading="lazy" src={voidW} alt="Void Warlock background"/>
+              <img src={voidW} alt="Void Warlock background"/>
             </picture> :
             classImg == "voidT" ?
             <picture>
               <source type="image/webp" srcSet={voidTwebp} />
               <source type="image/png" srcSet={voidT} />
-              <img loading="lazy" src={voidT} alt="Void Titan background"/>
+              <img src={voidT} alt="Void Titan background"/>
             </picture> :
             classImg == "arcH" ?
             <picture>
               <source type="image/webp" srcSet={arcHwebp} />
               <source type="image/png" srcSet={arcH} />
-              <img loading="lazy" src={arcH} alt="Arc Hunter background"/>
+              <img src={arcH} alt="Arc Hunter background"/>
             </picture> :
             classImg == "arcT" ?
             <picture>
               <source type="image/webp" srcSet={arcTwebp} />
               <source type="image/png" srcSet={arcT} />
-              <img loading="lazy" src={arcT} alt="Arc Titan background"/>
+              <img src={arcT} alt="Arc Titan background"/>
             </picture> :
             classImg == "stasisH" ?
             <picture>
               <source type="image/webp" srcSet={stasisHwebp} />
               <source type="image/png" srcSet={stasisH} />
-              <img loading="lazy" src={stasisH} alt="Stasis Hunter background"/>
+              <img src={stasisH} alt="Stasis Hunter background"/>
             </picture> :
             classImg == "stasisT" ?
             <picture>
               <source type="image/webp" srcSet={stasisTwebp} />
               <source type="image/png" srcSet={stasisT} />
-              <img loading="lazy" src={stasisT} alt="Stasis Titan background"/>
+              <img src={stasisT} alt="Stasis Titan background"/>
             </picture> :
             null
           }
