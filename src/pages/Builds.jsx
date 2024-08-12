@@ -84,6 +84,27 @@ export function Builds() {
     setPrevTarget3(e.currentTarget)
   }
 
+  //Toggle the layout for PC
+  const [layout, setLayout] = useState(false);
+  const toggleLayout = () => {
+    setMenuOpen1(false);
+    setMenuOpen2(false);
+    setMenuOpen3(false);
+    const layoutArray = document.querySelectorAll("#hover-wrapper")
+
+    if (layout == false) {
+      for (let i = 0; i < layoutArray.length; i++) {
+        layoutArray[i].classList.add("list")
+      }
+      setLayout(true)
+    } else {
+      for (let i = 0; i < layoutArray.length; i++) {
+        layoutArray[i].classList.remove("list")
+      }
+      setLayout(false)
+    }
+  }
+
   // Set if the filter menu is open or not
   const [filterOpen, setFilterOpen] = useState(0);
   const toggleFilter = () => {
@@ -156,6 +177,12 @@ export function Builds() {
               <li id="PVE" onClick={handleMenu3}>PVE</li>
               <li id="PVP" onClick={handleMenu3}>PVP</li>
             </ul>
+          </div>
+        </div>
+        <div className="menu-container">
+          <div className="menu-selector-list" onClick={toggleLayout}>
+            { layout ? <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m7.73 16.4c0-.53-.47-1-1-1h-3.73c-.53 0-1 .47-1 1v2.6c0 .53.47 1 1 1h3.73c.53 0 1-.47 1-1zm14.27 0c0-.53-.47-1-1-1h-3.73c-.53 0-1 .47-1 1v2.6c0 .53.47 1 1 1h3.73c.53 0 1-.47 1-1zm-7.135-.084c0-.53-.47-1-1-1h-3.73c-.53 0-1 .47-1 1v2.6c0 .531.47 1 1 1h3.73c.53 0 1-.469 1-1zm7.135-11.316c0-.53-.47-1-1-1h-18c-.53 0-1 .47-1 1v8c0 .53.47 1 1 1h18c.53 0 1-.47 1-1z" fill-rule="nonzero"/></svg>
+            : <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m3.3 15.4c.717 0 1.3.583 1.3 1.3s-.583 1.3-1.3 1.3-1.3-.583-1.3-1.3.583-1.3 1.3-1.3zm2.7 1.85c0-.414.336-.75.75-.75h14.5c.414 0 .75.336.75.75s-.336.75-.75.75h-14.5c-.414 0-.75-.336-.75-.75zm-2.7-6.55c.717 0 1.3.583 1.3 1.3s-.583 1.3-1.3 1.3-1.3-.583-1.3-1.3.583-1.3 1.3-1.3zm2.7 1.3c0-.414.336-.75.75-.75h14.5c.414 0 .75.336.75.75s-.336.75-.75.75h-14.5c-.414 0-.75-.336-.75-.75zm-2.7-6c.717 0 1.3.583 1.3 1.3s-.583 1.3-1.3 1.3-1.3-.583-1.3-1.3.583-1.3 1.3-1.3zm2.7.75c0-.414.336-.75.75-.75h14.5c.414 0 .75.336.75.75s-.336.75-.75.75h-14.5c-.414 0-.75-.336-.75-.75z" fill-rule="nonzero"/></svg> }
           </div>
         </div>
       </div>

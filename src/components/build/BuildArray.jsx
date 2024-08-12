@@ -423,7 +423,7 @@ export const preBuildArray = [
         superImg: "https://www.bungie.net/common/destiny2_content/icons/3da7e8684b09600e90ea5c16f1edebe0.png",
         aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/ab8095cdd657b0cd66452ddb44ef01e1.jpg",
         aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/5e777fa7e6fe7c1ae0574c91639bee10.jpg", 
-        exoticImg: "https://www.bungie.net/common/destiny2_content/icons/e6e10342a97eb3f6b974399ef7214e75.jpg",
+        exoticImg: "https://www.bungie.net/common/destiny2_content/icons/fe62cafbd9124a2ee12d35dbe6fdde3a.jpg",
         author: "Sifon",
         buildGuide: {
             title: "SUSPENDER <span>/</span>/ HUNTER",

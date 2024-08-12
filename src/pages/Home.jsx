@@ -182,7 +182,7 @@ export function Home() {
                 You will learn what abilites to use, which the best exotics, weapons and mods are for your chosen build.
                 After that you will recieve detailed instructions with tips for endgame and alternative variants for the builds.
               </p>
-              <Link to="/builds" className="button">READ MORE</Link>
+              <Link to="/builds" className="button">JOURNEY</Link>
             </div>
           </div>
         </section>
@@ -196,7 +196,7 @@ export function Home() {
                 red border puzzles and secret chests. The instructions are easy to read yet still detailed 
                 with images and GIFs to make it easier to understand.
               </p>
-              <Link to="/guides" className="button">READ MORE</Link>
+              <Link to="/guides" className="button">JOURNEY</Link>
             </div>
           </div>
           <div className="raid-showcase">
@@ -248,7 +248,7 @@ export function Home() {
                 The D2 community is one of the best in gaming and have created various sites and spreadsheets for anyone to use.
                 This includes sites that allow you to equip any items from your vault or other characters to sites that optimize your builds further.
               </p>
-              <Link to="/resources" className="button">READ MORE</Link>
+              <Link to="/resources" className="button">JOURNEY</Link>
             </div>
           </div>
         </section>
