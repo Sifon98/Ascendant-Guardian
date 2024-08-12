@@ -424,7 +424,7 @@ export const preBuildArray = [
         aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/ab8095cdd657b0cd66452ddb44ef01e1.jpg",
         aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/5e777fa7e6fe7c1ae0574c91639bee10.jpg", 
         exoticImg: "https://www.bungie.net/common/destiny2_content/icons/fe62cafbd9124a2ee12d35dbe6fdde3a.jpg",
-        author: "Sifon",
+        author: "Aztecross",
         buildGuide: {
             title: "SUSPENDER <span>/</span>/ HUNTER",
             superGuide: {
@@ -630,7 +630,7 @@ export const preBuildArray = [
         aspectImg1: "https://www.bungie.net/common/destiny2_content/icons/765402ea0cdaa799f62fe46b57ad8437.jpg",
         aspectImg2: "https://www.bungie.net/common/destiny2_content/icons/6b1ce964c0d1dc6beba3083353efc3f6.jpg", 
         exoticImg: "https://www.bungie.net/common/destiny2_content/icons/a7c3ee955c5e8b1c20122206d1bf60ff.jpg",
-        author: "Sifon",
+        author: "Aztecross",
         buildGuide: {
             title: "GOLDEN HAWK <span>/</span>/ HUNTER",
             superGuide: {

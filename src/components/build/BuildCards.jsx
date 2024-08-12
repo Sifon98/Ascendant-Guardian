@@ -38,7 +38,7 @@ import prismaticElement from "../../img/logo-icon/element-prismatic.png"
 export default function BuildCards({buildId, tags, classImg, buildTitle, buildText, author, superImg, aspectImg1, aspectImg2, exoticImg}) {
   return (
     <div id="hover-wrapper" className="hover-wrapper">
-      {author == undefined ? null : <div className="author"><Link target='_blank' to="https://www.youtube.com/@AztecrossGaming" aria-label="Link to aztecross youtube"></Link></div>}
+      {author == undefined ? null : author == "Aztecross" ? <div className="author"><Link target='_blank' to="https://www.youtube.com/@AztecrossGaming" aria-label="Link to aztecross youtube"></Link></div> : null}
       <Link to={{pathname: `/build-guide`, search: `name=${buildId}`}} className="build-wrapper">
         <div className="text">
           <div className="normal-info">

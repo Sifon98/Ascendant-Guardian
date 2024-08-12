@@ -1,6 +1,13 @@
 @use "./scss/global.scss" as *;
 // @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
 
+@font-face {
+  font-family: 'Test';
+  src: url(./fonts/Jost-Light.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+
 :root {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   color: $white-color;
@@ -16,7 +23,7 @@ body {
 }
 
 h1 {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Test', sans-serif;
   margin: 0px;
 }
 
